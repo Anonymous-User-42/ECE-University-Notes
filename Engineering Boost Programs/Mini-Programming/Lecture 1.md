@@ -40,4 +40,18 @@ Similarly,
 
 4050 = 4 * 1000 + 5 * 10 = 4 * 10 ** 3 + 0 * 10 ** 2 + 5 * 10 ** 1 + 10 ** 0
 
-a
+#   Computer Systems
+
+#   Algorithms
+
+An Algorithm is a series of instruction on how to solve the problem. We need Algorithms before we can write programs.
+
+Algorithms have the following charecteristics:
+
+*   Precision: Must give the Correct Results
+*   uniqueness: Same Inputs will give the Same Results
+*   Finiteness: It must stop eventually
+*   Input: Most Algorithms need an Input
+*   Output: The Answers are the Outputs
+*   Generality: Must work with Multiple Data Sets
+
