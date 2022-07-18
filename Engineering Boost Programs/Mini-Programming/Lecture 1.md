@@ -28,6 +28,10 @@ Worked on the Mark II computer at the Harvard university. She found the first bu
 
 Invented the C programming language as a tool to interface with the Unix OS
 
+##  ANSI (American National Standards Institute)
+
+Published the Standards for the C programming Language
+
 #   Concept of Zero and Decimal System
 
 754 = 700 + 50 + 4 = 7 * 100 + 5 * 10 + 4 * 1
