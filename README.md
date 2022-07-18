@@ -8,5 +8,5 @@ This release of the TeX source code and Markdown of the ECE Notes includes all p
 
 Ps. This is effectively a personal copy and is best presented by the author in this format and is defined best by this source code.
 
-Note: This academic research paper is a personal intellectual property granted to users to be used under the MIT licence. Any efforts on parsing the copyrights of these academic works as their own are strictly punishable by law.
+Note: This repository is a personal intellectual property granted to users to be used under the MIT licence. Any efforts on parsing the copyrights of these academic works as their own are strictly punishable by law.
 
