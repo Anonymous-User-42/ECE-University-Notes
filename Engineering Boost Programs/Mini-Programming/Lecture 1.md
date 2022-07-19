@@ -4,15 +4,17 @@
 
 ##  Muhammad Ibn Musa Al Khwarizmi
 
-Persian Arab Mathematician and Philosopher, who invented Algebra
+Persian Arab Mathematician and Philosopher, who invented Algebra, Decimal system and the use of zero in Arabic Mathematics.
 
 ##  Charles Babbage
 
-English Mathematician, Philosopher, Inventor known to some as the Father of Computing.
+English Mathematician, Philosopher, Inventor known to some as the Father of Computing for his contribution to the basic design of the computer through his Analytical Machine. His previous Difference Engine was a special purpose device intended for the production of tables.
+
+he originated the concept of a programmable computer.
 
 ##  Lady Ada Lovelace
 
-Wrote the First Computer program using the Babbage Machine.
+Wrote the First Computer program using the Babbage Machine. She also foresaw the capability of computers to go beyond mere calculatingf or number-crunching while others, including Babbage, focused only on these capabilities
 
 ##  George Boole
 
@@ -42,6 +44,12 @@ Similarly,
 
 #   Computer Systems
 
+*   Computers are electronic systems that can transmit, store and manipulate information (data).
+*   Data can be numeric, character, graphic and sound.
+*   For beginner programmers, the two most important are character and numeric.
+*   To manipulate data, a computer needs a set of instructions called a **program**.
+*   To write such programs is the object of this course.
+
 #   Algorithms
 
 An Algorithm is a series of instruction on how to solve the problem. We need Algorithms before we can write programs.
@@ -70,6 +78,7 @@ Physical Component that together provide the functionality required by a computi
     -   Keyboard
     -   Mouse
     -   Monitor
+    -   Printer
 
 #   Software
 
@@ -106,11 +115,11 @@ Number Representation can be done in different bases, the most frequently used i
 *   Base 10 (Decimal Representaion )
 *   Base 16 (Hexadecimal Representation)
 
-*Insert Table Image*
+![Base System](./Images/Base%20System.jpg)
 
-#   Base Conversions
+##  Base Conversions
 
-##  Other Bases to Decimal Conversion
+### Other Bases to Decimal Conversion
 
 Procedure:
 
@@ -120,7 +129,7 @@ Procedure:
 
 For Example:    101001)_2 = 1 * 2 ** 5 + 1 * 2 ** 3 + 1 ** 0 = 41)_10
 
-##  Decimal to Other Bases Conversion
+### Decimal to Other Bases Conversion
 
 Procedure:
 
@@ -132,11 +141,33 @@ Procedure:
 
 For Example: 25)_10 = 11001)_2
 
-##  Shortcut for Decimal to Other Bases Conversion and Vice Versa
+### Shortcut for Decimal to Other Bases Conversion and Vice Versa
 
 230 = ?
 
+Procedure:
+
+*   Take the number that is to be converted and subract the highest power of the base that is to be converted such that the base to the power is smaller than the orignal number.
+*   Countinue the process until the sequence terminates.
+*   The powers used are the positions in the base 2 number where 1 shall be present.
+*   Every other place whose power was not used becomes 0.
+
+Note:   The positional numbering must start from right to left and from 0.
+
+Example:    230 = 128 + 64 + 32 + 4 + 2 = 2 ** 7 + 2 ** 6 + 2 ** 5 + 0 ** 4 + 0 ** 3 + 2 ** 2 + 2 ** 1 + 0 ** 0 = 11100110
+
 ? = 103
+
+Procedure:
+
+*   Every other place whose power was 0 is ignored.
+*   The places with 1's are the base raised to the power of of the positional number.
+*   Add all such numbers whose base can be exponentiated to a power.
+*   The resultant number is the converted number that is desired.
+
+Note:   The positional numbering must start from right to left and from 0.
+
+Example:    1100111 = 2 ** 6 + 2 ** 5 + 0 ** 4 + 0 ** 3 + 2 ** 2 + 2 ** 1 + 2 ** 0 = 64 + 32 + 4 + 2 + 1 = 103
 
 #   Memory Management
 
@@ -146,14 +177,14 @@ Bit:    The smallest storage unit capable of storing either 0 or 1 (Very small a
 
 Byte:   A collection of 8 bits. Represents one Character (ASCII or Unicode)
 
-*Insert Bits & Bytes Table Image*
+![Bits & Bytes Table](./Images/Bits%20%26%20Bytes.jpg)
 
 ##  Memory
 
-A collection of 
+A collection of fixed number of storage locations where each location can be accessed using a unique address. Each location can also have a fixed number of bits.
 
-*   
-*   
+*   RAM (Random Access Memory)
+*   ROM (Read only Memory)
 
 ##  CPU
 
@@ -164,18 +195,22 @@ CPU has two main parts:
 
 ### Registers
 
-
+Storage Units inside the CPU. Registers are used store the data and the result of operations.
 
 ### ALU
 
+The unit responsible for 2 types of operations that the CPU performs:
+
+*   Arithemetic
+*   Logical
 
 ##   Numbers in "C"
 
 There are two general Categories:
 
 *   Integers
-    -   Unsigned - 
-    -   Signed - 
+    -   Unsigned - All positive Integers
+    -   Signed - Positive and Negative Integers
 *   Floats
 
 ##  Preprocessor Directives
