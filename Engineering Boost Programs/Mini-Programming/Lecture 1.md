@@ -143,7 +143,7 @@ For Example: 25)_10 = 11001)_2
 
 ### Shortcut for Decimal to Other Bases Conversion and Vice Versa
 
-230 = ?
+**Decimal to Other Bases Conversion**
 
 Procedure:
 
@@ -156,7 +156,7 @@ Note:   The positional numbering must start from right to left and from 0.
 
 Example:    230 = 128 + 64 + 32 + 4 + 2 = 2 ** 7 + 2 ** 6 + 2 ** 5 + 0 ** 4 + 0 ** 3 + 2 ** 2 + 2 ** 1 + 0 ** 0 = 11100110
 
-? = 103
+**Other Bases to Decimal Conversion**
 
 Procedure:
 
