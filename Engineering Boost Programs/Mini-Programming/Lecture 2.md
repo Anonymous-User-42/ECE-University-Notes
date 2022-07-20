@@ -115,7 +115,7 @@ int age, number, mark;
 ### Hard Rules for Identifiers
 
 *   Rule # 1:   An identifier must not be a reserved word. reserved words are used by C exclusively. Here are a few: double, char, int, do, float, if, return, sizeof, void, while, typedef, struct, switch, for, else.
-*   Rule # 2:   
+*   Rule # 2:   An identifier must contain only letters, digits or underscores. Abc8 is valid, Abc-8 is not. _xyz is valid, atom number is not.
 *   Rule # 3:   An identifier must never begin with a digit U238 and _765 are valid, 7abc and 67_q are not.
 
 ### Soft Rules for Identifiers
