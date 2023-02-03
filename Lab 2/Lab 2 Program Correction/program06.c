@@ -5,7 +5,7 @@ aver (double n1, double n2)
 {
 	double ave;
 
-	ave = n1 + n2 / 2.0;
+	ave = (n1 + n2) / 2.0;	/*	Function designed to calculate average of 2 numbers, Adherance to BODMAS is not defined*/
 
 	return (ave);
 }
