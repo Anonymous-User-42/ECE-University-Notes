@@ -7,7 +7,7 @@ aver (double n1, double n2)
 
 	ave = (n1 + n2) / 2.0;
 
-	return (aver);
+	return (ave);	/*	Incorrect calling of the orignal function instead of the variable to be returned	*/
 }
 
 
@@ -24,7 +24,7 @@ main (void)
 
 	result = aver (x,y);
 
-	printf ("The average is %lf.\n", result);
+	printf ("The average is %lf.\n", result);		/*	Incorrect calling of floating point placeholder prescion	*/
 	
 	return (0);
 }
