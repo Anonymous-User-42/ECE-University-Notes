@@ -24,7 +24,7 @@ main (void)
 
 	result = aver (x,y);
 
-	printf ("The average is %lf.\n", aver);
+	printf ("The average is %lf.\n", aver);	/*	Incorrect calling of floating point placeholder prescion	*/
 	
 	return (0);
 }
