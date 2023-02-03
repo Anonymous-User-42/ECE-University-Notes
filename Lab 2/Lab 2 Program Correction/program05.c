@@ -22,7 +22,7 @@ main (void)
 	printf ("Enter a real number: ");
 	scanf ("%lf", &y);
 
-	result = aver (&x,y);
+	result = aver (x,y);	/*	Incorrect Calling of variable as if scanning the variable for values	*/
 
 	printf ("The average is %lf.\n", result);
 	
