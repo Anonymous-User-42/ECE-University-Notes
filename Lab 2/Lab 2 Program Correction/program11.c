@@ -5,7 +5,7 @@ aver (double x, double y)
 {
 	double ave;
 
-	ave = (n1 + n2) / 2.0;
+	ave = (x + y) / 2.0;	/*	n1 & n2 are un-initialised variables in function "aver", instead "x" & "y" are initialised	*/
 
 	return (ave);
 }
