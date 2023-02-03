@@ -14,7 +14,7 @@ aver (double n1, double n2)
 int
 main (void)
 {
-	DOUBLE x, y, result;
+	double x, y, result;	/*	Incorrect Capitalization of pre-defined function	*/
 
 	printf ("Enter a real number: ");
 	scanf ("%lf", &x);
@@ -24,7 +24,7 @@ main (void)
 
 	result = aver (x,y);
 
-	printf ("The average is %lf.\n", result);
+	printf ("The average is %.1lf\n", result);	/*	Incorrect calling of floating point placeholder prescion	*/
 	
 	return (0);
 }
