@@ -7,7 +7,7 @@ aver (double n1, double n2)
 
 	ave = (n1 + n2) / 2.0;
 
-	return (result);
+	return (ave);	/*	Variable "result" undefined and un-initialised in local function	*/
 }
 
 
