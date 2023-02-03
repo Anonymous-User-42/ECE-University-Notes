@@ -17,10 +17,10 @@ main (void)
 	double x, y, result;
 
 	printf ("Enter a real number: ");
-	scanf ("%2.2lf", &x);
+	scanf ("%lf", &x);	/*	Undefined "%2.2lf" used as a placeholder for scanning of floating point values	*/
 
 	printf ("Enter a real number: ");
-	scanf ("%2.2lf", &y);
+	scanf ("%lf", &y);	/*	Undefined "%2.2lf" used as a placeholder for scanning of floating point values	*/
 
 	result = aver (x,y);
 
