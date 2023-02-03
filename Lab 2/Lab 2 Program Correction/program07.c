@@ -1,6 +1,6 @@
 #include <stdio.h>
 
-int
+double	/*	Function type casting of integer type, instead should be floating type (double / float) to calculate floating point prescion values	*/
 aver (double n1, double n2)
 {	/*	Function initiation parantheses missing	*/
 	double ave;
