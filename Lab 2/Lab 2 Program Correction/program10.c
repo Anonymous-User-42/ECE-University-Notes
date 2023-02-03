@@ -24,7 +24,7 @@ main (void)
 
 	result = aver (x,y);
 
-	printf "The average is %lf.\n", result);
+	printf ("The average is %lf.\n", result);	/*	Missing "(" at the beginning of printf function	*/
 	
 	return (0);
 }
