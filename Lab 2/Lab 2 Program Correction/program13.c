@@ -22,7 +22,7 @@ main (void)
 	printf ("Enter a real number: ");
 	scanf ("%lf", &y);
 
-	result = aver (x);
+	result = aver (x,y);	/*	Pre-defined function calls for 2 inputs. Only one input in main is defined	*/
 
 	printf ("The average is %lf.\n", result);
 	
