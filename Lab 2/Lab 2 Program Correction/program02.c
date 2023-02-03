@@ -20,11 +20,11 @@ main (void)
 	scanf ("%lf", &x);
 
 	printf ("Enter a real number: ");
-	scanf ("%lf", y);
+	scanf ("%lf", &y);	/*	Missing "&" before the variable to call and accept the value	*/
 
 	result = aver (x,y);
 
-	printf ("The average is %lf.\n", result);
+	printf ("The average is %lf.\n", result);	/*	Incorrect calling of floating point placeholder prescion	*/
 	
 	return (0);
 }
