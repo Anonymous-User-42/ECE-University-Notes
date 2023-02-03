@@ -2,7 +2,7 @@
 
 int
 aver (double n1, double n2)
-
+{	/*	Function initiation parantheses missing	*/
 	double ave;
 
 	ave = (n1 + n2) / 2.0;
