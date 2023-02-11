@@ -53,7 +53,7 @@ int conditional(char gender, int age, int resting_heart_rate, float fitness_leve
     /*  Conditional to check male or female */
     bool binary = gender_conditional(gender);
 
-    /*  Conditional for check male or female MHR    */
+    /*  Conditional for check male or female THR    */
     int training_heart_rate;
     if (binary == true)
     {
