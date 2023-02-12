@@ -95,5 +95,5 @@ float conditional_output(float quiz, float midterm, float final)
 
     float grade = quiz + midterm + final;
 
-    printf("The overall grade of the course is %.2f%%\n", grade);
+    printf("The overall grade of the course is %.2f\n", grade);
 }
