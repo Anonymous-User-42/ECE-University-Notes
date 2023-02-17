@@ -1,0 +1,105 @@
+\documentclass[12pt, a4paper]{article}
+\usepackage[utf8]{inputenc}
+\usepackage{parskip}
+\usepackage{amsmath}
+\usepackage{amssymb}
+\usepackage{float}
+\restylefloat{table}
+\usepackage{diagbox}
+\usepackage{bm}
+\usepackage{import}
+\usepackage{hyperref}
+\usepackage{titlesec}
+\usepackage{lipsum}
+\usepackage{graphicx}
+\usepackage{tikz}
+\usepackage[export]{adjustbox}
+\usepackage{etoolbox}
+\usepackage{listings}
+\usepackage{xcolor}
+\lstloadlanguages{Python}
+\usepackage{textgreek}
+\usepackage{wrapfig}
+\usepackage{pgfplots}
+\pgfplotsset{width=14cm,compat=1.17}
+\usepgfplotslibrary{external}
+\usetikzlibrary{patterns.meta,decorations.pathmorphing,patterns}
+\tikzexternalize
+\usepackage[]{babel}
+\usepackage{appendix}
+\usepackage{listingsutf8}
+%\usepackage[scaled,nueu]{helvet}
+%\usepackage[proportional,scaled=1.064]{erewhon}
+%\usepackage[T1]{fontenc}
+%\usepackage{mathptmx}
+%\usepackage{luamplib}
+
+
+
+%\renewcommand{\familydefault}{\sfdefault}
+
+\renewcommand{\contentsname}{\textit{Contents}\hline}
+\renewcommand{\refname}{\textit{Bibliography}}
+\renewcommand{\listfigurename}{\textit{List of Figures}\hline}
+\renewcommand{\listtablename}{\textit{List of Tables}\hline}
+
+\nocite{*}
+
+\titleformat{\chapter}{\huge\bfseries}{\thechapter}{0.5em}{\huge}
+\makeatletter
+\patchcmd{\chapter}{\if@openright\cleardoublepage\else\clearpage\fi}{}{}{}
+\makeatother
+
+
+
+%\input{Front matter/Title Page v6}
+\input{Front matter/Title Page v8}
+
+
+
+\begin{document}
+
+\maketitle
+
+
+
+\vspace{-4cm}
+
+{Section 1.2}
+
+\section{{Problem 1}}
+        
+		\import{Sections}{Problem 1}
+        
+\section{{Problem 3}}
+        
+		\import{Sections}{Problem 3}
+		
+\section{{Problem 6}}
+        
+		\import{Sections}{Problem 6}
+		
+\section{{Problem 7}}
+        
+%		\import{Sections}{}
+		
+\section{{Problem 8}}
+		
+%		\import{Sections}{Problem 12}
+
+\section{{Problem 9}}
+        
+%		\import{Sections}{Problem 13}
+
+\section{{Problem 10}}
+
+\section{{Problem 11}}
+
+\section{{Problem 12}}
+
+%		\import{}{}
+
+\end{document}
+
+
+

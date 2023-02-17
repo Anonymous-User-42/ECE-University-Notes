@@ -1,0 +1,357 @@
+This is pdfTeX, Version 3.141592653-2.6-1.40.23 (MiKTeX 21.8) (preloaded format=pdflatex 2021.8.23)  24 OCT 2021 00:49
+entering extended mode
+**"./Title Page v3.tex"
+(Title Page v3.tex
+LaTeX2e <2021-06-01> patch level 1
+L3 programming layer <2021-07-12>
+
+! LaTeX Error: Environment titlepage undefined.
+
+See the LaTeX manual or LaTeX Companion for explanation.
+Type  H <return>  for immediate help.
+ ...                                              
+                                                  
+l.3 \begin{titlepage}
+                     
+Your command was ignored.
+Type  I <command> <return>  to replace it with another command,
+or  <return>  to continue without it.
+
+
+! LaTeX Error: Missing \begin{document}.
+
+See the LaTeX manual or LaTeX Companion for explanation.
+Type  H <return>  for immediate help.
+ ...                                              
+                                                  
+l.4     \begin{center}
+                      
+You're in trouble here.  Try typing  <return>  to proceed.
+If that doesn't work, type  X <return>  to quit.
+
+
+Overfull \hbox (20.0pt too wide) in paragraph at lines 4--4
+[] 
+ []
+
+! Undefined control sequence.
+l.11         \huge
+                  
+The control sequence at the end of the top line
+of your error message was never \def'ed. If you have
+misspelled it (e.g., `\hobx'), type `I' and the correct
+spelling (e.g., `I\hbox'). Otherwise just continue,
+and I'll forget about whatever was undefined.
+
+
+Overfull \hbox (64.6743pt too wide) in paragraph at lines 13--14
+ \OT1/cmr/bx/it/10 Mathematics 
+ []
+
+
+Overfull \hbox (13.37212pt too wide) in paragraph at lines 13--14
+ \OT1/cmr/bx/it/10 IA 
+ []
+
+
+Overfull \hbox (18.11095pt too wide) in paragraph at lines 13--14
+ \OT1/cmr/bx/it/10 Ver 
+ []
+
+
+Overfull \hbox (22.6053pt too wide) in paragraph at lines 13--14
+ \OT1/cmr/bx/it/10 1.01 
+ []
+
+! Misplaced \noalign.
+\hline ->\noalign 
+                  {\ifnum 0=`}\fi \hrule \@height \arrayrulewidth \futurelet...
+l.17         \hline
+                   
+I expect to see \noalign only after the \cr of
+an alignment. Proceed, and I'll ignore this case.
+
+
+Overfull \hbox (19.19421pt too wide) in paragraph at lines 21--22
+ []\OT1/cmr/bx/it/10 The 
+ []
+
+
+Overfull \hbox (30.54411pt too wide) in paragraph at lines 21--22
+ \OT1/cmr/bx/it/10 Math- 
+ []
+
+
+Overfull \hbox (9.46657pt too wide) in paragraph at lines 21--22
+ \OT1/cmr/bx/it/10 e- 
+ []
+
+
+Overfull \hbox (23.34976pt too wide) in paragraph at lines 21--22
+ \OT1/cmr/bx/it/10 mat- 
+ []
+
+
+Overfull \hbox (13.74709pt too wide) in paragraph at lines 21--22
+ \OT1/cmr/bx/it/10 ics 
+ []
+
+
+Overfull \hbox (9.91106pt too wide) in paragraph at lines 21--22
+ \OT1/cmr/bx/it/10 of 
+ []
+
+
+Overfull \hbox (19.52203pt too wide) in paragraph at lines 21--22
+ \OT1/cmr/bx/it/10 Sig- 
+ []
+
+
+Overfull \hbox (15.37761pt too wide) in paragraph at lines 21--22
+ \OT1/cmr/bx/it/10 nal 
+ []
+
+
+Overfull \hbox (20.39424pt too wide) in paragraph at lines 21--22
+ \OT1/cmr/bx/it/10 pro- 
+ []
+
+
+Overfull \hbox (23.93863pt too wide) in paragraph at lines 21--22
+ \OT1/cmr/bx/it/10 cess- 
+ []
+
+
+Overfull \hbox (16.42763pt too wide) in paragraph at lines 21--22
+ \OT1/cmr/bx/it/10 ing 
+ []
+
+! Undefined control sequence.
+l.25         \LARGE
+                   
+The control sequence at the end of the top line
+of your error message was never \def'ed. If you have
+misspelled it (e.g., `\hobx'), type `I' and the correct
+spelling (e.g., `I\hbox'). Otherwise just continue,
+and I'll forget about whatever was undefined.
+
+
+Overfull \hbox (27.27193pt too wide) in paragraph at lines 27--28
+ []\OT1/cmr/bx/it/10 What 
+ []
+
+
+Overfull \hbox (8.42493pt too wide) in paragraph at lines 27--28
+ \OT1/cmr/bx/it/10 is 
+ []
+
+
+Overfull \hbox (15.08316pt too wide) in paragraph at lines 27--28
+ \OT1/cmr/bx/it/10 the 
+ []
+
+
+Overfull \hbox (13.89432pt too wide) in paragraph at lines 27--28
+ \OT1/cmr/bx/it/10 re- 
+ []
+
+
+Overfull \hbox (13.02208pt too wide) in paragraph at lines 27--28
+ \OT1/cmr/bx/it/10 la- 
+ []
+
+
+Overfull \hbox (23.96088pt too wide) in paragraph at lines 27--28
+ \OT1/cmr/bx/it/10 tion- 
+ []
+
+
+Overfull \hbox (20.24701pt too wide) in paragraph at lines 27--28
+ \OT1/cmr/bx/it/10 ship 
+ []
+
+
+Overfull \hbox (14.19983pt too wide) in paragraph at lines 27--28
+ \OT1/cmr/bx/it/10 be- 
+ []
+
+
+Overfull \hbox (28.08302pt too wide) in paragraph at lines 27--28
+ \OT1/cmr/bx/it/10 tween 
+ []
+
+
+Overfull \hbox (15.08316pt too wide) in paragraph at lines 27--28
+ \OT1/cmr/bx/it/10 the 
+ []
+
+
+Overfull \hbox (37.14398pt too wide) in paragraph at lines 27--28
+ \OT1/cmr/bx/it/10 Laplace 
+ []
+
+
+Overfull \hbox (29.7025pt too wide) in paragraph at lines 27--28
+ \OT1/cmr/bx/it/10 trans- 
+ []
+
+
+Overfull \hbox (27.92758pt too wide) in paragraph at lines 27--28
+ \OT1/cmr/bx/it/10 form, 
+ []
+
+
+Overfull \hbox (15.08316pt too wide) in paragraph at lines 27--28
+ \OT1/cmr/bx/it/10 the 
+ []
+
+
+Overfull \hbox (37.41634pt too wide) in paragraph at lines 27--28
+ \OT1/cmr/bx/it/10 Fourier 
+ []
+
+
+Overfull \hbox (29.7025pt too wide) in paragraph at lines 27--28
+ \OT1/cmr/bx/it/10 trans- 
+ []
+
+
+Overfull \hbox (24.37206pt too wide) in paragraph at lines 27--28
+ \OT1/cmr/bx/it/10 form 
+ []
+
+
+Overfull \hbox (18.32202pt too wide) in paragraph at lines 27--28
+ \OT1/cmr/bx/it/10 and 
+ []
+
+
+Overfull \hbox (15.08316pt too wide) in paragraph at lines 27--28
+ \OT1/cmr/bx/it/10 the 
+ []
+
+
+Overfull \hbox (37.41634pt too wide) in paragraph at lines 27--28
+ \OT1/cmr/bx/it/10 Fourier 
+ []
+
+
+Overfull \hbox (14.33597pt too wide) in paragraph at lines 27--28
+ \OT1/cmr/bx/it/10 se- 
+ []
+
+
+Overfull \hbox (18.76373pt too wide) in paragraph at lines 27--28
+ \OT1/cmr/bx/it/10 ries 
+ []
+
+
+Overfull \hbox (9.91106pt too wide) in paragraph at lines 27--28
+ \OT1/cmr/bx/it/10 of 
+ []
+
+
+Overfull \hbox (5.91104pt too wide) in paragraph at lines 27--28
+ \OT1/cmr/bx/it/10 a 
+ []
+
+
+Overfull \hbox (26.17201pt too wide) in paragraph at lines 27--28
+ \OT1/cmr/bx/it/10 func- 
+ []
+
+
+Overfull \hbox (25.72751pt too wide) in paragraph at lines 27--28
+ \OT1/cmr/bx/it/10 tion? 
+ []
+
+! Undefined control sequence.
+l.31         \Large
+                   
+The control sequence at the end of the top line
+of your error message was never \def'ed. If you have
+misspelled it (e.g., `\hobx'), type `I' and the correct
+spelling (e.g., `I\hbox'). Otherwise just continue,
+and I'll forget about whatever was undefined.
+
+
+Overfull \hbox (57.99379pt too wide) in paragraph at lines 33--34
+ []\OT1/cmr/bx/it/10 Mohammed 
+ []
+
+
+Overfull \hbox (22.17201pt too wide) in paragraph at lines 33--34
+ \OT1/cmr/bx/it/10 Say- 
+ []
+
+
+Overfull \hbox (15.37756pt too wide) in paragraph at lines 33--34
+ \OT1/cmr/bx/it/10 eed 
+ []
+
+
+Overfull \hbox (42.53568pt too wide) in paragraph at lines 33--34
+ \OT1/cmr/bx/it/10 Ahamad 
+ []
+
+! Undefined control sequence.
+l.37         \Large
+                   
+The control sequence at the end of the top line
+of your error message was never \def'ed. If you have
+misspelled it (e.g., `\hobx'), type `I' and the correct
+spelling (e.g., `I\hbox'). Otherwise just continue,
+and I'll forget about whatever was undefined.
+
+
+Overfull \hbox (29.1608pt too wide) in paragraph at lines 39--40
+ []\OT1/cmr/bx/it/10 Batch 
+ []
+
+
+Overfull \hbox (9.91106pt too wide) in paragraph at lines 39--40
+ \OT1/cmr/bx/it/10 of 
+ []
+
+
+Overfull \hbox (24.96082pt too wide) in paragraph at lines 39--40
+ \OT1/cmr/bx/it/10 2022 
+ []
+
+! Misplaced \noalign.
+\hline ->\noalign 
+                  {\ifnum 0=`}\fi \hrule \@height \arrayrulewidth \futurelet...
+l.43         \hline
+                   
+I expect to see \noalign only after the \cr of
+an alignment. Proceed, and I'll ignore this case.
+
+
+! LaTeX Error: \begin{document} ended by \end{titlepage}.
+
+See the LaTeX manual or LaTeX Companion for explanation.
+Type  H <return>  for immediate help.
+ ...                                              
+                                                  
+l.47 \end{titlepage}
+                    
+Your command was ignored.
+Type  I <command> <return>  to replace it with another command,
+or  <return>  to continue without it.
+
+)
+! Emergency stop.
+<*> "./Title Page v3.tex"
+                         
+*** (job aborted, no legal \end found)
+
+ 
+Here is how much of TeX's memory you used:
+ 24 strings out of 478868
+ 586 string characters out of 2865271
+ 292248 words of memory out of 3000000
+ 18041 multiletter control sequences out of 15000+600000
+ 404135 words of font info for 29 fonts, out of 8000000 for 9000
+ 1141 hyphenation exceptions out of 8191
+ 15i,1n,12p,205b,160s stack positions out of 5000i,500n,10000p,200000b,80000s
+!  ==> Fatal error occurred, no output PDF file produced!
