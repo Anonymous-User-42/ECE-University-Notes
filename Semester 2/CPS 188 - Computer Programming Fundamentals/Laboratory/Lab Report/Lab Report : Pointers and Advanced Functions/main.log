@@ -1,4 +1,4 @@
-This is pdfTeX, Version 3.141592653-2.6-1.40.22 (TeX Live 2022/dev/Debian) (preloaded format=pdflatex 2022.9.13)  19 FEB 2023 16:01
+This is pdfTeX, Version 3.141592653-2.6-1.40.22 (TeX Live 2022/dev/Debian) (preloaded format=pdflatex 2022.9.13)  5 MAR 2023 19:33
 entering extended mode
  restricted \write18 enabled.
  %&-line parsing enabled.
@@ -1435,156 +1435,24 @@ been already used, duplicate ignored
 <to be read again> 
                    \relax 
 l.126 
-       [1]
-Chapter 1.
-
-LaTeX Font Warning: Font shape `OT1/cmr/bx/n' in size <18> not available
-(Font)              size <17.28> substituted on input line 145.
-
-(./Sections/Background Research.tex
-! Missing number, treated as zero.
-<to be read again> 
-                   p
-l.3 \section{{Problem 1}}
-                         
-A number should have been here; I inserted `0'.
-(If you can't figure out why I needed to see a number,
-look up `weird error' in the index to The TeXbook.)
-
-
-LaTeX Font Warning: Font shape `OT1/cmr/bx/n' in size <16> not available
-(Font)              size <17.28> substituted on input line 3.
-
-! Missing number, treated as zero.
-<to be read again> 
-                   p
-l.5 	\subsection{{Computer Program}}
-                                    
-A number should have been here; I inserted `0'.
-(If you can't figure out why I needed to see a number,
-look up `weird error' in the index to The TeXbook.)
-
-Package hyperref Info: bookmark level for unknown lstlisting defaults to 0 on i
-nput line 7.
-! Missing number, treated as zero.
-<to be read again> 
-                   p
-l.44 	\subsection{{Program Output Screenshot}}
-                                              
-A number should have been here; I inserted `0'.
-(If you can't figure out why I needed to see a number,
-look up `weird error' in the index to The TeXbook.)
-
-<pascal.png, id=57, 459.7175pt x 207.77625pt>
-File: pascal.png Graphic file (type png)
-<use pascal.png>
-Package pdftex.def Info: pascal.png  used on input line 46.
-(pdftex.def)             Requested size: 426.79134pt x 192.90651pt.
-
-Overfull \hbox (36.79134pt too wide) in paragraph at lines 46--47
-[] 
- []
-
-pdfTeX warning (ext4): destination with the same identifier (name{page.1}) has 
-been already used, duplicate ignored
-<to be read again> 
-                   \relax 
-l.48 \section{{Problem 2}}
-                           [1
-
-]
-! Missing number, treated as zero.
-<to be read again> 
-                   p
-l.48 \section{{Problem 2}}
-                          
-A number should have been here; I inserted `0'.
-(If you can't figure out why I needed to see a number,
-look up `weird error' in the index to The TeXbook.)
-
-! Missing number, treated as zero.
-<to be read again> 
-                   p
-l.50 		\subsection{{Computer Program}}
-                                      
-A number should have been here; I inserted `0'.
-(If you can't figure out why I needed to see a number,
-look up `weird error' in the index to The TeXbook.)
-
-[2 <./pascal.png>]
-! Missing number, treated as zero.
-<to be read again> 
-                   p
-l.92 		\subsection{{Program Output Screenshot}}
-                                               
-A number should have been here; I inserted `0'.
-(If you can't figure out why I needed to see a number,
-look up `weird error' in the index to The TeXbook.)
-
-<gross-pay.png, id=126, 609.27625pt x 537.00626pt>
-File: gross-pay.png Graphic file (type png)
-<use gross-pay.png>
-Package pdftex.def Info: gross-pay.png  used on input line 96.
-(pdftex.def)             Requested size: 362.77263pt x 319.74802pt.
-! Missing number, treated as zero.
-<to be read again> 
-                   p
-l.99 \section{{Problem 3}}
-                          
-A number should have been here; I inserted `0'.
-(If you can't figure out why I needed to see a number,
-look up `weird error' in the index to The TeXbook.)
-
-! Missing number, treated as zero.
-<to be read again> 
-                   p
-l.101 	\subsection{{Computer Program}}
-                                      
-A number should have been here; I inserted `0'.
-(If you can't figure out why I needed to see a number,
-look up `weird error' in the index to The TeXbook.)
-
-[3 <./gross-pay.png>] [4] [5]
-! Missing number, treated as zero.
-<to be read again> 
-                   p
-l.187 	\subsection{{Program Output Screenshot}}
-                                               
-A number should have been here; I inserted `0'.
-(If you can't figure out why I needed to see a number,
-look up `weird error' in the index to The TeXbook.)
-
-<temp-pres.png, id=240, 797.98125pt x 607.26875pt>
-File: temp-pres.png Graphic file (type png)
-<use temp-pres.png>
-Package pdftex.def Info: temp-pres.png  used on input line 191.
-(pdftex.def)             Requested size: 362.77263pt x 276.06679pt.
-) [6 <./temp-pres.png>] (./main.aux)
-
-LaTeX Font Warning: Size substitutions with differences
-(Font)              up to 1.28pt have occurred.
-
+       [1] (./main.aux)
 Package rerunfilecheck Info: File `main.out' has not changed.
-(rerunfilecheck)             Checksum: 4A88B42055A10AE96B82EEA3BD15536E;1421.
+(rerunfilecheck)             Checksum: D41D8CD98F00B204E9800998ECF8427E;0.
  ) 
 Here is how much of TeX's memory you used:
- 37858 strings out of 480129
- 850338 string characters out of 5893409
- 1569348 words of memory out of 5000000
- 54989 multiletter control sequences out of 15000+600000
- 479224 words of font info for 63 fonts, out of 8000000 for 9000
+ 37215 strings out of 480129
+ 843018 string characters out of 5893409
+ 1287348 words of memory out of 5000000
+ 54526 multiletter control sequences out of 15000+600000
+ 477932 words of font info for 58 fonts, out of 8000000 for 9000
  81 hyphenation exceptions out of 8191
- 84i,6n,89p,1193b,1964s stack positions out of 5000i,500n,10000p,200000b,80000s
-</usr/share/texlive/texmf-dist/fonts/type1/public/amsfonts/cm/cmbx12.pfb></us
-r/share/texlive/texmf-dist/fonts/type1/public/amsfonts/cm/cmbxti10.pfb></usr/sh
-are/texlive/texmf-dist/fonts/type1/public/amsfonts/cm/cmr12.pfb></usr/share/tex
-live/texmf-dist/fonts/type1/public/amsfonts/cm/cmr6.pfb></usr/share/texlive/tex
-mf-dist/fonts/type1/public/amsfonts/cm/cmti12.pfb></usr/share/texlive/texmf-dis
-t/fonts/type1/public/amsfonts/cm/cmtt10.pfb>
-Output written on main.pdf (8 pages, 238236 bytes).
+ 84i,6n,89p,1193b,609s stack positions out of 5000i,500n,10000p,200000b,80000s
+</usr/share/texlive/texmf-dist/fonts/type1/public/amsfonts/cm/cmbxti10.pfb></
+usr/share/texlive/texmf-dist/fonts/type1/public/amsfonts/cm/cmti12.pfb>
+Output written on main.pdf (2 pages, 30214 bytes).
 PDF statistics:
- 311 PDF objects out of 1000 (max. 8388607)
- 280 compressed objects within 3 object streams
- 170 named destinations out of 1000 (max. 500000)
- 108 words of extra memory for PDF output out of 10000 (max. 10000000)
+ 29 PDF objects out of 1000 (max. 8388607)
+ 20 compressed objects within 1 object stream
+ 2 named destinations out of 1000 (max. 500000)
+ 13 words of extra memory for PDF output out of 10000 (max. 10000000)
 
