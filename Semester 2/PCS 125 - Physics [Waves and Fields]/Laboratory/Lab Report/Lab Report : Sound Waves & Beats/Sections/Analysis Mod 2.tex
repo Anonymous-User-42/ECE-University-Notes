@@ -1,0 +1,148 @@
+
+
+{Using the curve fit feature on logger pro, a sinusoidal function in the form $y=A\sin\left(Bt+C\right)+D$ can be derived. With this the measured value of frequency and the derived value can be compared to determine the accuracy of the experiment and further understand the concepts of sound waves and beats.}
+
+\section{{Run 1}}
+	
+	{The derived values of the first run with their uncertainties are:}
+	
+	\begin{table}[H]
+    \centering
+    \begin{tabular}{|c|c|c|}
+    		\hline
+    		\hline
+        \textit{Run 1} & \textit{Values} & \textit{Uncertaintanty} ($\pm$) \\ 
+        \hline
+        \hline
+        \textit{A} & 0.2424 & 0.0004813 \\
+        \hline 
+        \textit{B} & 3023 & 0.2279 \\
+        \hline 
+        \textit{C} & 1.546 & 0.003962 \\
+        \hline 
+        \textit{D} & -0.003235 & 0.0003399 \\ 
+        \hline
+        \hline
+    		\end{tabular}
+    		\caption{Value of Function Constants}
+	\end{table}
+	
+	{This gives us the equation $y=0.2422\sin\left(3023t+1.546\right)-0.003235}$
+	
+	\subsection{{Derived Frequency}}
+	
+		$$B = \omega$$
+		
+		$$\implies \omega = 2\pi f$$
+		
+		$$\therefore f = \frac{\omega}{2\pi} = \frac{3023}{2\pi} \approx 481.1 \text{ Hz}$$	
+	
+	\subsection{{Measured Frequency}}
+	
+		\begin{table}[H]
+    \centering
+    \begin{tabular}{|c|}
+		\hline    		
+    		\hline
+        \textit{Beat Periods} (s) \\ 
+        \hline
+        0.00193 \\
+        \hline
+        0.001758 \\         
+        \hline
+        0.001691 \\ 
+        \hline
+        0.001776 \\ 
+        \hline
+        \hline
+    \end{tabular}
+\end{table}
+	
+		{In order to find the frequency we can take the average of the measured periods and find the inverse, giving the average frequency.}
+		
+			$$\text{Average Period} = \frac{0.001930 + 0.001758 + 0.001691 + 0.001776}{4} = 0.001789\text{ s}$$
+			
+			$$f = \frac{1}{T} = \frac{1}{0.001789} \approx 559 \text{ Hz}$$
+			
+		{Looking at the two values, there is great disparity between them. This is likely to be due to inaccuracies in the measurement of the beat periods. When using the derived frequency to determine the period, a value of  0.002078 s is found, which is also in good proximity to the first measured beat period 0.00193 s.}
+		
+		{Combined with lack of precision from both the curve fit and the measurement of the beat periods. The two frequencies should be expected to have a reasonable disparity.}
+		
+\section{{Run 2}}
+	
+	{The derived values of the first run with their uncertainties are:}
+	
+	\begin{table}[H]
+    \centering
+    \begin{tabular}{|c|c|}
+    \hline\hline
+        \textit{Run 2} & \textit{Values} \\ \hline
+        \textit{A} & 0.1354 \\ \hline
+        \textit{B} & 200 \\ \hline
+        \textit{C} & 5.429 \\ \hline
+        \textit{D} & 0 \\ \hline\hline
+    \end{tabular}
+    \caption{Value of Function Constants}
+\end{table}
+
+	{This gives us the equation $y=0.13544\sin\left(200t+5.429\right)$.}
+	
+	\subsection{{Derived Frequency}}
+	
+		$$B = \omega$$
+		
+		$$\omega = 2\pi f$$
+		
+		$$\therefore f = \frac{200}{2\pi} \approx 31.8\text{ Hz}$$	
+	
+	\subsection{{Measured Frequency}}
+	
+		\begin{table}[H]
+    \centering
+    \begin{tabular}{|c|}
+		\hline    		
+    		\hline
+        \textit{Beat Periods} (s) \\ 
+        \hline
+        0.01416 \\
+        \hline
+        0.01494 \\         
+        \hline
+        0.01416 \\ 
+        \hline
+        0.014126 \\ 
+        \hline
+        \hline
+    \end{tabular}
+\end{table}
+
+		{In order to find the frequency we can take the average of the measured periods and find the inverse, giving the average frequency.}
+		
+			$$\text{Average Frequency} = \frac{0.01416 + 0.01494 + 0.01416 + 0.014126}{4}\approx 0.01435\text{ s}$$
+			
+			$$f = \frac{1}{T} \approx 67.7\text{ Hz}$$
+			
+		{Cleary the two values differ by a large margin. This can be attributed to inaccuracies in the process of the curve fit.}
+		
+		{This clearly shows that taking the inverse of the period of a wave is the more effective method of determining a wave's frequency than attempting to use the curve fit feature on Logger pro.}
+		
+		\subsubsection{{Finding an Unknown Frequency with Logger Pro}}
+		
+			{The curve fit feature on logger pro can also be used to determine the frequency of two tuning forks struck at the same time. If the curve fit values for a sine graph are as follows.}
+			
+			\begin{table}[H]
+    \centering
+    \begin{tabular}{|c|c|}
+    \hline
+        Parameters & Values \\ \hline
+        A & 0.02 \\ \hline
+        B & 1400 \\ \hline
+        C & 4.813 \\ \hline
+        D & -0.003835 \\ \hline
+    \end{tabular}
+    \caption{Value of Function Constants}
+\end{table}
+
+			$$B = \omega$$
+			
+			$$\omega = 2\pi f \implies f = \frac{1400}{2\pi} \approx 222.8\text{ Hz}$$
