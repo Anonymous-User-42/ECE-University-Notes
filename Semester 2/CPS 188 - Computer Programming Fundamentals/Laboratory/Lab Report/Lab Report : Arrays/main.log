@@ -1,4 +1,4 @@
-This is pdfTeX, Version 3.141592653-2.6-1.40.22 (TeX Live 2022/dev/Debian) (preloaded format=pdflatex 2022.9.13)  20 MAR 2023 00:02
+This is pdfTeX, Version 3.141592653-2.6-1.40.22 (TeX Live 2022/dev/Debian) (preloaded format=pdflatex 2022.9.13)  20 MAR 2023 00:09
 entering extended mode
  restricted \write18 enabled.
  %&-line parsing enabled.
@@ -1483,11 +1483,11 @@ A number should have been here; I inserted `0'.
 (If you can't figure out why I needed to see a number,
 look up `weird error' in the index to The TeXbook.)
 
-<pascal.png, id=103, 459.7175pt x 207.77625pt>
-File: pascal.png Graphic file (type png)
-<use pascal.png>
-Package pdftex.def Info: pascal.png  used on input line 56.
-(pdftex.def)             Requested size: 426.79134pt x 192.90651pt.
+<problem1.png, id=103, 398.48875pt x 186.6975pt>
+File: problem1.png Graphic file (type png)
+<use problem1.png>
+Package pdftex.def Info: problem1.png  used on input line 56.
+(pdftex.def)             Requested size: 426.79134pt x 199.9666pt.
 
 Overfull \hbox (36.79134pt too wide) in paragraph at lines 56--57
 [] 
@@ -1511,7 +1511,7 @@ A number should have been here; I inserted `0'.
 (If you can't figure out why I needed to see a number,
 look up `weird error' in the index to The TeXbook.)
 
-[2 <./pascal.png>]
+[2 <./problem1.png>]
 ! Missing number, treated as zero.
 <to be read again> 
                    p
@@ -1521,11 +1521,11 @@ A number should have been here; I inserted `0'.
 (If you can't figure out why I needed to see a number,
 look up `weird error' in the index to The TeXbook.)
 
-<gross-pay.png, id=129, 609.27625pt x 537.00626pt>
-File: gross-pay.png Graphic file (type png)
-<use gross-pay.png>
-Package pdftex.def Info: gross-pay.png  used on input line 123.
-(pdftex.def)             Requested size: 362.77263pt x 319.74802pt.
+<problem2.png, id=130, 256.96pt x 28.105pt>
+File: problem2.png Graphic file (type png)
+<use problem2.png>
+Package pdftex.def Info: problem2.png  used on input line 123.
+(pdftex.def)             Requested size: 362.77263pt x 39.68121pt.
 [3]
 ! Missing number, treated as zero.
 <to be read again> 
@@ -1545,7 +1545,7 @@ A number should have been here; I inserted `0'.
 (If you can't figure out why I needed to see a number,
 look up `weird error' in the index to The TeXbook.)
 
-[4 <./gross-pay.png>]
+[4 <./problem2.png>]
 ! Missing number, treated as zero.
 <to be read again> 
                    p
@@ -1555,12 +1555,12 @@ A number should have been here; I inserted `0'.
 (If you can't figure out why I needed to see a number,
 look up `weird error' in the index to The TeXbook.)
 
-<temp-pres.png, id=197, 797.98125pt x 607.26875pt>
-File: temp-pres.png Graphic file (type png)
-<use temp-pres.png>
-Package pdftex.def Info: temp-pres.png  used on input line 188.
-(pdftex.def)             Requested size: 362.77263pt x 276.06679pt.
-) [5] [6 <./temp-pres.png>] (./main.aux)
+<problem3.png, id=221, 55.20625pt x 28.105pt>
+File: problem3.png Graphic file (type png)
+<use problem3.png>
+Package pdftex.def Info: problem3.png  used on input line 188.
+(pdftex.def)             Requested size: 362.77263pt x 184.74644pt.
+) [5 <./problem3.png>] (./main.aux)
 
 LaTeX Font Warning: Size substitutions with differences
 (Font)              up to 1.28pt have occurred.
@@ -1569,9 +1569,9 @@ Package rerunfilecheck Info: File `main.out' has not changed.
 (rerunfilecheck)             Checksum: 4A88B42055A10AE96B82EEA3BD15536E;1421.
  ) 
 Here is how much of TeX's memory you used:
- 37869 strings out of 480129
- 850257 string characters out of 5893409
- 1611345 words of memory out of 5000000
+ 37868 strings out of 480129
+ 850251 string characters out of 5893409
+ 1611346 words of memory out of 5000000
  55001 multiletter control sequences out of 15000+600000
  479224 words of font info for 63 fonts, out of 8000000 for 9000
  81 hyphenation exceptions out of 8191
@@ -1582,10 +1582,10 @@ are/texlive/texmf-dist/fonts/type1/public/amsfonts/cm/cmr12.pfb></usr/share/tex
 live/texmf-dist/fonts/type1/public/amsfonts/cm/cmr6.pfb></usr/share/texlive/tex
 mf-dist/fonts/type1/public/amsfonts/cm/cmti12.pfb></usr/share/texlive/texmf-dis
 t/fonts/type1/public/amsfonts/cm/cmtt10.pfb>
-Output written on main.pdf (8 pages, 237988 bytes).
+Output written on main.pdf (7 pages, 115581 bytes).
 PDF statistics:
- 310 PDF objects out of 1000 (max. 8388607)
- 279 compressed objects within 3 object streams
- 169 named destinations out of 1000 (max. 500000)
+ 305 PDF objects out of 1000 (max. 8388607)
+ 275 compressed objects within 3 object streams
+ 168 named destinations out of 1000 (max. 500000)
  108 words of extra memory for PDF output out of 10000 (max. 10000000)
 
