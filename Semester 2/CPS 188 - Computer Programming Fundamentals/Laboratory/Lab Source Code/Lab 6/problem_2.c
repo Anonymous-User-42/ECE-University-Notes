@@ -18,7 +18,6 @@ int get_min_range (int list[], int first, int last)
             min = list[i];
             j = i;
         }
-        
     }
     return j;
 }
