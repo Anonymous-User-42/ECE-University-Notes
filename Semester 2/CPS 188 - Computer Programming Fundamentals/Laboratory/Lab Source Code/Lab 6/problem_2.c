@@ -9,7 +9,18 @@
 //  i.e., list[k] <= list[i] for all i in the subarray
 int get_min_range (int list[], int first, int last)
 {
-    /* complete the function here */
+    int j;
+    int min = sizeof(double);
+    for (int i = 0; i < last; i++)
+    {
+        if (min > list[i])
+        {
+            min = list[i];
+            j = i;
+        }
+        
+    }
+    return j;
 }
 //  sorts the data in array list
 void select_sort(int list[], int n)
@@ -36,7 +47,9 @@ int main (void)
     int i;
     select_sort (array, ARRAY_SIZE);
     for (i=0; i < 8; ++i)
-    printf ("%d ", array[i]);
+    {
+        printf ("%d ", array[i]);
+    } printf("\n");
     return (0);
 }
 
