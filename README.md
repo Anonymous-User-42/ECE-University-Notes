@@ -22,15 +22,26 @@ Ps. This is effectively a personal copy and is best presented by the author in t
 
 Note: This repository is a personal intellectual property granted to users to be used under the MIT licence. Any efforts on parsing the copyrights of these academic works as their own are strictly punishable by law.
 
-##  Install / Clone
+##  Usage
 
-1. Install [Git](https://git-scm.com/downloads) & [Git LFS](https://git-lfs.com/)
+### Install / Clone
+
+Install [Git](https://git-scm.com/downloads) & [Git LFS](https://git-lfs.com/)
 
 ```bash
 # Execute in Shell
 
 git clone https://github.com/Anonymous-User-42/ECE-University-Notes.git
 ```
+
+### Sync Changes
+
+```bash
+# Execute in Shell
+
+git pull origin main
+```
+The above will sync the latest changes from remote [GitHub](https://github.com/Anonymous-User-42/ECE-University-Notes) and merge it to local repository.
 
 ##  Courses
 
