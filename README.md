@@ -3,7 +3,7 @@
 <br />
 <div align="center">
   <a>
-    <img src="https://www.ontariouniversitiesinfo.ca/assets/files/images/universityLogoLarge_tmu-vertical-formerly-rgb-01.png" alt="Logo">
+    <img src="https://upload.wikimedia.org/wikipedia/commons/thumb/1/1e/Ryerson_University_Logo.svg/500px-Ryerson_University_Logo.svg.png" alt="Logo">
   </a>
 </div>
 
