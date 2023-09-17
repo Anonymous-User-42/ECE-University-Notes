@@ -7,9 +7,15 @@
   </a>
 </div>
 
-**All uploads have sequentially begun from September 2022**
+<div align="center">
+    <b>
+        All uploads have sequentially begun from September 2022
+    </b>
+</div>
 
-[![GitHub license](https://img.shields.io/github/license/rrwen/cookiecutter-latex.svg)](https://github.com/rrwen/cookiecutter-latex/blob/master/LICENSE)
+<div align="center">
+    <img src="https://img.shields.io/github/license/rrwen/cookiecutter-latex.svg"/>
+</div>
 
 
 ##  About
