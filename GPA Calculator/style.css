@@ -1,0 +1,41 @@
+
+.lemon input{
+  float:left
+  display: block;
+}
+
+.full{
+    margin:0 auto;
+    width: 1200px
+}
+div {
+    text-align: center;
+
+}
+button{
+    background-color: #FFA300 ;
+    width: 100%;
+}
+input {
+    maxlength: 3;
+    width: 100%;
+}
+body { background-color: #EBEBEB;
+     font-family: 'Work Sans', sans-serif;
+}
+
+.bold{
+    font-weight: 600;
+}
+.bglight{
+    background-color: #F9F9F9;
+}
+.bgyellow{
+    background-color: #FFA300;
+}
+p {
+    display: inline-block;
+}
+.cen {
+    text-align: center;
+}

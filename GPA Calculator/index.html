@@ -1,0 +1,253 @@
+<!DOCTYPE html>
+
+<HTML>
+
+<head>
+<title> GPA Calculator || Ryerson </title>
+<link rel="icon" type="image/png"href="RUfinal.png">
+    
+<!-- Global site tag (gtag.js) - Google Analytics -->
+<script async src="https://www.googletagmanager.com/gtag/js?id=G-L2G3ERWQT5"></script>
+<script>
+  window.dataLayer = window.dataLayer || [];
+  function gtag(){dataLayer.push(arguments);}
+  gtag('js', new Date());
+
+  gtag('config', 'G-L2G3ERWQT5');
+</script>
+
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<link rel="stylesheet" href="https://fonts.googleapis.com/icon?family=Material+Icons">
+<link href="https://fonts.googleapis.com/css?family=Work+Sans:400,600,700" rel="stylesheet">
+<link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0-beta.3/css/bootstrap.min.css" integrity="sha384-Zug+QiDoJOrZ5t4lssLdxGhVrurbmBWopoEl+M6BdEfwnCJZtKxi1KgxUyJq13dy" crossorigin="anonymous">
+<link rel="stylesheet" type="text/css" href="style.css">
+<script data-ad-client="ca-pub-1906901233572859" async src="https://pagead2.googlesyndication.com/pagead/js/adsbygoogle.js"></script>
+</head>
+<body>
+<a href="https://desanto.ca"> <button  type="button" class="btn bold"> Return </button></a>
+<form autocomplete="off" id="form" method="post" onSubmit="return valid()" >
+<br>
+    <div class="container-fluid">
+        <div class="row">
+            <div class="col-2"></div>
+            <div class="col-8"> This is a tool for students at Ryerson to calculate their grades and see what they need in the rest
+             of the assignments to meet a certain GPA, it also gives the average that the student currently has. Please Enjoy!</div>
+        </div>
+<br>
+        <div class="row">
+            <div class="col-lg-4">
+                <div class="row">
+                        <div class="col-6 bold bgyellow"> Grade Achieved </div>
+                        <div class="col-6 bold bgyellow"> Percent Weight </div>
+                </div>
+<br>
+                <div class="row">
+                    <div class="col-6">
+                    	<input type="text" maxlength="6" name="grade1" id="grade1" onchange="decimalFunction(this.id)">
+                    </div>
+
+                    <div class="col-6">
+                        <input type="text" maxlength="6" name="perce1" id="perce1" onchange="decimalFunction(this.id)">
+                    </div>
+                </div>
+
+                <div class="row">
+                    <div class="col-6">
+                        <input type="text" maxlength="6" name="grade2" id="grade2" onchange="decimalFunction(this.id)">
+                    </div>
+
+                    <div class="col-6">
+                        <input type="text" maxlength="6" name="perce2" id="perce2" onchange="decimalFunction(this.id)">
+                    </div>
+                </div>
+
+                <div class="row">
+                    <div class="col-6">
+                        <input type="text" maxlength="6" name="grade3" id="grade3" onchange="decimalFunction(this.id)">
+                    </div>
+
+                    <div class="col-6">
+                        <input type="text" maxlength="6" name="perce3" id="perce3" onchange="decimalFunction(this.id)">
+                    </div>
+                </div>
+
+                <div class="row">
+                    <div class="col-6">
+                        <input type="text" maxlength="6" name="grade4" id="grade4" onchange="decimalFunction(this.id)">
+                    </div>
+
+                    <div class="col-6">
+                        <input type="text" maxlength="6" name="perce4" id="perce4" onchange="decimalFunction(this.id)">
+                    </div>
+                </div>
+
+                <div class="row">
+                    <div class="col-6">
+                        <input type="text" maxlength="6" name="grade5" id="grade5" onchange="decimalFunction(this.id)">
+                    </div>
+
+                    <div class="col-6">
+                        <input type="text" maxlength="6" name="perce5" id="perce5" onchange="decimalFunction(this.id)">
+                    </div>
+                </div>
+
+                <div class="row">
+                    <div class="col-6">
+                        <input type="text" maxlength="6" name="grade6" id="grade6" onchange="decimalFunction(this.id)">
+                    </div>
+
+                    <div class="col-6">
+                        <input type="text" maxlength="6" name="perce6" id="perce6" onchange="decimalFunction(this.id)">
+                    </div>
+                </div>
+
+                <div class="row">
+                    <div class="col-6">
+                        <input type="text" maxlength="6" name="grade7" id="grade7" onchange="decimalFunction(this.id)">
+                    </div>
+
+                    <div class="col-6">
+                        <input type="text" maxlength="6" name="perce7" id="perce7" onchange="decimalFunction(this.id)">
+                    </div>
+                </div>
+
+                <div class="row">
+                    <div class="col-6">
+                        <input type="text" maxlength="6" name="grade8" id="grade8" onchange="decimalFunction(this.id)">
+                    </div>
+
+                    <div class="col-6">
+                        <input type="text" maxlength="6" name="perce8" id="perce8" onchange="decimalFunction(this.id)">
+                    </div>
+                </div>
+
+                <div class="row">
+                    <div class="col-6">
+                        <input type="text" maxlength="6" name="grade9" id="grade9" onchange="decimalFunction(this.id)">
+                    </div>
+
+                    <div class="col-6">
+                        <input type="text" maxlength="6" name="perce9" id="perce9" onchange="decimalFunction(this.id)">
+                    </div>
+                </div>
+
+                <div class="row">
+                    <div class="col-6">
+                        <input type="text" maxlength="6" name="grade10" id="grade10" onchange="decimalFunction(this.id)">
+                    </div>
+
+                    <div class="col-6">
+                        <input type="text" maxlength="6" name="perce10" id="perce10" onchange="decimalFunction(this.id)">
+                    </div>
+                </div>
+<br>
+                <div class="row">
+                    <div class="col-6">
+                            <button type="submit" class="btn bold" > Submit </button>
+                        </div>
+                    <div class="col-6">
+                            <button  type="button" onclick="this.form.reset();" class="btn bold"> Clear </button>
+                    </div>
+<br><br>
+                </div>
+<br><br>
+            </div>
+
+            <div class="col-lg-8">
+
+                <div class="row">
+                                <div class="col-6 bold bgyellow">What Percent Mark You Need</div>
+                                <div class="col-3 bold bgyellow">Grade Percent</div>
+                                <div class="col-3 bold bgyellow">Ryerson GPA</div>
+                </div>
+<br>
+                <div class="row bglight">
+                                <div class="col-6"id="mark1" >--</div>
+                                <div class="col-3">90</div>
+                                <div class="col-3">4.33</div>
+                </div>
+                <div class="row">
+                                <div class="col-6"id="mark2" name="mark2" >--</div>
+                                <div class="col-3">85</div>
+                                <div class="col-3">4.00</div>
+                </div>
+                <div class="row bglight">
+                                <div class="col-6"id="mark3" >--</div>
+                                <div class="col-3">80</div>
+                                <div class="col-3">3.67</div>
+                </div>
+                <div class="row">
+                                <div class="col-6"id="mark4" >--</div>
+                                <div class="col-3">77</div>
+                                <div class="col-3">3.33</div>
+                </div>
+                <div class="row bglight">
+                                <div class="col-6"id="mark5" >--</div>
+                                <div class="col-3">73</div>
+                                <div class="col-3">3.00</div>
+                </div>
+                <div class="row">
+                                <div class="col-6"id="mark6" >--</div>
+                                <div class="col-3">70</div>
+                                <div class="col-3">2.67</div>
+                </div>
+                <div class="row bglight">
+                                <div class="col-6"id="mark7" >--</div>
+                                <div class="col-3">67</div>
+                                <div class="col-3">2.33</div>
+                </div>
+                <div class="row">
+                                <div class="col-6"id="mark8" >--</div>
+                                <div class="col-3">63</div>
+                                <div class="col-3">2.00</div>
+                </div>
+                <div class="row bglight">
+                                <div class="col-6"id="mark9" >--</div>
+                                <div class="col-3">60</div>
+                                <div class="col-3">1.67</div>
+                </div>
+                <div class="row">
+                                <div class="col-6"id="mark10" >--</div>
+                                <div class="col-3">57</div>
+                                <div class="col-3">1.33</div>
+                </div>
+                <div class="row bglight">
+                                <div class="col-6"id="mark11" >--</div>
+                                <div class="col-3">53</div>
+                                <div class="col-3">1.00</div>
+                </div>
+                <div class="row ">
+                                <div class="col-6"id="mark12" >--</div>
+                                <div class="col-3">50</div>
+                                <div class="col-3">0.67</div>
+                </div>
+<br>
+                <div class="row bglight">
+                                 <div class="col-6" id="avg" >--</div>
+                                <div class="col-3"><i class="material-icons">arrow_back</i></div>
+                                <div class="col-3">Your Average </div>
+                </div>
+                <div class="row">
+                                 <div class="col-6" id="weight" >--</div>
+                                <div class="col-3"><i class="material-icons">arrow_back</i></div>
+                                <div class="col-3">Weight Accumulated </div>
+                </div>
+<br>
+            </div>
+        </div>
+    </div>
+
+</form>
+<script>
+function decimalFunction(val) {
+    document.getElementById(val).value = parseFloat(document.getElementById(val).value).toFixed(2);
+}
+</script>
+
+<script type="text/javascript" src="script.js"></script>
+<div>
+    Made by: Sayeed Ahamad || sayeed.ahamad@torontomu.ca
+</div>
+
+</body>
+</HTML>
