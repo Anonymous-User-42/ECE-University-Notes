@@ -36,6 +36,7 @@ Note: This repository is a personal intellectual property granted to users to be
     *   [Install / Clone](#install--clone)
     *   [Sync Changes](#sync-changes)
 *   [Courses](#courses)
+*   [Useful Study Links](#useful-study-links)
 
 ##  Usage
 
@@ -128,4 +129,33 @@ The above will sync the latest changes from remote [GitHub](https://github.com/A
 *   
 *   
 *   
+
+##  Useful Study Links
+
+### Semester 1
+
+####    CHY 102 - General Chemistry
+
+*   [Crash Course](https://www.youtube.com/playlist?list=PL8dPuuaLjXtPHzzYuWy6fYEaX9mQQ8oGr)
+*   [The Organic Chemistry Tutor](https://www.youtube.com/playlist?list=PL0o_zxa4K1BWziAvOKdqsMFSB_MyyLAqS)
+
+####    MTH 140 - Calculus I
+
+*   [MIT Open Course Ware - 18.01](https://ocw.mit.edu/courses/18-01-single-variable-calculus-fall-2006/)
+*   [Paul's Online Notes](https://tutorial.math.lamar.edu/classes/calci/calci.aspx)
+*   [BlackPenRedPen](https://www.youtube.com/@blackpenredpen/playlists?view=50&sort=dd&shelf_id=7)
+*   [Khan Academy - Calculus I](https://www.khanacademy.org/math/calculus-1)
+*   [The Organic Chemistry Tutor](https://www.youtube.com/playlist?list=PL0o_zxa4K1BWYThyV4T2Allw6zY0jEumv)
+
+####    MTH 141 - Linear Algebra
+
+*   [Essence of Linear Algebra](https://www.youtube.com/playlist?list=PLZHQObOWTQDPD3MizzM2xVFitgF8hE_ab)
+*   [MIT Open Course Ware - 18.06](https://ocw.mit.edu/courses/18-06-linear-algebra-spring-2010/)
+*   [Khan Academy - Linear Algebra](https://www.khanacademy.org/math/linear-algebra)
+
+####    PCS 211 - Physics: Mechanics
+
+*   [Physics with Professor Matt Anderson](https://www.youtube.com/@yoprofmatt)
+*   [Lectures by Walter Lewin](https://www.youtube.com/channel/UCiEHVhv0SBMpP75JbzJShqw)
+*   [Professor Dave Explains](https://www.youtube.com/playlist?list=PLybg94GvOJ9HjfcQeJcNzLUFxa4m3i7FW)
 
