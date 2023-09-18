@@ -106,10 +106,10 @@ The above will sync the latest changes from remote [GitHub](https://github.com/A
 ### Winter 2024
 
 *   [CMN 432 - Communication in the Engineering Professions](./Semester%204/CMN%20432%20-%20Communication%20in%20the%20Engineering%20Professions/)
-*   [COE 428 Engineering Algorithms and Data Structures](./Semester%204/COE%20428%20-%20Engineering%20Algorithms%20and%20Data%20Structures/)
-*   [COE 528 Object Oriented Eng Analysis and Design](./Semester%204/COE%20528%20-%20Object%20Oriented%20Engineering%20Analysis%20and%20Design/)
-*   [ELE 404 Electronic Circuits I](./Semester%204/ELE%20404%20-%20Electronic%20Circuits%20I/)
-*   [MTH 314 Discrete Mathematics for Engineers](./Semester%204/MTH%20314%20-%20Discrete%20Mathematics%20for%20Engineers/)
+*   [COE 428 - Engineering Algorithms and Data Structures](./Semester%204/COE%20428%20-%20Engineering%20Algorithms%20and%20Data%20Structures/)
+*   [COE 528 - Object Oriented Eng Analysis and Design](./Semester%204/COE%20528%20-%20Object%20Oriented%20Engineering%20Analysis%20and%20Design/)
+*   [ELE 404 - Electronic Circuits I](./Semester%204/ELE%20404%20-%20Electronic%20Circuits%20I/)
+*   [MTH 314 - Discrete Mathematics for Engineers](./Semester%204/MTH%20314%20-%20Discrete%20Mathematics%20for%20Engineers/)
 
 ### Spring / Summer 2024
 
