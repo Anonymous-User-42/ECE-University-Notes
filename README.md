@@ -37,6 +37,19 @@ Note: This repository is a personal intellectual property granted to users to be
     *   [Sync Changes](#sync-changes)
 *   [Courses](#courses)
 *   [Useful Study Links](#useful-study-links)
+    *   [Semester I](#semester-i)
+        *   [CHY 102 - General Chemistry](#chy-102---general-chemistry)
+        *   [MTH 140 - Calculus I](#mth-140---calculus-i)
+        *   [MTH 141 - Linear Algebra](#mth-141---linear-algebra)
+        *   [PCS 211 - Physics: Mechanics](#pcs-211---physics-mechanics)
+    *   [Semester II](#semester-ii)
+    *   [Semester III](#semester-iii)
+    *   [Semester IV](#semester-iv)
+    *   [Semester V](#semester-v)
+    *   [Semester VI](#semester-vi)
+    *   [Semester VII](#semester-vii)
+    *   [Semester VIII](#semester-viii)
+    
 
 ##  Usage
 
@@ -132,7 +145,7 @@ The above will sync the latest changes from remote [GitHub](https://github.com/A
 
 ##  Useful Study Links
 
-### Semester 1
+### Semester I
 
 ####    CHY 102 - General Chemistry
 
@@ -158,4 +171,44 @@ The above will sync the latest changes from remote [GitHub](https://github.com/A
 *   [Physics with Professor Matt Anderson](https://www.youtube.com/@yoprofmatt)
 *   [Lectures by Walter Lewin](https://www.youtube.com/channel/UCiEHVhv0SBMpP75JbzJShqw)
 *   [Professor Dave Explains](https://www.youtube.com/playlist?list=PLybg94GvOJ9HjfcQeJcNzLUFxa4m3i7FW)
+
+### Semester II
+
+####    CPS 188 - Computer Programming Fundamentals
+
+
+
+####    ELE 202 - Electric Circuit Analysis
+
+
+
+####    MTH 240 - Calculus II
+
+
+
+####    PCS 125 - Physics: Waves and Fields
+
+
+### Semester III
+
+
+
+### Semester IV
+
+
+
+### Semester V
+
+
+
+### Semester VI
+
+
+
+### Semester VII
+
+
+
+### Semester VIII
+
 
