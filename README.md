@@ -214,6 +214,7 @@ The above will sync the latest changes from remote [GitHub](https://github.com/A
 *   [Essence of Linear Algebra](https://www.youtube.com/playlist?list=PLZHQObOWTQDPD3MizzM2xVFitgF8hE_ab)
 *   [MIT Open Course Ware - 18.06](https://ocw.mit.edu/courses/18-06-linear-algebra-spring-2010/)
 *   [Khan Academy - Linear Algebra](https://www.khanacademy.org/math/linear-algebra)
+*   [Engineer4Free](https://www.youtube.com/playlist?list=PL2C8B5877FC12E315)
 
 ####    PCS 211 - Physics: Mechanics
 
@@ -225,11 +226,17 @@ The above will sync the latest changes from remote [GitHub](https://github.com/A
 
 ####    CPS 188 - Computer Programming Fundamentals
 
-
+*   [CS50](https://cs50.harvard.edu/x/2023/)
+*   [K&R Book](https://ia601404.us.archive.org/2/items/cprogbooks/k%26r.pdf)
+*   [W3 Schools](https://www.w3schools.com/c/c_intro.php)
+*   [freeCodeCamp - Data Structures](https://www.youtube.com/watch?v=B31LgI4Y4DQ&list=PLWKjhJtqVAbmUE5IqyfGYEYjrZBYzaT4m&index=7)
+*   [freeCodeCamp - Pointers in C](https://www.youtube.com/watch?v=MIL2BK02X8A&t=5581s)
+*   [Neso Academy](https://www.youtube.com/playlist?list=PLBlnK6fEyqRhX6r2uhhlubuF5QextdCSM)
 
 ####    ELE 202 - Electric Circuit Analysis
 
-
+*   [I Lecture Online](http://www.ilectureonline.com/lectures/subject/ENGINEERING/28)
+*   [Engineer4Free](https://www.youtube.com/playlist?list=PLOAuB8dR35ocf9Typ1iX9NRmX0V04UYfQ)
 
 ####    MTH 240 - Calculus II
 
@@ -237,6 +244,7 @@ The above will sync the latest changes from remote [GitHub](https://github.com/A
 
 ####    PCS 125 - Physics: Waves and Fields
 
+*   [Physics with Professor Matt Anderson](https://www.youtube.com/@yoprofmatt)
 
 ### Semester III
 
