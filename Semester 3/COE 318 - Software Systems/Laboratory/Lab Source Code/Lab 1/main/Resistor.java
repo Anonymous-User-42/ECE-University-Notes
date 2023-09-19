@@ -6,107 +6,35 @@
 package coe318.lab1;
 
 public class Resistor {
-//Instance (state) variables
-//TODO Add instance variables (Hint: you only need 2!)
-
-    /**
-     * Create an ideal Resistor. The initial current through and voltage across
-     * the Resistor are zero.
-     *
-     * @param resistance resistance in Ohms
-     */
+        double res, vol;
     public Resistor(double resistance) {
-//Set values of state variables
+        res = resistance;
     }
 
-    /**
-     * Returns the value of the resistor in Ohms.
-     *
-     * @return the resistance
-     */
     public double getResistance() {
-//FIX THIS so that it returns the actual resistance 
-        return 0.0;
+        return res;
     }
 
-    /**
-     * Returns the voltage across the resistor.
-     *
-     * @return the voltage
-     */
     public double getVoltage() {
-//FIX THIS so that it returns the actual voltage
-        return 0.0;
+        return vol;
     }
 
-    /**
-     * Sets the value of the voltage across the resistor.
-     *
-     * @param voltage the voltage to set
-     */
     public void setVoltage(double voltage) {
-//FIX THIS. Only set the voltage value if the parameter
-//is between 50 and -50, otherwise print an error message.
+        vol = voltage;
     }
 
-    /**
-     * Returns the current through the Resistor.
-     *
-     * @return the current
-     */
     public double getCurrent() {
-//FIX THIS
-        return 0.0;
+        return vol / res;
     }
 
-    /**
-     * Sets the value of the current through the resistor.
-     *
-     * @param current the current to set
-     */
     public void setCurrent(double current) {
-//FIX THIS.Only set the current value if the parameter
-//is between 5 and -5, otherwise print an error message.
+        vol = current * res;
     }
 
-    /**
-     * Returns the power (in Watts) dissipated by the Resistor.
-     *
-     * @return the power
-     */
     public double getPower() {
-//FIX THIS
-        return 0.0;
+        return getVoltage() * getCurrent();
     }
 
-    /**
-     * A simple example of using a Resistor.
-     * <p>
-     * The output should be:
-     * <pre>
-     * Creating a 50 Ohm resistor (r1)
-     * Its resistance is 50.0 Ohms
-     * Its current is 0.0 Amps
-     * Its voltage is 0.0 Volts
-     * * Its power is 0.0 Watts
-     * Creating a 100 Ohm resistor (r2)
-     * Its resistance is 100.0 Ohms
-     * Setting r1's current to 10 Amps
-     * Error: current value beyond limit
-     * Setting r1's current to 2 Amps
-     * Its current is 2.0 Amps
-     * Its voltage is 100.0 Volts
-     * Its power is 200.0 Watts
-     * Setting r1's voltage to 90 Volts
-     * Error: voltage value beyond limit
-     * Setting r1's voltage to 50 Volts
-     * Its current is 1.0 Amps
-     * Setting r2's current to 3 Amps
-     * Its voltage is 300.0 Volts
-     * </pre>
-     *
-     * @param args (Command line arguments not used.)
-     */
     public static void main(String[] args) {
         Resistor r1, r2;
         System.out.println("Creating a 50 Ohm resistor (r1)");
