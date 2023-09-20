@@ -1,7 +1,7 @@
 /**
  * A Resistor models an ideal resistor that obeys Ohm's Law.
  *
- * @author YourName
+ * @author Sayeed Ahamad
  */
 package coe318.lab1;
 
