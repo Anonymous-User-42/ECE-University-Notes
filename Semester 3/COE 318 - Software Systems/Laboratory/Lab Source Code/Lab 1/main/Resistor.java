@@ -20,7 +20,11 @@ public class Resistor {
     }
 
     public void setVoltage(double voltage) {
-        vol = voltage;
+        if (voltage > -50 && voltage < 50) {
+            vol = voltage;
+        } else {
+            System.out.println("Voltage not greater than -50V or Volatge not less than +50V\n");
+        }
     }
 
     public double getCurrent() {
@@ -28,7 +32,11 @@ public class Resistor {
     }
 
     public void setCurrent(double current) {
-        vol = current * res;
+        if (current > -5 && current < 5) {
+            vol = current * res;
+        } else {
+            System.out.println("Current not greater than -5A or Volatge not less than +5A\n");
+        }
     }
 
     public double getPower() {
