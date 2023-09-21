@@ -9,6 +9,8 @@ package coe318.lab2;
 public class ComplexNumber {
 //Instance variable declarations
 
+    double real, imaginary;
+
     /**
      * Construct a ComplexNumber given its real and imaginary parts.
      *
@@ -17,6 +19,8 @@ public class ComplexNumber {
      */
     public ComplexNumber(double re, double im) {
 //Initialize the instance variables
+        real = re;
+        imaginary = im;
     }
 
     /**
@@ -25,7 +29,7 @@ public class ComplexNumber {
      * @return the real
      */
     public double getReal() {
-        return 0.0;	//A stub: to be fixed
+        return real;	//A stub: to be fixed
     }
 
     /**
@@ -34,7 +38,7 @@ public class ComplexNumber {
      * @return the imaginary
      */
     public double getImaginary() {
-        return 0.0;	//A stub: to be fixed
+        return imaginary;	//A stub: to be fixed
     }
 
     /**
@@ -45,7 +49,7 @@ public class ComplexNumber {
      * @return -this
      */
     public ComplexNumber negate() {
-        return null; //A stub: to be fixed
+        return "" + real + " " + (imaginary + "i"); //A stub: to be fixed
     }
 
     /**
