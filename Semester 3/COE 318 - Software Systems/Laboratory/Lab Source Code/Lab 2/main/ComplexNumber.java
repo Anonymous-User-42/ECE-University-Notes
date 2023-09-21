@@ -4,7 +4,7 @@ package coe318.lab2;
  * ComplexNumber models a complex number expressed in rectangular form (real and
  * imaginary parts). It is an <em>immutable</em> object.
  *
- * @author Your Name
+ * @author Sayeed Ahamad
  */
 public class ComplexNumber {
 //Instance variable declarations
