@@ -49,7 +49,7 @@ public class ComplexNumber {
      * @return -this
      */
     public ComplexNumber negate() {
-        return "" + real + " " + (imaginary + "i"); //A stub: to be fixed
+        return new ComplexNumber(-this.getReal(), -this.getImaginary()); //A stub: to be fixed
     }
 
     /**
@@ -61,7 +61,9 @@ public class ComplexNumber {
      * @return this + z
      */
     public ComplexNumber add(ComplexNumber z) {
-        return null;	//A stub: to be fixed
+        double r = this.getReal() + z.getReal();
+        double i = this.getReal() + z.getImaginary();
+        return new ComplexNumber(r, i);	//A stub: to be fixed
     }
 
     /**
@@ -73,7 +75,9 @@ public class ComplexNumber {
      * @return this + z
      */
     public ComplexNumber subtract(ComplexNumber z) {
-        return null;	//A stub: to be fixed
+        double r = this.getReal() - z.getReal();
+        double i = this.getReal() - z.getImaginary();
+        return new ComplexNumber(r, i);	//A stub: to be fixed
     }
 
     /**
@@ -85,7 +89,9 @@ public class ComplexNumber {
      * @return this * z
      */
     public ComplexNumber multiply(ComplexNumber z) {
-        return null;	//A stub: to be fixed
+        double r = this.getReal() * z.getReal() - this.getImaginary() * z.getImaginary();
+        double i = this.getReal() * z.getImaginary() + this.getImaginary() * z.getReal();
+        return new ComplexNumber(r, i);	//A stub: to be fixed
     }
 
     /**
@@ -96,7 +102,9 @@ public class ComplexNumber {
      * @return 1.0 / this
      */
     public ComplexNumber reciprocal() {
-        return null;	//A stub: to be fixed
+        double r = this.getReal() / (Math.pow(getReal(), 2) + Math.pow(getImaginary(), 2));
+        double i = -this.getImaginary() / (Math.pow(getReal(), 2) + Math.pow(getImaginary(), 2));
+        return new ComplexNumber(r, i);	//A stub: to be fixed
     }
 
     /**
@@ -108,7 +116,9 @@ public class ComplexNumber {
      * @return this / z
      */
     public ComplexNumber divide(ComplexNumber z) {
-        return null;	//A stub: to be fixed
+        double r = (this.getReal() * z.getReal() + this.getImaginary() * z.getImaginary()) / (Math.pow(z.getReal(), 2) + Math.pow(z.getImaginary(), 2));
+        double i = (this.getReal() * -z.getImaginary() + z.getReal() * this.getImaginary()) / (Math.pow(z.getReal(), 2) + Math.pow(z.getImaginary(), 2));
+        return new ComplexNumber(r, i);	//A stub: to be fixed
     }
 
     /**
