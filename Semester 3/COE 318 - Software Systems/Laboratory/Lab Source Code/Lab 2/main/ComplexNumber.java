@@ -62,7 +62,7 @@ public class ComplexNumber {
      */
     public ComplexNumber add(ComplexNumber z) {
         double r = this.getReal() + z.getReal();
-        double i = this.getReal() + z.getImaginary();
+        double i = this.getImaginary() + z.getImaginary();
         return new ComplexNumber(r, i);	//A stub: to be fixed
     }
 
@@ -76,7 +76,7 @@ public class ComplexNumber {
      */
     public ComplexNumber subtract(ComplexNumber z) {
         double r = this.getReal() - z.getReal();
-        double i = this.getReal() - z.getImaginary();
+        double i = this.getImaginary() - z.getImaginary();
         return new ComplexNumber(r, i);	//A stub: to be fixed
     }
 
