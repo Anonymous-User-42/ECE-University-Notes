@@ -8,8 +8,6 @@
 \contentsline {subsection}{\numberline {2.2.3}{Total Energy}}{4}{subsection.2.2.3}%
 \contentsline {chapter}{\numberline {3}{Materials Required}}{4}{chapter.3}%
 \contentsline {chapter}{\numberline {4}{Procedure}}{4}{chapter.4}%
-\contentsline {section}{\numberline {4.1}{Procedure I - In Equilibrium}}{4}{section.4.1}%
-\contentsline {section}{\numberline {4.2}{Procedure II - In Oscillation}}{5}{section.4.2}%
 \contentsline {chapter}{\numberline {5}{Experimental Data}}{6}{chapter.5}%
 \contentsline {chapter}{\numberline {6}{Analysis}}{7}{chapter.6}%
 \contentsline {section}{\numberline {6.1}{Part I}}{7}{section.6.1}%
