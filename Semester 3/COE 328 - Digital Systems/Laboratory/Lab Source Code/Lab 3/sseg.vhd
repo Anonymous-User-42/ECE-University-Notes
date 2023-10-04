@@ -1,11 +1,11 @@
 LIBRARY ieee ;
-USE ieee.std logic 1164.all ;
+USE ieee.std_logic_1164.all ;
 
 ENTITY seg7 IS
     PORT ( 
-        sum : IN STD LOGIC VECTOR(3 DOWNTO 0) ;
-        sym : IN STD LOGIC VECTOR(3 DOWNTO 0) ;
-        led1, led2 : OUT STD LOGIC VECTOR(1 TO 7) ) ;
+        sum : IN STD_LOGIC_VECTOR(3 DOWNTO 0) ;
+        sym : IN STD_LOGIC_VECTOR(3 DOWNTO 0) ;
+        led1, led2 : OUT STD_LOGIC_VECTOR(1 TO 7) ) ;
 END seg7 ;
 
 ARCHITECTURE Behavior OF seg7 IS
@@ -17,7 +17,7 @@ BEGIN
         ELSE IF (sym = "1") THEN
             led2 <= ("0000001");
         
-        CASE sum IS         --      asumefg
+        CASE sum IS         --      abcdefg
             WHEN "0000" => led1 <= "1111110" ;
             WHEN "0001" => led1 <= "0110000" ;
             WHEN "0010" => led1 <= "1101101" ;
