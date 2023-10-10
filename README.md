@@ -36,6 +36,22 @@ Note: This repository is a personal intellectual property granted to users to be
     *   [Install / Clone](#install--clone)
     *   [Sync Changes](#sync-changes)
 *   [Courses](#courses)
+    *   [Fall 2022](#fall-2022)
+    *   [Winter 2023](#winter-2023)
+    *   [Spring / Summer 2023](#spring--summer-2023)
+    *   [Fall 2023](#fall-2023)
+    *   [Winter 2024](#winter-2024)
+    *   [Spring / Summer 2024](#spring--summer-2024)
+    *   [Fall 2024](#fall-2024)
+    *   [Winter 2025](#winter-2025)
+    *   Co-Operative Program
+        *   [Spring / Summer 2025](#spring--summer-2025)
+        *   [Fall 2025](#fall-2025)
+        *   [Winter 2026](#winter-2026)
+        *   [Spring / Summer 2026](#spring--summer-2026)
+    *   [Fall 2026](#fall-2026)
+    *   [Winter 2027](#winter-2027)
+    *   [Spring / Summer 2027](#spring--summer-2027)
 *   [Useful Study Links](#useful-study-links)
     *   [Semester I](#semester-i)
         *   [CHY 102 - General Chemistry](#chy-102---general-chemistry)
@@ -233,6 +249,8 @@ The above will sync the latest changes from remote [GitHub](https://github.com/A
 *   [freeCodeCamp - Pointers in C](https://www.youtube.com/watch?v=MIL2BK02X8A&t=5581s)
 *   [Neso Academy](https://www.youtube.com/playlist?list=PLBlnK6fEyqRhX6r2uhhlubuF5QextdCSM)
 
+####    ECN 801 - Principles of Engineering Economics
+
 ####    ELE 202 - Electric Circuit Analysis
 
 *   [I Lecture Online](http://www.ilectureonline.com/lectures/subject/ENGINEERING/28)
@@ -248,11 +266,25 @@ The above will sync the latest changes from remote [GitHub](https://github.com/A
 
 ### Semester III
 
+####    COE 318 - Software Systems
 
+####    COE 328 - Digital Systems
+
+####    ELE 302 - Electric Networks
+
+####    MTH 312 - Differential Equations and Vector Calculus
+
+####    PCS 224 - Solid State Physics
 
 ### Semester IV
 
+####    COE 428 - Engineering Algorithms and Data Structures
 
+####    COE 528 - Object Oriented Eng Analysis and Design
+
+####    ELE 404 - Electronic Circuits I
+
+####    MTH 314 - Discrete Mathematics for Engineers
 
 ### Semester V
 
