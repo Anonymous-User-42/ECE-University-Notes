@@ -36,22 +36,26 @@ Note: This repository is a personal intellectual property granted to users to be
     *   [Install / Clone](#install--clone)
     *   [Sync Changes](#sync-changes)
 *   [Courses](#courses)
-    *   [Fall 2022](#fall-2022)
-    *   [Winter 2023](#winter-2023)
-    *   [Spring / Summer 2023](#spring--summer-2023)
-    *   [Fall 2023](#fall-2023)
-    *   [Winter 2024](#winter-2024)
-    *   [Spring / Summer 2024](#spring--summer-2024)
-    *   [Fall 2024](#fall-2024)
-    *   [Winter 2025](#winter-2025)
-    *   Co-Operative Program
+    *   [Year 1](#year-1)
+        *   [Fall 2022](#fall-2022)
+        *   [Winter 2023](#winter-2023)
+        *   [Spring / Summer 2023](#spring--summer-2023)
+    *   [Year 2](#year-2)
+        *   [Fall 2023](#fall-2023)
+        *   [Winter 2024](#winter-2024)
+        *   [Spring / Summer 2024](#spring--summer-2024)
+    *   [Year 3](#year-3)
+        *   [Fall 2024](#fall-2024)
+        *   [Winter 2025](#winter-2025)
+    *   [Year 4 - Co-Operative Program](#year-4---co-operative-program)
         *   [Spring / Summer 2025](#spring--summer-2025)
         *   [Fall 2025](#fall-2025)
         *   [Winter 2026](#winter-2026)
         *   [Spring / Summer 2026](#spring--summer-2026)
-    *   [Fall 2026](#fall-2026)
-    *   [Winter 2027](#winter-2027)
-    *   [Spring / Summer 2027](#spring--summer-2027)
+    *   [Year 5](#year-5)
+        *   [Fall 2026](#fall-2026)
+        *   [Winter 2027](#winter-2027)
+        *   [Spring / Summer 2027](#spring--summer-2027)
 *   [Useful Study Links](#useful-study-links)
     *   [Semester I](#semester-i)
         *   [CHY 102 - General Chemistry](#chy-102---general-chemistry)
@@ -59,6 +63,11 @@ Note: This repository is a personal intellectual property granted to users to be
         *   [MTH 141 - Linear Algebra](#mth-141---linear-algebra)
         *   [PCS 211 - Physics: Mechanics](#pcs-211---physics-mechanics)
     *   [Semester II](#semester-ii)
+        *   [CPS 188 - Computer Programming Fundamentals](#cps-188---computer-programming-fundamentals)
+        *   [ECN 801 - Principles of Engineering Economics](#ecn-801---principles-of-engineering-economics)
+        *   [ELE 202 - Electric Circuit Analysis](#ele-202---electric-circuit-analysis)
+        *   [MTH 240 - Calculus II](#mth-240---calculus-ii)
+        *   [PCS 125 - Physics: Waves and Fields](#pcs-125---physics-waves-and-fields)
     *   [Semester III](#semester-iii)
     *   [Semester IV](#semester-iv)
     *   [Semester V](#semester-v)
@@ -90,7 +99,9 @@ The above will sync the latest changes from remote [GitHub](https://github.com/A
 
 ##  Courses
 
-### Fall 2022
+### Year 1
+
+####    Fall 2022
 
 *   [CEN 100 - Introduction to Engineering](./Semester%201/CEN%20100%20-%20Introduction%20to%20Engineering/)
 *   [CEN 199 - Writing Skills](./Semester%201/CEN%20199%20-%20Writing%20Skills/)
@@ -99,19 +110,21 @@ The above will sync the latest changes from remote [GitHub](https://github.com/A
 *   [MTH 141 - Linear Algebra](./Semester%201/MTH%20141%20-%20Linear%20Algebra/)
 *   [PCS 211 - Physics: Mechanics](./Semester%201/PCS%20211%20-%20Physics%20[Mechanics]/)
 
-### Winter 2023
+####    Winter 2023
 
 *   [CPS 188 - Computer Programming Fundamentals](./Semester%202/CPS%20188%20-%20Computer%20Programming%20Fundamentals/)
 *   [ELE 202 - Electric Circuit Analysis](./Semester%202/ELE%20202%20-%20Electric%20Circuit%20Analysis/)
 *   [MTH 240 - Calculus II](./Semester%202/MTH%20240%20-%20Calculus%20II/)
 *   [PCS 125 - Physics: Waves and Fields](./Semester%202/PCS%20125%20-%20Physics%20[Waves%20and%20Fields]/)
 
-### Spring / Summer 2023
+####    Spring / Summer 2023
 
 *   [CECN 801 - Principles of Engineering Economics](./Semester%202.33/CECN%20801%20-%20Principles%20of%20Engineering%20Economics/)
 *   [ELE 202 - Electric Circuit Analysis](./Semester%202.33/ELE%20202%20-%20Electric%20Circuit%20Analysis/)
 
-### Fall 2023
+### Year 2
+
+####    Fall 2023
 
 *   [COE 318 - Software Systems](./Semester%203/COE%20318%20-%20Software%20Systems/)
 *   [COE 328 - Digital Systems](./Semester%203/COE%20328%20-%20Digital%20Systems/)
@@ -119,7 +132,7 @@ The above will sync the latest changes from remote [GitHub](https://github.com/A
 *   [MTH 312 - Differential Equations and Vector Calculus](./Semester%203/MTH%20312%20-%20Differential%20Equations%20and%20Vector%20Calculus/)
 *   [PCS 224 - Solid State Physics](./Semester%203/PCS%20224%20-%20Solid%20State%20Physics/)
 
-### Winter 2024
+####    Winter 2024
 
 *   [CMN 432 - Communication in the Engineering Professions](./Semester%204/CMN%20432%20-%20Communication%20in%20the%20Engineering%20Professions/)
 *   [COE 428 - Engineering Algorithms and Data Structures](./Semester%204/COE%20428%20-%20Engineering%20Algorithms%20and%20Data%20Structures/)
@@ -127,7 +140,7 @@ The above will sync the latest changes from remote [GitHub](https://github.com/A
 *   [ELE 404 - Electronic Circuits I](./Semester%204/ELE%20404%20-%20Electronic%20Circuits%20I/)
 *   [MTH 314 - Discrete Mathematics for Engineers](./Semester%204/MTH%20314%20-%20Discrete%20Mathematics%20for%20Engineers/)
 
-### Spring / Summer 2024
+####    Spring / Summer 2024
 
 *   
 *   
@@ -135,7 +148,9 @@ The above will sync the latest changes from remote [GitHub](https://github.com/A
 *   
 *   
 
-### Fall 2024
+### Year 3
+
+####    Fall 2024
 
 *   
 *   
@@ -143,7 +158,7 @@ The above will sync the latest changes from remote [GitHub](https://github.com/A
 *   
 *   
 
-### Winter 2025
+####    Winter 2025
 
 *   
 *   
@@ -151,7 +166,7 @@ The above will sync the latest changes from remote [GitHub](https://github.com/A
 *   
 *   
 
-### Spring / Summer 2025
+####    Spring / Summer 2025
 
 *   
 *   
@@ -159,7 +174,9 @@ The above will sync the latest changes from remote [GitHub](https://github.com/A
 *   
 *   
 
-### Fall 2025
+### Year 4 - Co-Operative Program
+
+####    Fall 2025
 
 *   
 *   
@@ -167,7 +184,7 @@ The above will sync the latest changes from remote [GitHub](https://github.com/A
 *   
 *   
 
-### Winter 2026
+####    Winter 2026
 
 *   
 *   
@@ -175,7 +192,7 @@ The above will sync the latest changes from remote [GitHub](https://github.com/A
 *   
 *   
 
-### Spring / Summer 2026
+####    Spring / Summer 2026
 
 *   
 *   
@@ -183,7 +200,9 @@ The above will sync the latest changes from remote [GitHub](https://github.com/A
 *   
 *   
 
-### Fall 2026
+### Year 5
+
+####    Fall 2026
 
 *   
 *   
@@ -191,7 +210,7 @@ The above will sync the latest changes from remote [GitHub](https://github.com/A
 *   
 *   
 
-### Winter 2027
+####    Winter 2027
 
 *   
 *   
@@ -199,7 +218,7 @@ The above will sync the latest changes from remote [GitHub](https://github.com/A
 *   
 *   
 
-### Spring / Summer 2027
+####    Spring / Summer 2027
 
 *   
 *   
