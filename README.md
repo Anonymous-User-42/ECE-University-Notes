@@ -320,3 +320,11 @@ The above will sync the latest changes from remote [GitHub](https://github.com/A
 ### Semester VIII
 
 
+##  Choosing Professor's
+
+### Professor's to Choose
+
+### Professor's that don't matter
+
+### Professor's to Avoid
+
