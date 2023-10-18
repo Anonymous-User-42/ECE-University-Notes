@@ -1,28 +1,24 @@
 LIBRARY ieee;
 USE ieee.std_logic_1164.all;
 
-ENTITY mux4to1 IS
-    PORT ( w0, w1, w2, w3 : IN STD_LOGIC;
-        s : IN STD_LOGIC_VECTOR(1 DOWNTO 0);
-        f : OUT STD_LOGIC );
-END mux4to1 ;
+ENTITY priority IS
+    PORT ( w : IN STD_LOGIC_VECTOR(3 DOWNTO 0);
+        y : OUT STD_LOGIC_VECTOR(1 DOWNTO 0);
+        z : OUT STD_LOGIC );
+END priority ;
 
-ARCHITECTURE Behavior OF mux4to1 IS
+ARCHITECTURE Behavior OF priority IS
 BEGIN
-    WITH s SELECT
-    f <= w0 WHEN ”00”,
-        w1 WHEN ”01”,
-        w2 WHEN ”10”,
-        w3 WHEN OTHERS ;
-END Behavior;
+    PROCESS(w)
+    BEGIN
+        y <=    ”00” ;
+        IF      w(1) = ’1’ THEN y <= ”01” ; END IF;
+        IF      w(2) = ’1’ THEN y <= ”10” ; END IF;
+        IF      w(3) = ’1’ THEN y <= ”11” ; END IF;
 
-LIBRARY ieee;
-USE ieee.std_logic_1164.all;
+        z <= ’1’;
 
-PACKAGE mux4to1_package IS
-    COMPONENT mux4to1
-        PORT ( w0, w1, w2, w3 : IN STD_LOGIC ;
-            s : IN STD_LOGIC_VECTOR(1 DOWNTO 0) ;
-            f : OUT STD_LOGIC ) ;
-    END COMPONENT ;
-END mux4to1_package ;
+        IF w = ”0000” THEN z <= ’0’;
+        END IF;
+END PROCESS;
+END Behavior 
