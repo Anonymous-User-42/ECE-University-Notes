@@ -10,10 +10,10 @@ END mux4to1 ;
 ARCHITECTURE Behavior OF mux4to1 IS
 BEGIN
     WITH s SELECT
-    f <= w0 WHEN ”00”,
-        w1 WHEN ”01”,
-        w2 WHEN ”10”,
-        w3 WHEN OTHERS ;
+    f <= w0 WHEN ”00”;
+    f <= w1 WHEN ”01”;
+    f <= w2 WHEN ”10”;
+    f <= w3 WHEN OTHERS ;
 END Behavior;
 
 LIBRARY ieee;
