@@ -326,5 +326,19 @@ The above will sync the latest changes from remote [GitHub](https://github.com/A
 
 ### Professor's that don't matter
 
+####    [Dr. Jian Yuan](https://www.ratemyprofessors.com/professor/941043)
+
+*   [PCS 211 - Physics: Mechanics](https://www.torontomu.ca/calendar/2022-2023/courses/physics/PCS/211/)
+*   [PCS 125 - Physics: Waves and Fields](https://www.torontomu.ca/calendar/2022-2023/courses/physics/PCS/125/)
+
 ### Professor's to Avoid
 
+####     [Dr. Leul Fisseha](https://www.ratemyprofessors.com/professor/1151479)
+
+*   [MTH 140 - Calculus I](https://www.torontomu.ca/calendar/2022-2023/courses/mathematics/MTH/140/)
+*   [MTH 240 - Calculus II](https://www.torontomu.ca/calendar/2022-2023/courses/mathematics/MTH/240/)
+
+####    [Dr. Vladislav Toronov](https://www.ratemyprofessors.com/professor/1026691)
+
+*   [PCS 211 - Physics: Mechanics](https://www.torontomu.ca/calendar/2022-2023/courses/physics/PCS/211/)
+*   [PCS 125 - Physics: Waves and Fields](https://www.torontomu.ca/calendar/2022-2023/courses/physics/PCS/125/)
