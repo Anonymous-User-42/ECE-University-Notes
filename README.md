@@ -324,6 +324,17 @@ The above will sync the latest changes from remote [GitHub](https://github.com/A
 
 ### Professor's to Choose
 
+####    [Dr. Majed Alqasas](https://www.ratemyprofessors.com/professor/2741455)
+
+*   [MTH 140 - Calculus I](https://www.torontomu.ca/calendar/2022-2023/courses/mathematics/MTH/140/)
+*   [MTH 141 - Linear Algebra](https://www.torontomu.ca/calendar/2022-2023/courses/mathematics/MTH/141/)
+*   [MTH 240 - Calculus II](https://www.torontomu.ca/calendar/2022-2023/courses/mathematics/MTH/240/)
+
+####    [Dr. Reza Sedaghat](https://www.ratemyprofessors.com/professor/43654)
+
+*   [COE 328 - Digital Systems](https://www.torontomu.ca/calendar/2023-2024/courses/computer-engineering/COE/328/)
+*   [COE 428 - Engineering Algorithms and Data Structures](https://www.torontomu.ca/calendar/2023-2024/courses/computer-engineering/COE/428/)
+
 ### Professor's that don't matter
 
 ####    [Dr. Jian Yuan](https://www.ratemyprofessors.com/professor/941043)
