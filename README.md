@@ -277,7 +277,8 @@ The above will sync the latest changes from remote [GitHub](https://github.com/A
 
 ####    MTH 240 - Calculus II
 
-
+*   [MIT Open Course Ware - 18.01](https://ocw.mit.edu/courses/18-01-single-variable-calculus-fall-2006/)
+*   [Paul's Online Notes](https://tutorial.math.lamar.edu/Classes/CalcII/CalcII.aspx)
 
 ####    PCS 125 - Physics: Waves and Fields
 
