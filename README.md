@@ -290,8 +290,18 @@ The above will sync the latest changes from remote [GitHub](https://github.com/A
 
 ####    COE 328 - Digital Systems
 
+*   [Simple Snippets](https://www.youtube.com/playlist?list=PLIY8eNdw5tW-yJHsxApeilNjX2Dkll-Ox)
+*   [ETH Zürich - Design of Digital Circuits](https://www.youtube.com/playlist?list=PL5Q2soXY2Zi8J58xLKBNFQFHRO3GrXxA9)
+*   [Digital Logic & Programming](https://www.youtube.com/playlist?list=PL643xA3Ie_Et2uM4xu1yFk-A5ZQQ8gQ5e)
+*   [Digital Logic - Electrical Engineering Authority](https://www.youtube.com/playlist?list=PLSfOLiLSfG27FHzDOhtakESj8sskRlJtV)
+*   [All About Circuits](https://www.allaboutcircuits.com/textbook/digital/)
+*   [Boolean Algebra - Electronics Tutorials](https://www.electronics-tutorials.ws/category/boolean)
+*   [Counters - Electronics Tutorials](https://www.electronics-tutorials.ws/category/counter)
+
 ####    ELE 302 - Electric Networks
 
+*   [I Lecture Online](http://www.ilectureonline.com/lectures/subject/ENGINEERING/28)
+*   [Bode Plots - Electrical Engineering Authority](https://www.youtube.com/playlist?list=PLSfOLiLSfG26qkPSg6SVAYJn-brE82B6v)
 ####    MTH 312 - Differential Equations and Vector Calculus
 
 ####    PCS 224 - Solid State Physics
