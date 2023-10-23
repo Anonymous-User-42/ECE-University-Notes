@@ -248,6 +248,7 @@ The above will sync the latest changes from remote [GitHub](https://github.com/A
 
 *   [Essence of Linear Algebra](https://www.youtube.com/playlist?list=PLZHQObOWTQDPD3MizzM2xVFitgF8hE_ab)
 *   [MIT Open Course Ware - 18.06](https://ocw.mit.edu/courses/18-06-linear-algebra-spring-2010/)
+*   [Linear Algebra](https://www.youtube.com/playlist?list=PLl-gb0E4MII03hiCrZa7YqxUMEeEPmZqK)
 *   [Khan Academy - Linear Algebra](https://www.khanacademy.org/math/linear-algebra)
 *   [Engineer4Free](https://www.youtube.com/playlist?list=PL2C8B5877FC12E315)
 
