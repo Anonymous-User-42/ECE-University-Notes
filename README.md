@@ -83,16 +83,12 @@ Note: This repository is a personal intellectual property granted to users to be
 Install [Git](https://git-scm.com/downloads) & [Git LFS](https://git-lfs.com/)
 
 ```bash
-# Execute in Shell
-
 git clone https://github.com/Anonymous-User-42/ECE-University-Notes.git
 ```
 
 ### Sync Changes
 
 ```bash
-# Execute in Shell
-
 git pull origin main
 ```
 The above will sync the latest changes from remote [GitHub](https://github.com/Anonymous-User-42/ECE-University-Notes) and merge it to local repository.
