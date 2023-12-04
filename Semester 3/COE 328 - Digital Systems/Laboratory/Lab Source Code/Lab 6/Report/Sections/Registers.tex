@@ -1,0 +1,72 @@
+
+\subsection{{Description}}
+
+	{An 8-bit register utilizing D flip-flops serves as a digital storage unit, where each flip-flop corresponds to a single bit of data.} 
+	
+	{The register is structured with eight D flip-flops arranged in a cascading fashion, forming a sequential chain from the least significant bit (LSB) to the most significant bit (MSB).} 
+	
+	{The presence of the reset input allows for the complete clearing of the register, initializing all flip-flops to a predetermined state, commonly zero ("00000000" in this circuit design).} 
+	
+	{Synchronization is achieved through a clock signal, ensuring precise data capture at specified clock edges and mitigating signal propagation delays.} 
+	
+	{This 8-bit register plays a vital role in our digital logic circuit, as its output is an direct input to the arithmetic logic unit (ALU).}
+
+\subsection{{Truth Table}}
+
+	{An 8-bit register would ideally have 256 possible state values for some arbitary string of inputs "A" \& "B".}
+	
+	{Our choice of "A" \& "B" are the last 4 digits of my student number (50120\textbf{9136}) in hexadecimal converted to binary.}
+	
+	{$$\therefore A = (91)_{16} = (10010001)_{2}$$}
+	
+	{$$\therefore B = (36)_{16} = (00110110)_{2}$$}
+
+	\begin{table}[H]
+		\centering
+		\begin{tabular}{|c|c|c|c|}
+		\hline
+		\hline
+			\textit{Reset} & \textit{Clock} & \textit{A} & $O(A, Clock, Reset)$ \\ 
+		\hline
+		\hline
+			0 & 0 & 10010001 & 00000000 (If previous input exists, O = 10010001) \\ 
+			\hline
+			0 & 1 & 10010001 & 10010001 \\ 
+			\hline
+			1 & 0 & 10010001 & 00000000 \\ 
+			\hline
+			1 & 1 & 10010001 & 00000000 \\ 
+		\hline
+		\hline
+    		\end{tabular}
+    		\caption{Truth Table for the A Register}
+	\end{table}
+	
+	\begin{table}[H]
+		\centering
+		\begin{tabular}{|c|c|c|c|}
+		\hline
+		\hline
+			\textit{Reset} & \textit{Clock} & \textit{B} & $O(B, Clock, Reset)$ \\ 
+		\hline
+		\hline
+			0 & 0 & 00110110 & 00000000 (If previous input exists, O = 00110110) \\ 
+			\hline
+			0 & 1 & 00110110 & 00110110 \\ 
+			\hline
+			1 & 0 & 00110110 & 00000000 \\ 
+			\hline
+			1 & 1 & 00110110 & 00000000 \\ 
+		\hline
+		\hline
+    		\end{tabular}
+    		\caption{Truth Table for the B Register}
+	\end{table}
+
+\subsection{{Block Diagram}}
+
+	{}
+
+\subsection{{Timing Diagram}}
+
+	{}

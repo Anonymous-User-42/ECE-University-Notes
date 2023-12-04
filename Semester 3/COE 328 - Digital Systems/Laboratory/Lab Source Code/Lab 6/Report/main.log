@@ -1,4 +1,4 @@
-This is pdfTeX, Version 3.141592653-2.6-1.40.24 (TeX Live 2022/Debian) (preloaded format=pdflatex 2023.6.14)  26 SEP 2023 02:06
+This is pdfTeX, Version 3.141592653-2.6-1.40.24 (TeX Live 2022/Debian) (preloaded format=pdflatex 2023.6.14)  4 DEC 2023 03:04
 entering extended mode
  restricted \write18 enabled.
  %&-line parsing enabled.
@@ -1321,7 +1321,7 @@ If that doesn't work, type  X <return>  to quit.
 ! Undefined control sequence.
 \set@color ...\@pdfcolorstack push{\current@color 
                                                   }\aftergroup \reset@color 
-l.63 \end{titlepage}
+l.70 \end{titlepage}
                     
 The control sequence at the end of the top line
 of your error message was never \def'ed. If you have
@@ -1332,7 +1332,7 @@ and I'll forget about whatever was undefined.
 ! Undefined control sequence.
 \set@color ...\@pdfcolorstack push{\current@color 
                                                   }\aftergroup \reset@color 
-l.63 \end{titlepage}
+l.70 \end{titlepage}
                     
 The control sequence at the end of the top line
 of your error message was never \def'ed. If you have
@@ -1470,64 +1470,218 @@ l.128 \clearpage
 Chapter 1.
 (./Sections/Introduction.tex)
 Chapter 2.
-(./Sections/Background Research.tex)
-Chapter 3.
-(./Sections/Materials Required.tex [2
+(./Sections/Components.tex
+! Missing number, treated as zero.
+<to be read again> 
+                   p
+l.2 \section{{Input Latchs / Registers}}
+                                        
+A number should have been here; I inserted `0'.
+(If you can't figure out why I needed to see a number,
+look up `weird error' in the index to The TeXbook.)
 
-])
-Chapter 4.
-(./Sections/Procedure.tex
-Overfull \hbox (1.21822pt too wide) in paragraph at lines 16--18
-[]\OT1/cmr/m/n/12 Plug the red cable into the \+6V MIN" terminal on the photodi
-ode
+
+LaTeX Font Warning: Font shape `OT1/cmr/bx/n' in size <16> not available
+(Font)              size <17.28> substituted on input line 2.
+
+(./Sections/./Registers.tex
+! Missing number, treated as zero.
+<to be read again> 
+                   p
+l.2 \subsection{{Description}}
+                              
+A number should have been here; I inserted `0'.
+(If you can't figure out why I needed to see a number,
+look up `weird error' in the index to The TeXbook.)
+
+! Missing number, treated as zero.
+<to be read again> 
+                   p
+l.14 \subsection{{Truth Table}}
+                               
+A number should have been here; I inserted `0'.
+(If you can't figure out why I needed to see a number,
+look up `weird error' in the index to The TeXbook.)
+
+
+Overfull \hbox (0.74455pt too wide) in paragraph at lines 16--17
+\OT1/cmr/m/n/12 An 8-bit register would ideally have 256 possible state values 
+for some arbitary
  []
 
 
-Underfull \hbox (badness 10000) in paragraph at lines 24--29
-
+Overfull \hbox (11.71695pt too wide) in paragraph at lines 18--19
+[]\OT1/cmr/m/n/12 Our choice of "A" & "B" are the last 4 digits of my student n
+umber (50120\OT1/cmr/bx/n/12 9136\OT1/cmr/m/n/12 )
  []
 
-[3])
-Chapter 5.
-(./Sections/Experimental Data Mod 3.tex
-Overfull \hbox (51.3685pt too wide) in paragraph at lines 7--26
+
+Overfull \hbox (23.18352pt too wide) in paragraph at lines 26--43
  [][] 
  []
 
-[4])
-Chapter 6.
-(./Sections/Analysis Mod 1.tex
-<vbylambda.png, id=93, 513.92pt x 318.18875pt>
-File: vbylambda.png Graphic file (type png)
-<use vbylambda.png>
-Package pdftex.def Info: vbylambda.png  used on input line 13.
-(pdftex.def)             Requested size: 398.33858pt x 246.63255pt.
+[2
 
-Overfull \hbox (8.33858pt too wide) in paragraph at lines 13--14
-[][] 
+]
+Overfull \hbox (23.18352pt too wide) in paragraph at lines 47--64
+ [][] 
  []
 
-[5] [6 <./vbylambda.png>]
-! Extra }, or forgotten $.
-l.54 {Second Order \% Error $= 7.91\%.}
-                                       
-I've deleted a group-closing symbol because it seems to be
-spurious, as in `$x}$'. But perhaps the } is legitimate and
-you forgot something else, as in `\hbox{$x}'. In such cases
-the way to recover is to insert both the forgotten and the
-deleted material, e.g., by typing `I$}'.
+! Missing number, treated as zero.
+<to be read again> 
+                   p
+l.66 \subsection{{Block Diagram}}
+                                 
+A number should have been here; I inserted `0'.
+(If you can't figure out why I needed to see a number,
+look up `weird error' in the index to The TeXbook.)
 
-! Missing $ inserted.
-<inserted text> 
-                $
-l.55 
-     
-I've inserted a begin-math/end-math symbol since I think
-you left one out. Proceed, with fingers crossed.
+! Missing number, treated as zero.
+<to be read again> 
+                   p
+l.70 \subsection{{Timing Diagram}}
+                                  
+A number should have been here; I inserted `0'.
+(If you can't figure out why I needed to see a number,
+look up `weird error' in the index to The TeXbook.)
 
 )
-Chapter 7.
-(./Sections/Conclusion.tex) [7] (./Works Cited/Bib Mod 1.tex
+! Missing number, treated as zero.
+<to be read again> 
+                   p
+l.6 \section{{Control Unit}}
+                            
+A number should have been here; I inserted `0'.
+(If you can't figure out why I needed to see a number,
+look up `weird error' in the index to The TeXbook.)
+
+(./Sections/./Control Unit.tex
+! Missing number, treated as zero.
+<to be read again> 
+                   p
+l.2 \subsection{{Finite State Machine}}
+                                       
+A number should have been here; I inserted `0'.
+(If you can't figure out why I needed to see a number,
+look up `weird error' in the index to The TeXbook.)
+
+! Missing number, treated as zero.
+<to be read again> 
+                   p
+l.4 	\subsubsection{{Description}}
+                                  
+A number should have been here; I inserted `0'.
+(If you can't figure out why I needed to see a number,
+look up `weird error' in the index to The TeXbook.)
+
+! Missing number, treated as zero.
+<to be read again> 
+                   p
+l.8 	\subsubsection{{Truth Table}}
+                                  
+A number should have been here; I inserted `0'.
+(If you can't figure out why I needed to see a number,
+look up `weird error' in the index to The TeXbook.)
+
+! Missing number, treated as zero.
+<to be read again> 
+                   p
+l.12 	\subsubsection{{Block Diagram}}
+                                     
+A number should have been here; I inserted `0'.
+(If you can't figure out why I needed to see a number,
+look up `weird error' in the index to The TeXbook.)
+
+! Missing number, treated as zero.
+<to be read again> 
+                   p
+l.16 	\subsubsection{{Timing Diagram}}
+                                      
+A number should have been here; I inserted `0'.
+(If you can't figure out why I needed to see a number,
+look up `weird error' in the index to The TeXbook.)
+
+! Missing number, treated as zero.
+<to be read again> 
+                   p
+l.20 \subsection{{4:16 Decoder}}
+                                
+A number should have been here; I inserted `0'.
+(If you can't figure out why I needed to see a number,
+look up `weird error' in the index to The TeXbook.)
+
+! Missing number, treated as zero.
+<to be read again> 
+                   p
+l.22 	\subsubsection{{Description}}
+                                   
+A number should have been here; I inserted `0'.
+(If you can't figure out why I needed to see a number,
+look up `weird error' in the index to The TeXbook.)
+
+! Missing number, treated as zero.
+<to be read again> 
+                   p
+l.26 	\subsubsection{{Truth Table}}
+                                   
+A number should have been here; I inserted `0'.
+(If you can't figure out why I needed to see a number,
+look up `weird error' in the index to The TeXbook.)
+
+[3]
+! Missing number, treated as zero.
+<to be read again> 
+                   p
+l.73 	\subsubsection{{Block Diagram}}
+                                     
+A number should have been here; I inserted `0'.
+(If you can't figure out why I needed to see a number,
+look up `weird error' in the index to The TeXbook.)
+
+! Missing number, treated as zero.
+<to be read again> 
+                   p
+l.77 	\subsubsection{{Timing Diagram}}
+                                      
+A number should have been here; I inserted `0'.
+(If you can't figure out why I needed to see a number,
+look up `weird error' in the index to The TeXbook.)
+
+))
+Chapter 3.
+(./Sections/Problem Sets.tex
+! Missing number, treated as zero.
+<to be read again> 
+                   p
+l.2 \section{{General Arithmetic Processor Unit}}
+                                                 
+A number should have been here; I inserted `0'.
+(If you can't figure out why I needed to see a number,
+look up `weird error' in the index to The TeXbook.)
+
+(./Sections/./Problem Set 1.tex)
+! Missing number, treated as zero.
+<to be read again> 
+                   p
+l.6 \section{{Modified Arithmetic Logic Unit}}
+                                              
+A number should have been here; I inserted `0'.
+(If you can't figure out why I needed to see a number,
+look up `weird error' in the index to The TeXbook.)
+
+(./Sections/./Problem Set 2.tex)
+! Missing number, treated as zero.
+<to be read again> 
+                   p
+l.10 \section{{Modified Control Unit}}
+                                      
+A number should have been here; I inserted `0'.
+(If you can't figure out why I needed to see a number,
+look up `weird error' in the index to The TeXbook.)
+
+(./Sections/./Problem Set 3.tex))
+Chapter 4.
+(./Sections/Conclusion.tex) [4] [5] (./Works Cited/Bib Mod 1.tex
 ! Misplaced alignment tab character &.
 l.6 Serway, R. A., &
                      Jewett, J. W. (2018). Physics for Scientists and Engine...
@@ -1538,45 +1692,36 @@ up above has ended a previous alignment prematurely,
 you're probably due for more error messages, and you
 might try typing `S' now just to see what is salvageable.
 
-) [8
+) [6
 
 ] (./main.aux)
 
 LaTeX Font Warning: Size substitutions with differences
-(Font)              up to 0.72pt have occurred.
+(Font)              up to 1.28pt have occurred.
 
 Package rerunfilecheck Info: File `main.out' has not changed.
-(rerunfilecheck)             Checksum: 7012C360F5A59C7E712633B20705BE13;810.
- )
-(\end occurred inside a group at level 1)
-
-### simple group (level 1) entered at line 54 ({)
-### bottom level 
+(rerunfilecheck)             Checksum: 785A9CCF05B93BC7E6F19EE040338D36;2200.
+ ) 
 Here is how much of TeX's memory you used:
- 37524 strings out of 477933
- 849917 string characters out of 5838201
- 1859330 words of memory out of 5000000
- 56943 multiletter control sequences out of 15000+600000
- 528542 words of font info for 90 fonts, out of 8000000 for 9000
+ 37542 strings out of 477933
+ 850420 string characters out of 5838201
+ 1866330 words of memory out of 5000000
+ 56961 multiletter control sequences out of 15000+600000
+ 528899 words of font info for 91 fonts, out of 8000000 for 9000
  81 hyphenation exceptions out of 8191
- 84i,10n,89p,1193b,609s stack positions out of 10000i,1000n,20000p,200000b,200000s
- </home/aj/.texlive2022/texmf-var/fonts/pk/ljfour/jknappen/ec/t
-crm1200.600pk></usr/share/texlive/texmf-dist/fonts/type1/public/amsfonts/cm/cmb
-x12.pfb></usr/share/texlive/texmf-dist/fonts/type1/public/amsfonts/cm/cmbxti10.
-pfb></usr/share/texlive/texmf-dist/fonts/type1/public/amsfonts/cm/cmmi12.pfb></
-usr/share/texlive/texmf-dist/fonts/type1/public/amsfonts/cm/cmmi6.pfb></usr/sha
-re/texlive/texmf-dist/fonts/type1/public/amsfonts/cm/cmmi8.pfb></usr/share/texl
-ive/texmf-dist/fonts/type1/public/amsfonts/cm/cmr12.pfb></usr/share/texlive/tex
-mf-dist/fonts/type1/public/amsfonts/cm/cmr8.pfb></usr/share/texlive/texmf-dist/
-fonts/type1/public/amsfonts/cm/cmsy10.pfb></usr/share/texlive/texmf-dist/fonts/
-type1/public/amsfonts/cm/cmsy8.pfb></usr/share/texlive/texmf-dist/fonts/type1/p
-ublic/amsfonts/cm/cmti12.pfb></usr/share/texlive/texmf-dist/fonts/type1/public/
-amsfonts/cm/cmtt12.pfb></usr/share/texlive/texmf-dist/fonts/type1/public/amsfon
-ts/symbols/msam10.pfb>
-Output written on main.pdf (10 pages, 177333 bytes).
+ 84i,9n,89p,1193b,609s stack positions out of 10000i,1000n,20000p,200000b,200000s
+</usr/share/texlive/texmf-dist/fonts/type1/public/amsfonts/cm/cmbx12.pfb></us
+r/share/texlive/texmf-dist/fonts/type1/public/amsfonts/cm/cmbxti10.pfb></usr/sh
+are/texlive/texmf-dist/fonts/type1/public/amsfonts/cm/cmmi12.pfb></usr/share/te
+xlive/texmf-dist/fonts/type1/public/amsfonts/cm/cmr12.pfb></usr/share/texlive/t
+exmf-dist/fonts/type1/public/amsfonts/cm/cmr8.pfb></usr/share/texlive/texmf-dis
+t/fonts/type1/public/amsfonts/cm/cmti12.pfb></usr/share/texlive/texmf-dist/font
+s/type1/public/amsfonts/cm/cmtt12.pfb></usr/share/texlive/texmf-dist/fonts/type
+1/public/amsfonts/symbols/msam10.pfb>
+Output written on main.pdf (8 pages, 112508 bytes).
 PDF statistics:
- 186 PDF objects out of 1000 (max. 8388607)
- 146 compressed objects within 2 object streams
- 35 named destinations out of 1000 (max. 500000)
- 82 words of extra memory for PDF output out of 10000 (max. 10000000)
+ 179 PDF objects out of 1000 (max. 8388607)
+ 151 compressed objects within 2 object streams
+ 29 named destinations out of 1000 (max. 500000)
+ 141 words of extra memory for PDF output out of 10000 (max. 10000000)
 
