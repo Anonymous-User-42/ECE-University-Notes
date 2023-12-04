@@ -1,0 +1,205 @@
+\documentclass[12pt, a4paper]{report}
+\usepackage[utf8]{inputenc}
+\usepackage{parskip}
+\usepackage{amsmath}
+\usepackage{amssymb}
+\usepackage{float}
+\restylefloat{table}
+\usepackage{diagbox}
+\usepackage{bm}
+\usepackage{import}
+\usepackage{hyperref}
+\usepackage{titlesec}
+\usepackage{lipsum}
+\usepackage{graphicx}
+\usepackage{tikz}
+\usepackage[export]{adjustbox}
+\usepackage{etoolbox}
+\usepackage{listings}
+\usepackage{xcolor}
+\lstloadlanguages{Python}
+\usepackage{textgreek}
+\usepackage{wrapfig}
+\usepackage{pgfplots}
+\pgfplotsset{width=14cm,compat=1.17}
+\usepgfplotslibrary{external}
+\usetikzlibrary{patterns.meta,decorations.pathmorphing,patterns}
+\tikzexternalize
+\usepackage[]{babel}
+\usepackage[page,title,titletoc]{appendix}
+\usepackage{listingsutf8}
+\usepackage{xpatch}
+%\usepackage{mathptmx}
+%\usepackage{sectsty,lmodern}
+
+
+
+
+\definecolor{codegreen}{rgb}{0,0.6,0}
+\definecolor{codegray}{rgb}{0.5,0.5,0.5}
+\definecolor{codepurple}{rgb}{0.58,0,0.82}
+\definecolor{backcolour}{rgb}{0.95,0.95,0.85}
+
+\lstdefinestyle{mystyle}{
+    backgroundcolor=\color{backcolour},   
+    commentstyle=\color{codegreen},
+    keywordstyle=\color{magenta},
+    numberstyle=\tiny\color{codegray},
+    stringstyle=\color{codepurple},
+    basicstyle=\ttfamily\footnotesize,
+    breakatwhitespace=false,         
+    breaklines=true,                 
+    captionpos=b,                    
+    keepspaces=true,                 
+    numbers=left,                    
+    numbersep=5pt,                  
+    showspaces=false,                
+    showstringspaces=false,
+    showtabs=false,                  
+    tabsize=2
+}
+
+\lstset{style=mystyle}
+
+\lstset{literate={θ}{{$\theta$}}1{ω}{{$\omega$}}1}
+
+
+
+
+\renewcommand{\contentsname}{\textit{Contents}\hline}
+%\renewcommand{\bibname}{\textit{Bibliography}}
+%\renewcommand{\bibname}{\textit{Works Cited}}
+\renewcommand{\bibname}{{Bibliography}}
+\renewcommand{\listfigurename}{\textit{List of Figures}\hline}
+\renewcommand{\listtablename}{\textit{List of Tables}\hline}
+%\renewcommand{\chapter}{\chapter\vspace{-2cm}}
+%\renewcommand{\appendixname}{\textit{Appendices}}
+
+\nocite{*}
+
+%\titleformat{\chapter}[display]   
+%{\normalfont\huge\bfseries}{\chaptertitlename\ \thechapter}{20pt}{\Huge}   
+
+\titlespacing*{\chapter}{0pt}{20pt}{10pt}
+
+%\titleformat{\chapter}{\fontsize{56pt}{64pt}\bfseries}{\thechapter}{0.5em}{\huge}
+%\makeatletter
+%\patchcmd{\chapter}{\if@openright\cleardoublepage\else\clearpage\fi}{}{}{}
+%\makeatother
+
+%\titleformat{\chapter}{\huge\bfseries}
+\titleformat{\chapter}{\fontsize{18pt}{10pt}\bfseries}{\thechapter}{0.5em}{}
+%{}{0.5em}{\huge}
+%{}{0em}{\huge}
+\makeatletter
+\patchcmd{\chapter}{\if@openright\cleardoublepage\else\clearpage\fi}{}{}{}
+\makeatother
+
+%\titleformat{\chapter}[display]{\fontsize{16pt}{10pt}\bfseries}{\thechapter}{5pt}{}
+
+\titleformat{\section}{\fontsize{16pt}{}\bfseries}{\thesection}{0.5em}{}
+
+\titleformat{\subsection}{\fontsize{14pt}{}\bfseries}{\thesubsection}{0.5em}{}
+
+\titleformat{\subsubsection}{\fontsize{12pt}{}\bfseries}{\thesubsubsection}{0.5em}{}
+
+
+
+\let\plainappendixpage\appendixpage
+\makeatletter
+\renewcommand{\appendixpage}{%
+  \begingroup
+  \let\ps@plain\ps@empty
+  \plainappendixpage
+  \endgroup}
+\makeatother
+
+
+
+\input{Front matter/Title Page Uni}
+
+
+
+\begin{document}
+
+\maketitle
+
+\tableofcontents
+\clearpage
+%\listoffigures
+%\listoftables
+
+
+
+%\begin{abstract}
+%    \import{Sections}{Abstract}
+%\end{abstract}
+
+
+
+\chapter{{Introduction}}
+        
+        \import{Sections}{Introduction}  
+        
+\chapter{{Theory}}
+        
+        \import{Sections}{Background Research}
+        
+\chapter{{Materials Required}}
+        
+        \import{Sections}{Materials Required}
+        
+\chapter{{Procedure}}
+        
+        \import{Sections}{Procedure}
+        
+\chapter{{Experimental Data}}
+        
+		\import{Sections}{Experimental Data Mod 3}
+        
+\chapter{{Analysis}}
+
+		\import{Sections}{Analysis Mod 1}
+
+%\chapter{{Evaluation}}
+        
+%		\import{Sections}{Evaluation}        
+     
+%\chapter{{Discussion}}     
+        
+%        \import{Sections}{Discussion}
+        
+\chapter{{Conclusion}}
+        
+        \import{Sections}{Conclusion}
+        
+
+        
+\clearpage
+
+\import{Works Cited}{Bib Mod 1}
+
+
+\clearpage
+
+%\appendix
+
+%\appendixpage
+
+%\clearpage
+
+%\import{Appendix}{appdix}
+
+
+\end{document}
+
+\let\clearpage\relax
+
+\makeatletter
+\patchcmd{\chapter}{\if@openright\cleardoublepage\else\clearpage\fi}{}{}{}
+\makeatother
+
+
+
+
+
