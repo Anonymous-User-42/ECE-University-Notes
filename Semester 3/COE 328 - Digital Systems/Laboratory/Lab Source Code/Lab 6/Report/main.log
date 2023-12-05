@@ -1,4 +1,4 @@
-This is pdfTeX, Version 3.141592653-2.6-1.40.24 (TeX Live 2022/Debian) (preloaded format=pdflatex 2023.6.14)  4 DEC 2023 03:04
+This is pdfTeX, Version 3.141592653-2.6-1.40.24 (TeX Live 2022/Debian) (preloaded format=pdflatex 2023.6.14)  4 DEC 2023 19:04
 entering extended mode
  restricted \write18 enabled.
  %&-line parsing enabled.
@@ -1344,7 +1344,29 @@ and I'll forget about whatever was undefined.
 
 
 \providecommand \oddpage@label [2]{}
-{/var/lib/texmf/fonts/map/pdftex/updmap/pdftex.map}]) (./main.aux)
+{/var/lib/texmf/fonts/map/pdftex/updmap/pdftex.map}]) (./main.aux
+
+LaTeX Warning: Label `Latch' multiply defined.
+
+
+LaTeX Warning: Label `FSM' multiply defined.
+
+
+LaTeX Warning: Label `FSM' multiply defined.
+
+
+LaTeX Warning: Label `' multiply defined.
+
+
+LaTeX Warning: Label `' multiply defined.
+
+
+LaTeX Warning: Label `' multiply defined.
+
+
+LaTeX Warning: Label `FSM' multiply defined.
+
+)
 \openout1 = `main.aux'.
 
 LaTeX Font Info:    Checking defaults for OML/cmm/m/it on input line 123.
@@ -1368,8 +1390,7 @@ LaTeX Font Info:    ... okay on input line 123.
 LaTeX Font Info:    Checking defaults for LGR/cmr/m/n on input line 123.
 LaTeX Font Info:    Trying to load font information for LGR+cmr on input line 1
 23.
-
-(/usr/share/texlive/texmf-dist/tex/latex/cbfonts-fd/lgrcmr.fd
+ (/usr/share/texlive/texmf-dist/tex/latex/cbfonts-fd/lgrcmr.fd
 File: lgrcmr.fd 2017/07/29 v1.2 Greek European Computer Regular
 )
 LaTeX Font Info:    ... okay on input line 123.
@@ -1468,7 +1489,19 @@ been already used, duplicate ignored
 l.128 \clearpage
                  [1]
 Chapter 1.
-(./Sections/Introduction.tex)
+(./Sections/Introduction.tex
+Overfull \hbox (1.74316pt too wide) in paragraph at lines 1--2
+\OT1/cmr/m/n/12 This laboratory experiment involves the design and construction
+ of a Graphics
+ []
+
+
+Overfull \hbox (11.63773pt too wide) in paragraph at lines 1--2
+\OT1/cmr/m/n/12 Processing Unit (GPU) in a VHDL environment, followed by its im
+plementation
+ []
+
+)
 Chapter 2.
 (./Sections/Components.tex
 ! Missing number, treated as zero.
@@ -1494,6 +1527,9 @@ A number should have been here; I inserted `0'.
 (If you can't figure out why I needed to see a number,
 look up `weird error' in the index to The TeXbook.)
 
+[2
+
+]
 ! Missing number, treated as zero.
 <to be read again> 
                    p
@@ -1516,36 +1552,75 @@ umber (50120\OT1/cmr/bx/n/12 9136\OT1/cmr/m/n/12 )
  []
 
 
-Overfull \hbox (23.18352pt too wide) in paragraph at lines 26--43
+Overfull \hbox (27.804pt too wide) in paragraph at lines 24--25
+\OT1/cmr/m/n/12 combinations achievable through an 8-bit D-flip-flop employed f
+or input processing. 
+ []
+
+
+Overfull \hbox (23.18352pt too wide) in paragraph at lines 32--49
  [][] 
  []
 
-[2
 
-]
-Overfull \hbox (23.18352pt too wide) in paragraph at lines 47--64
+Overfull \hbox (23.18352pt too wide) in paragraph at lines 53--70
  [][] 
  []
 
+[3]
 ! Missing number, treated as zero.
 <to be read again> 
                    p
-l.66 \subsection{{Block Diagram}}
+l.72 \subsection{{Block Diagram}}
                                  
 A number should have been here; I inserted `0'.
 (If you can't figure out why I needed to see a number,
 look up `weird error' in the index to The TeXbook.)
 
+
+Overfull \hbox (0.38216pt too wide) in paragraph at lines 74--75
+\OT1/cmr/m/n/12 employed for the representation of values denoted as A and B. T
+he application
+ []
+
+
+Overfull \hbox (14.47914pt too wide) in paragraph at lines 76--77
+[]\OT1/cmr/m/n/12 Within this context, the inputs consist of "A," "Clock," and 
+"Reset," collectively
+ []
+
+
+Overfull \hbox (49.99701pt too wide) in paragraph at lines 76--77
+\OT1/cmr/m/n/12 constituting the triad of input variables, while the resultant 
+output ($\OML/cmm/m/it/12 O\OT1/cmr/m/n/12 (\OML/cmm/m/it/12 B; Clock; Reset\OT
+1/cmr/m/n/12 )$
+ []
+
+<Pictures/Latch.png, id=165, 228.855pt x 171.64125pt>
+File: Pictures/Latch.png Graphic file (type png)
+<use Pictures/Latch.png>
+Package pdftex.def Info: Pictures/Latch.png  used on input line 80.
+(pdftex.def)             Requested size: 284.52756pt x 213.40387pt.
 ! Missing number, treated as zero.
 <to be read again> 
                    p
-l.70 \subsection{{Timing Diagram}}
+l.86 \subsection{{Timing Diagram}}
                                   
 A number should have been here; I inserted `0'.
 (If you can't figure out why I needed to see a number,
 look up `weird error' in the index to The TeXbook.)
 
-)
+<Pictures/RegisterWaveForm.png, id=167, 2379.89125pt x 1101.11375pt>
+File: Pictures/RegisterWaveForm.png Graphic file (type png)
+<use Pictures/RegisterWaveForm.png>
+Package pdftex.def Info: Pictures/RegisterWaveForm.png  used on input line 92.
+(pdftex.def)             Requested size: 426.79134pt x 197.45265pt.
+
+Overfull \hbox (36.79134pt too wide) in paragraph at lines 92--93
+ [][] 
+ []
+
+) [4 <./Pictures/Latch.png>]
 ! Missing number, treated as zero.
 <to be read again> 
                    p
@@ -1556,11 +1631,17 @@ A number should have been here; I inserted `0'.
 look up `weird error' in the index to The TeXbook.)
 
 (./Sections/./Control Unit.tex
+<Pictures/ControlUnit.png, id=177, 589.20125pt x 172.645pt>
+File: Pictures/ControlUnit.png Graphic file (type png)
+<use Pictures/ControlUnit.png>
+Package pdftex.def Info: Pictures/ControlUnit.png  used on input line 6.
+(pdftex.def)             Requested size: 284.52756pt x 83.37181pt.
+
 ! Missing number, treated as zero.
 <to be read again> 
                    p
-l.2 \subsection{{Finite State Machine}}
-                                       
+l.11 \subsection{{Finite State Machine}}
+                                        
 A number should have been here; I inserted `0'.
 (If you can't figure out why I needed to see a number,
 look up `weird error' in the index to The TeXbook.)
@@ -1568,43 +1649,77 @@ look up `weird error' in the index to The TeXbook.)
 ! Missing number, treated as zero.
 <to be read again> 
                    p
-l.4 	\subsubsection{{Description}}
-                                  
+l.13 	\subsubsection{{Description}}
+                                   
 A number should have been here; I inserted `0'.
 (If you can't figure out why I needed to see a number,
 look up `weird error' in the index to The TeXbook.)
 
+
+Overfull \hbox (18.63464pt too wide) in paragraph at lines 17--18
+[]\OT1/cmr/m/n/12 This synchronized mechanism ensures accurate counting, reflec
+ting the sequential
+ []
+
+[5 <./Pictures/RegisterWaveForm.png> <./Pictures/ControlUnit.png>]
 ! Missing number, treated as zero.
 <to be read again> 
                    p
-l.8 	\subsubsection{{Truth Table}}
-                                  
+l.19 	\subsubsection{{Truth Table}}
+                                   
 A number should have been here; I inserted `0'.
 (If you can't figure out why I needed to see a number,
 look up `weird error' in the index to The TeXbook.)
 
+
+Overfull \hbox (4.7589pt too wide) in paragraph at lines 27--44
+ [][] 
+ []
+
 ! Missing number, treated as zero.
 <to be read again> 
                    p
-l.12 	\subsubsection{{Block Diagram}}
+l.46 	\subsubsection{{Block Diagram}}
                                      
 A number should have been here; I inserted `0'.
 (If you can't figure out why I needed to see a number,
 look up `weird error' in the index to The TeXbook.)
 
+<Pictures/FSM.png, id=187, 271.0125pt x 161.60374pt>
+File: Pictures/FSM.png Graphic file (type png)
+<use Pictures/FSM.png>
+Package pdftex.def Info: Pictures/FSM.png  used on input line 54.
+(pdftex.def)             Requested size: 284.52756pt x 169.6692pt.
+[6]
 ! Missing number, treated as zero.
 <to be read again> 
                    p
-l.16 	\subsubsection{{Timing Diagram}}
+l.59 	\subsubsection{{Timing Diagram}}
                                       
 A number should have been here; I inserted `0'.
 (If you can't figure out why I needed to see a number,
 look up `weird error' in the index to The TeXbook.)
 
+
+Overfull \hbox (1.85843pt too wide) in paragraph at lines 61--62
+\OT1/cmr/m/n/12 when the clock signal experiences a rising edge, concurrently w
+ith the presence
+ []
+
+<Pictures/FSMWaveForm.png, id=193, 1627.07875pt x 427.5975pt>
+File: Pictures/FSMWaveForm.png Graphic file (type png)
+<use Pictures/FSMWaveForm.png>
+Package pdftex.def Info: Pictures/FSMWaveForm.png  used on input line 65.
+(pdftex.def)             Requested size: 426.79134pt x 112.15793pt.
+
+Overfull \hbox (36.79134pt too wide) in paragraph at lines 65--66
+ [][] 
+ []
+
 ! Missing number, treated as zero.
 <to be read again> 
                    p
-l.20 \subsection{{4:16 Decoder}}
+l.70 \subsection{{4:16 Decoder}}
                                 
 A number should have been here; I inserted `0'.
 (If you can't figure out why I needed to see a number,
@@ -1613,7 +1728,7 @@ look up `weird error' in the index to The TeXbook.)
 ! Missing number, treated as zero.
 <to be read again> 
                    p
-l.22 	\subsubsection{{Description}}
+l.72 	\subsubsection{{Description}}
                                    
 A number should have been here; I inserted `0'.
 (If you can't figure out why I needed to see a number,
@@ -1622,33 +1737,169 @@ look up `weird error' in the index to The TeXbook.)
 ! Missing number, treated as zero.
 <to be read again> 
                    p
-l.26 	\subsubsection{{Truth Table}}
+l.76 	\subsubsection{{Truth Table}}
                                    
 A number should have been here; I inserted `0'.
 (If you can't figure out why I needed to see a number,
 look up `weird error' in the index to The TeXbook.)
 
-[3]
+[7 <./Pictures/FSM.png> <./Pictures/FSMWaveForm.png>]
 ! Missing number, treated as zero.
 <to be read again> 
                    p
-l.73 	\subsubsection{{Block Diagram}}
-                                     
-A number should have been here; I inserted `0'.
-(If you can't figure out why I needed to see a number,
-look up `weird error' in the index to The TeXbook.)
-
-! Missing number, treated as zero.
-<to be read again> 
-                   p
-l.77 	\subsubsection{{Timing Diagram}}
+l.123 	\subsubsection{{Block Diagram}}
                                       
 A number should have been here; I inserted `0'.
 (If you can't figure out why I needed to see a number,
 look up `weird error' in the index to The TeXbook.)
 
+<Pictures/decoder.png, id=201, 222.8325pt x 122.4575pt>
+File: Pictures/decoder.png Graphic file (type png)
+<use Pictures/decoder.png>
+Package pdftex.def Info: Pictures/decoder.png  used on input line 127.
+(pdftex.def)             Requested size: 284.52756pt x 156.37506pt.
+! Missing number, treated as zero.
+<to be read again> 
+                   p
+l.132 	\subsubsection{{Timing Diagram}}
+                                       
+A number should have been here; I inserted `0'.
+(If you can't figure out why I needed to see a number,
+look up `weird error' in the index to The TeXbook.)
+
+<Pictures/DecoderWaveForm.png, id=202, 1804.7425pt x 680.5425pt>
+File: Pictures/DecoderWaveForm.png Graphic file (type png)
+<use Pictures/DecoderWaveForm.png>
+Package pdftex.def Info: Pictures/DecoderWaveForm.png  used on input line 136.
+(pdftex.def)             Requested size: 426.79134pt x 160.93477pt.
+
+Overfull \hbox (36.79134pt too wide) in paragraph at lines 136--137
+ [][] 
+ []
+
+[8 <./Pictures/decoder.png>])
+! Missing number, treated as zero.
+<to be read again> 
+                   p
+l.10 \section{{Arithmetic Logic Unit}}
+                                      
+A number should have been here; I inserted `0'.
+(If you can't figure out why I needed to see a number,
+look up `weird error' in the index to The TeXbook.)
+
+(./Sections/./Arithmetic Logic Unit.tex
+! Missing number, treated as zero.
+<to be read again> 
+                   p
+l.2 \subsection{{Description}}
+                              
+A number should have been here; I inserted `0'.
+(If you can't figure out why I needed to see a number,
+look up `weird error' in the index to The TeXbook.)
+
+
+Overfull \hbox (17.69865pt too wide) in paragraph at lines 4--5
+\OT1/cmr/m/n/12 The 8-bit Arithmetic Logic Unit (ALU) is a crucial digital comp
+uting component,
+ []
+
+! Missing number, treated as zero.
+<to be read again> 
+                   p
+l.10 \subsection{{Truth Table}}
+                               
+A number should have been here; I inserted `0'.
+(If you can't figure out why I needed to see a number,
+look up `weird error' in the index to The TeXbook.)
+
+! Missing number, treated as zero.
+<to be read again> 
+                   p
+l.14 \subsection{{Block Diagram}}
+                                 
+A number should have been here; I inserted `0'.
+(If you can't figure out why I needed to see a number,
+look up `weird error' in the index to The TeXbook.)
+
+<Pictures/ALU.png, id=210, 271.0125pt x 208.78pt>
+File: Pictures/ALU.png Graphic file (type png)
+<use Pictures/ALU.png>
+Package pdftex.def Info: Pictures/ALU.png  used on input line 18.
+(pdftex.def)             Requested size: 284.52756pt x 219.19995pt.
+[9 <./Pictures/DecoderWaveForm.png>]
+! Missing number, treated as zero.
+<to be read again> 
+                   p
+l.24 \subsection{{Timing Diagram}}
+                                  
+A number should have been here; I inserted `0'.
+(If you can't figure out why I needed to see a number,
+look up `weird error' in the index to The TeXbook.)
+
+)
+! Missing number, treated as zero.
+<to be read again> 
+                   p
+l.14 \section{{Seven Segment Display Unit}}
+                                           
+A number should have been here; I inserted `0'.
+(If you can't figure out why I needed to see a number,
+look up `weird error' in the index to The TeXbook.)
+
+(./Sections/./Seven Segment Diplay Unit.tex
+! Missing number, treated as zero.
+<to be read again> 
+                   p
+l.2 \subsection{{Description}}
+                              
+A number should have been here; I inserted `0'.
+(If you can't figure out why I needed to see a number,
+look up `weird error' in the index to The TeXbook.)
+
+! Missing number, treated as zero.
+<to be read again> 
+                   p
+l.10 \subsection{{Truth Table}}
+                               
+A number should have been here; I inserted `0'.
+(If you can't figure out why I needed to see a number,
+look up `weird error' in the index to The TeXbook.)
+
+[10 <./Pictures/ALU.png>]
+! Missing number, treated as zero.
+<to be read again> 
+                   p
+l.57 \subsection{{Block Diagram}}
+                                 
+A number should have been here; I inserted `0'.
+(If you can't figure out why I needed to see a number,
+look up `weird error' in the index to The TeXbook.)
+
+<Pictures/SSEG.png, id=222, 265.99374pt x 131.49126pt>
+File: Pictures/SSEG.png Graphic file (type png)
+<use Pictures/SSEG.png>
+Package pdftex.def Info: Pictures/SSEG.png  used on input line 61.
+(pdftex.def)             Requested size: 284.52756pt x 140.66414pt.
 ))
 Chapter 3.
+(./Sections/Logic Circuit Diagram.tex [11 <./Pictures/SSEG.png>]
+Overfull \hbox (27.804pt too wide) in paragraph at lines 4--5
+[]\OT1/cmr/m/n/12 Three Seven Segment Display units visually represent output d
+ata, accommodating
+ []
+
+<Pictures/BlockDiagram.png, id=231, 1052.733pt x 480.5955pt>
+File: Pictures/BlockDiagram.png Graphic file (type png)
+<use Pictures/BlockDiagram.png>
+Package pdftex.def Info: Pictures/BlockDiagram.png  used on input line 10.
+(pdftex.def)             Requested size: 455.24408pt x 207.82536pt.
+
+Overfull \hbox (65.24408pt too wide) in paragraph at lines 10--11
+ [][] 
+ []
+
+)
+Chapter 4.
 (./Sections/Problem Sets.tex
 ! Missing number, treated as zero.
 <to be read again> 
@@ -1659,7 +1910,13 @@ A number should have been here; I inserted `0'.
 (If you can't figure out why I needed to see a number,
 look up `weird error' in the index to The TeXbook.)
 
-(./Sections/./Problem Set 1.tex)
+(./Sections/./Problem Set 1.tex
+(/usr/share/texlive/texmf-dist/tex/latex/listings/lstlang1.sty
+File: lstlang1.sty 2020/03/24 1.8d listings language file
+)
+Package hyperref Info: bookmark level for unknown lstlisting defaults to 0 on i
+nput line 2.
+ [12 <./Pictures/BlockDiagram.png>] [13])
 ! Missing number, treated as zero.
 <to be read again> 
                    p
@@ -1669,7 +1926,7 @@ A number should have been here; I inserted `0'.
 (If you can't figure out why I needed to see a number,
 look up `weird error' in the index to The TeXbook.)
 
-(./Sections/./Problem Set 2.tex)
+(./Sections/./Problem Set 2.tex [14])
 ! Missing number, treated as zero.
 <to be read again> 
                    p
@@ -1679,9 +1936,9 @@ A number should have been here; I inserted `0'.
 (If you can't figure out why I needed to see a number,
 look up `weird error' in the index to The TeXbook.)
 
-(./Sections/./Problem Set 3.tex))
-Chapter 4.
-(./Sections/Conclusion.tex) [4] [5] (./Works Cited/Bib Mod 1.tex
+(./Sections/./Problem Set 3.tex [15]))
+Chapter 5.
+(./Sections/Conclusion.tex) [16] (./Works Cited/Bib Mod 1.tex
 ! Misplaced alignment tab character &.
 l.6 Serway, R. A., &
                      Jewett, J. W. (2018). Physics for Scientists and Engine...
@@ -1692,36 +1949,41 @@ up above has ended a previous alignment prematurely,
 you're probably due for more error messages, and you
 might try typing `S' now just to see what is salvageable.
 
-) [6
+) [17
 
 ] (./main.aux)
 
 LaTeX Font Warning: Size substitutions with differences
 (Font)              up to 1.28pt have occurred.
 
+
+LaTeX Warning: There were multiply-defined labels.
+
 Package rerunfilecheck Info: File `main.out' has not changed.
-(rerunfilecheck)             Checksum: 785A9CCF05B93BC7E6F19EE040338D36;2200.
+(rerunfilecheck)             Checksum: E221DDB632C83478638220999EDA741B;3584.
  ) 
 Here is how much of TeX's memory you used:
- 37542 strings out of 477933
- 850420 string characters out of 5838201
- 1866330 words of memory out of 5000000
- 56961 multiletter control sequences out of 15000+600000
- 528899 words of font info for 91 fonts, out of 8000000 for 9000
+ 38218 strings out of 477933
+ 859078 string characters out of 5838201
+ 2336330 words of memory out of 5000000
+ 57438 multiletter control sequences out of 15000+600000
+ 529067 words of font info for 92 fonts, out of 8000000 for 9000
  81 hyphenation exceptions out of 8191
- 84i,9n,89p,1193b,609s stack positions out of 10000i,1000n,20000p,200000b,200000s
+ 84i,9n,94p,1193b,2181s stack positions out of 10000i,1000n,20000p,200000b,200000s
 </usr/share/texlive/texmf-dist/fonts/type1/public/amsfonts/cm/cmbx12.pfb></us
 r/share/texlive/texmf-dist/fonts/type1/public/amsfonts/cm/cmbxti10.pfb></usr/sh
 are/texlive/texmf-dist/fonts/type1/public/amsfonts/cm/cmmi12.pfb></usr/share/te
 xlive/texmf-dist/fonts/type1/public/amsfonts/cm/cmr12.pfb></usr/share/texlive/t
-exmf-dist/fonts/type1/public/amsfonts/cm/cmr8.pfb></usr/share/texlive/texmf-dis
-t/fonts/type1/public/amsfonts/cm/cmti12.pfb></usr/share/texlive/texmf-dist/font
-s/type1/public/amsfonts/cm/cmtt12.pfb></usr/share/texlive/texmf-dist/fonts/type
-1/public/amsfonts/symbols/msam10.pfb>
-Output written on main.pdf (8 pages, 112508 bytes).
+exmf-dist/fonts/type1/public/amsfonts/cm/cmr6.pfb></usr/share/texlive/texmf-dis
+t/fonts/type1/public/amsfonts/cm/cmr8.pfb></usr/share/texlive/texmf-dist/fonts/
+type1/public/amsfonts/cm/cmti12.pfb></usr/share/texlive/texmf-dist/fonts/type1/
+public/amsfonts/cm/cmtt10.pfb></usr/share/texlive/texmf-dist/fonts/type1/public
+/amsfonts/cm/cmtt12.pfb></usr/share/texlive/texmf-dist/fonts/type1/public/amsfo
+nts/symbols/msam10.pfb>
+Output written on main.pdf (19 pages, 748101 bytes).
 PDF statistics:
- 179 PDF objects out of 1000 (max. 8388607)
- 151 compressed objects within 2 object streams
- 29 named destinations out of 1000 (max. 500000)
- 141 words of extra memory for PDF output out of 10000 (max. 10000000)
+ 496 PDF objects out of 1000 (max. 8388607)
+ 432 compressed objects within 5 object streams
+ 202 named destinations out of 1000 (max. 500000)
+ 271 words of extra memory for PDF output out of 10000 (max. 10000000)
 

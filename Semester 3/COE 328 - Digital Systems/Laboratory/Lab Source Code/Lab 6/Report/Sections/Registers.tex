@@ -21,6 +21,12 @@
 	
 	{$$\therefore B = (36)_{16} = (00110110)_{2}$$}
 
+	{The pair of inputs under consideration represent two among the 256 potential combinations achievable through an 8-bit D-flip-flop employed for input processing.}
+	
+	{In practice, when input A is applied, the D-flip-flop captures and retains the corresponding value until it is transmitted to the output during the subsequent rising edge. Notably, alterations to the output state exclusively occur on a rising edge, contingent upon the presence of a novel input.}
+	
+	{In the absence of a distinct input, the output remains unchanged unless a reset condition is invoked. This operational behavior underscores the discrete and controlled nature of input-output transformations within the described system.}
+
 	\begin{table}[H]
 		\centering
 		\begin{tabular}{|c|c|c|c|}
@@ -39,7 +45,7 @@
 		\hline
 		\hline
     		\end{tabular}
-    		\caption{Truth Table for the A Register}
+    		\caption{Truth Table for the A input Register}
 	\end{table}
 	
 	\begin{table}[H]
@@ -60,13 +66,30 @@
 		\hline
 		\hline
     		\end{tabular}
-    		\caption{Truth Table for the B Register}
+    		\caption{Truth Table for the B input Register}
 	\end{table}
 
 \subsection{{Block Diagram}}
 
-	{}
+	{To accommodate the requisite pair of 8-bit inputs, distinct registers are employed for the representation of values denoted as A and B. The application of the code prescribed in the laboratory guidelines yields illustrative block diagrams, as depicted in figure \ref{Latch}.}
+	
+	{Within this context, the inputs consist of "A," "Clock," and "Reset," collectively constituting the triad of input variables, while the resultant output ($O(B, Clock, Reset)$ from the \textbf{truth table}) is represented by "Q".}
+
+	\begin{figure}[H]
+		\centering
+		\includegraphics[width=10cm]{Pictures/Latch.png}
+		\caption{{Block Diagram for the Registers}}
+		\label{Latch}
+	\end{figure}
+
 
 \subsection{{Timing Diagram}}
 
 	{}
+
+	\begin{figure}[H]
+		\centering
+		\includegraphics[width=15cm]{Pictures/RegisterWaveForm.png}
+		\caption{{Timing Diagram for the Registers}}
+		\label{Latch}
+	\end{figure}
