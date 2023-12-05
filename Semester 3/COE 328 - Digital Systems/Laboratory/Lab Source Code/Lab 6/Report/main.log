@@ -1,4 +1,4 @@
-This is pdfTeX, Version 3.141592653-2.6-1.40.24 (TeX Live 2022/Debian) (preloaded format=pdflatex 2023.6.14)  4 DEC 2023 22:02
+This is pdfTeX, Version 3.141592653-2.6-1.40.24 (TeX Live 2022/Debian) (preloaded format=pdflatex 2023.6.14)  4 DEC 2023 22:57
 entering extended mode
  restricted \write18 enabled.
  %&-line parsing enabled.
@@ -1349,10 +1349,13 @@ and I'll forget about whatever was undefined.
 LaTeX Warning: Label `Latch' multiply defined.
 
 
-LaTeX Warning: Label `FSM' multiply defined.
+LaTeX Warning: Label `' multiply defined.
 
 
-LaTeX Warning: Label `FSM' multiply defined.
+LaTeX Warning: Label `' multiply defined.
+
+
+LaTeX Warning: Label `' multiply defined.
 
 
 LaTeX Warning: Label `' multiply defined.
@@ -1364,19 +1367,22 @@ LaTeX Warning: Label `' multiply defined.
 LaTeX Warning: Label `' multiply defined.
 
 
-LaTeX Warning: Label `FSM' multiply defined.
+LaTeX Warning: Label `' multiply defined.
 
 
-LaTeX Warning: Label `FSM' multiply defined.
+LaTeX Warning: Label `' multiply defined.
 
 
-LaTeX Warning: Label `FSM' multiply defined.
+LaTeX Warning: Label `' multiply defined.
 
 
-LaTeX Warning: Label `FSM' multiply defined.
+LaTeX Warning: Label `' multiply defined.
 
 
-LaTeX Warning: Label `FSM' multiply defined.
+LaTeX Warning: Label `' multiply defined.
+
+
+LaTeX Warning: Label `' multiply defined.
 
 )
 \openout1 = `main.aux'.
@@ -1608,7 +1614,7 @@ output ($\OML/cmm/m/it/12 O\OT1/cmr/m/n/12 (\OML/cmm/m/it/12 B; Clock; Reset\OT
 1/cmr/m/n/12 )$
  []
 
-<Pictures/Latch.png, id=182, 228.855pt x 171.64125pt>
+<Pictures/Latch.png, id=187, 228.855pt x 171.64125pt>
 File: Pictures/Latch.png Graphic file (type png)
 <use Pictures/Latch.png>
 Package pdftex.def Info: Pictures/Latch.png  used on input line 80.
@@ -1622,7 +1628,7 @@ A number should have been here; I inserted `0'.
 (If you can't figure out why I needed to see a number,
 look up `weird error' in the index to The TeXbook.)
 
-<Pictures/RegisterWaveForm.png, id=184, 2379.89125pt x 1101.11375pt>
+<Pictures/RegisterWaveForm.png, id=189, 2379.89125pt x 1101.11375pt>
 File: Pictures/RegisterWaveForm.png Graphic file (type png)
 <use Pictures/RegisterWaveForm.png>
 Package pdftex.def Info: Pictures/RegisterWaveForm.png  used on input line 92.
@@ -1643,7 +1649,7 @@ A number should have been here; I inserted `0'.
 look up `weird error' in the index to The TeXbook.)
 
 (./Sections/./Control Unit.tex
-<Pictures/ControlUnit.png, id=193, 589.20125pt x 172.645pt>
+<Pictures/ControlUnit.png, id=198, 589.20125pt x 172.645pt>
 File: Pictures/ControlUnit.png Graphic file (type png)
 <use Pictures/ControlUnit.png>
 Package pdftex.def Info: Pictures/ControlUnit.png  used on input line 6.
@@ -1692,7 +1698,7 @@ A number should have been here; I inserted `0'.
 (If you can't figure out why I needed to see a number,
 look up `weird error' in the index to The TeXbook.)
 
-<Pictures/FSM.png, id=203, 271.0125pt x 161.60374pt>
+<Pictures/FSM.png, id=208, 271.0125pt x 161.60374pt>
 File: Pictures/FSM.png Graphic file (type png)
 <use Pictures/FSM.png>
 Package pdftex.def Info: Pictures/FSM.png  used on input line 54.
@@ -1713,7 +1719,7 @@ Overfull \hbox (1.85843pt too wide) in paragraph at lines 61--62
 ith the presence
  []
 
-<Pictures/FSMWaveForm.png, id=209, 1627.07875pt x 427.5975pt>
+<Pictures/FSMWaveForm.png, id=214, 1627.07875pt x 427.5975pt>
 File: Pictures/FSMWaveForm.png Graphic file (type png)
 <use Pictures/FSMWaveForm.png>
 Package pdftex.def Info: Pictures/FSMWaveForm.png  used on input line 65.
@@ -1760,7 +1766,7 @@ A number should have been here; I inserted `0'.
 (If you can't figure out why I needed to see a number,
 look up `weird error' in the index to The TeXbook.)
 
-<Pictures/decoder.png, id=217, 222.8325pt x 122.4575pt>
+<Pictures/decoder.png, id=221, 222.8325pt x 122.4575pt>
 File: Pictures/decoder.png Graphic file (type png)
 <use Pictures/decoder.png>
 Package pdftex.def Info: Pictures/decoder.png  used on input line 127.
@@ -1774,7 +1780,7 @@ A number should have been here; I inserted `0'.
 (If you can't figure out why I needed to see a number,
 look up `weird error' in the index to The TeXbook.)
 
-<Pictures/DecoderWaveForm.png, id=218, 1804.7425pt x 680.5425pt>
+<Pictures/DecoderWaveForm.png, id=222, 1804.7425pt x 680.5425pt>
 File: Pictures/DecoderWaveForm.png Graphic file (type png)
 <use Pictures/DecoderWaveForm.png>
 Package pdftex.def Info: Pictures/DecoderWaveForm.png  used on input line 136.
@@ -1828,7 +1834,7 @@ A number should have been here; I inserted `0'.
 (If you can't figure out why I needed to see a number,
 look up `weird error' in the index to The TeXbook.)
 
-<Pictures/ALU.png, id=226, 271.0125pt x 208.78pt>
+<Pictures/ALU.png, id=230, 271.0125pt x 208.78pt>
 File: Pictures/ALU.png Graphic file (type png)
 <use Pictures/ALU.png>
 Package pdftex.def Info: Pictures/ALU.png  used on input line 18.
@@ -1882,7 +1888,7 @@ A number should have been here; I inserted `0'.
 (If you can't figure out why I needed to see a number,
 look up `weird error' in the index to The TeXbook.)
 
-<Pictures/SSEG.png, id=238, 265.99374pt x 131.49126pt>
+<Pictures/SSEG.png, id=242, 265.99374pt x 131.49126pt>
 File: Pictures/SSEG.png Graphic file (type png)
 <use Pictures/SSEG.png>
 Package pdftex.def Info: Pictures/SSEG.png  used on input line 61.
@@ -1895,7 +1901,7 @@ Overfull \hbox (27.804pt too wide) in paragraph at lines 4--5
 ata, accommodating
  []
 
-<Pictures/BlockDiagram.png, id=247, 1052.733pt x 480.5955pt>
+<Pictures/BlockDiagram.png, id=251, 1052.733pt x 480.5955pt>
 File: Pictures/BlockDiagram.png Graphic file (type png)
 <use Pictures/BlockDiagram.png>
 Package pdftex.def Info: Pictures/BlockDiagram.png  used on input line 10.
@@ -1994,7 +2000,7 @@ A number should have been here; I inserted `0'.
 (If you can't figure out why I needed to see a number,
 look up `weird error' in the index to The TeXbook.)
 
-<Pictures/ALU1WaveForm.png, id=259, 2055.68pt x 461.725pt>
+<Pictures/ALU1WaveForm.png, id=263, 2055.68pt x 461.725pt>
 File: Pictures/ALU1WaveForm.png Graphic file (type png)
 <use Pictures/ALU1WaveForm.png>
 Package pdftex.def Info: Pictures/ALU1WaveForm.png  used on input line 40.
@@ -2013,7 +2019,7 @@ A number should have been here; I inserted `0'.
 (If you can't figure out why I needed to see a number,
 look up `weird error' in the index to The TeXbook.)
 
-<Pictures/P12BlockDia.png, id=260, 1439.3775pt x 461.725pt>
+<Pictures/P12BlockDia.png, id=264, 1439.3775pt x 461.725pt>
 File: Pictures/P12BlockDia.png Graphic file (type png)
 <use Pictures/P12BlockDia.png>
 Package pdftex.def Info: Pictures/P12BlockDia.png  used on input line 49.
@@ -2136,7 +2142,7 @@ A number should have been here; I inserted `0'.
 (If you can't figure out why I needed to see a number,
 look up `weird error' in the index to The TeXbook.)
 
-<Pictures/ALU2WaveForm.png, id=339, 901.3675pt x 166.6225pt>
+<Pictures/ALU2WaveForm.png, id=343, 901.3675pt x 166.6225pt>
 File: Pictures/ALU2WaveForm.png Graphic file (type png)
 <use Pictures/ALU2WaveForm.png>
 Package pdftex.def Info: Pictures/ALU2WaveForm.png  used on input line 54.
@@ -2168,7 +2174,7 @@ Overfull \hbox (36.79134pt too wide) in paragraph at lines 63--64
 ! Missing number, treated as zero.
 <to be read again> 
                    p
-l.69 \subsection{{VHDL Code}}
+l.68 \subsection{{VHDL Code}}
                              
 A number should have been here; I inserted `0'.
 (If you can't figure out why I needed to see a number,
@@ -2184,9 +2190,137 @@ A number should have been here; I inserted `0'.
 (If you can't figure out why I needed to see a number,
 look up `weird error' in the index to The TeXbook.)
 
-(./Sections/./Problem Set 3.tex))
+(./Sections/./Problem Set 3.tex
+! Missing number, treated as zero.
+<to be read again> 
+                   p
+l.2 \subsection{{Description}}
+                              
+A number should have been here; I inserted `0'.
+(If you can't figure out why I needed to see a number,
+look up `weird error' in the index to The TeXbook.)
+
+
+Overfull \hbox (1.7752pt too wide) in paragraph at lines 4--5
+\OT1/cmr/m/n/12 Unit, specifically focusing on the Finite State Machine (FSM) s
+ub-component.
+ []
+
+
+Overfull \hbox (2.40158pt too wide) in paragraph at lines 4--5
+\OT1/cmr/m/n/12 The task involves utilizing the studentId output from the FSM s
+ub-component
+ []
+
+! Missing number, treated as zero.
+<to be read again> 
+                   p
+l.6     \subsubsection{{Inputs}}
+                                
+A number should have been here; I inserted `0'.
+(If you can't figure out why I needed to see a number,
+look up `weird error' in the index to The TeXbook.)
+
+
+Overfull \hbox (24.15672pt too wide) in paragraph at lines 11--12
+[]\OT1/cmr/bx/n/12 Control Unit (16-bit)\OT1/cmr/m/n/12 : Microcode input from 
+the control unit, functioning
+ []
+
+! Missing number, treated as zero.
+<to be read again> 
+                   p
+l.14     \subsubsection{{Outputs}}
+                                  
+A number should have been here; I inserted `0'.
+(If you can't figure out why I needed to see a number,
+look up `weird error' in the index to The TeXbook.)
+
+
+Overfull \hbox (2.50371pt too wide) in paragraph at lines 17--18
+[]\OT1/cmr/bx/n/12 Result (8-bit)\OT1/cmr/m/n/12 : Output representing the resu
+lt of operations performed
+ []
+
+! Missing number, treated as zero.
+<to be read again> 
+                   p
+l.21     \subsubsection{{Purpose}}
+                                  
+A number should have been here; I inserted `0'.
+(If you can't figure out why I needed to see a number,
+look up `weird error' in the index to The TeXbook.)
+
+[20]
+Overfull \hbox (9.7961pt too wide) in paragraph at lines 27--28
+[]\OT1/cmr/bx/n/12 7-Segment Displays/LEDs\OT1/cmr/m/n/12 : Display the output 
+in hexadecimal format
+ []
+
+! Missing number, treated as zero.
+<to be read again> 
+                   p
+l.36     \subsubsection{{Timing Diagram}}
+                                         
+A number should have been here; I inserted `0'.
+(If you can't figure out why I needed to see a number,
+look up `weird error' in the index to The TeXbook.)
+
+<Pictures/ALU3WaveForm.png, id=446, 901.3675pt x 169.63374pt>
+File: Pictures/ALU3WaveForm.png Graphic file (type png)
+<use Pictures/ALU3WaveForm.png>
+Package pdftex.def Info: Pictures/ALU3WaveForm.png  used on input line 40.
+(pdftex.def)             Requested size: 426.79134pt x 80.3206pt.
+
+Overfull \hbox (36.79134pt too wide) in paragraph at lines 40--41
+ [][] 
+ []
+
+! Missing number, treated as zero.
+<to be read again> 
+                   p
+l.45     \subsubsection{{Block Diagram}}
+                                        
+A number should have been here; I inserted `0'.
+(If you can't figure out why I needed to see a number,
+look up `weird error' in the index to The TeXbook.)
+
+File: Pictures/P12BlockDia.png Graphic file (type png)
+<use Pictures/P12BlockDia.png>
+Package pdftex.def Info: Pictures/P12BlockDia.png  used on input line 49.
+(pdftex.def)             Requested size: 426.79134pt x 136.90518pt.
+
+Overfull \hbox (36.79134pt too wide) in paragraph at lines 49--50
+ [][] 
+ []
+
+[21 <./Pictures/ALU3WaveForm.png>]))
 Chapter 5.
-(./Sections/Conclusion.tex) [20] (./main.aux)
+(./Sections/Conclusion.tex
+Overfull \hbox (7.57922pt too wide) in paragraph at lines 3--4
+\OT1/cmr/m/n/12 In summary, the thorough exploration and application of the Gen
+eral Processor
+ []
+
+
+Overfull \hbox (29.07898pt too wide) in paragraph at lines 5--6
+\OT1/cmr/m/n/12 with the same student identification number, demonstrated succe
+ssful performance.
+ []
+
+
+Overfull \hbox (4.29735pt too wide) in paragraph at lines 9--10
+[]\OT1/cmr/m/n/12 In essence, the triumphant results of ALU-P1, ALU-P2, and ALU
+-P3 highlight
+ []
+
+
+Overfull \hbox (10.82315pt too wide) in paragraph at lines 9--10
+\OT1/cmr/m/n/12 modifications. This reinforces our comprehension of processor u
+nit components,
+ []
+
+) [22] (./main.aux)
 
 LaTeX Font Warning: Size substitutions with differences
 (Font)              up to 1.28pt have occurred.
@@ -2195,13 +2329,13 @@ LaTeX Font Warning: Size substitutions with differences
 LaTeX Warning: There were multiply-defined labels.
 
 Package rerunfilecheck Info: File `main.out' has not changed.
-(rerunfilecheck)             Checksum: E6C5D2F80020578B187DEF1AFDD2B1E2;3934.
+(rerunfilecheck)             Checksum: 0A1EA1BF0BEEBC05F41CEE56F8BBA681;4051.
  ) 
 Here is how much of TeX's memory you used:
- 38261 strings out of 477933
- 860138 string characters out of 5838201
+ 38273 strings out of 477933
+ 860388 string characters out of 5838201
  2372330 words of memory out of 5000000
- 57463 multiletter control sequences out of 15000+600000
+ 57470 multiletter control sequences out of 15000+600000
  529404 words of font info for 93 fonts, out of 8000000 for 9000
  81 hyphenation exceptions out of 8191
  84i,9n,104p,1193b,2181s stack positions out of 10000i,1000n,20000p,200000b,200000s
@@ -2215,10 +2349,10 @@ fonts/type1/public/amsfonts/cm/cmr8.pfb></usr/share/texlive/texmf-dist/fonts/ty
 pe1/public/amsfonts/cm/cmti12.pfb></usr/share/texlive/texmf-dist/fonts/type1/pu
 blic/amsfonts/cm/cmtt10.pfb></usr/share/texlive/texmf-dist/fonts/type1/public/a
 msfonts/symbols/msam10.pfb>
-Output written on main.pdf (22 pages, 1141610 bytes).
+Output written on main.pdf (24 pages, 1178966 bytes).
 PDF statistics:
- 530 PDF objects out of 1000 (max. 8388607)
- 458 compressed objects within 5 object streams
- 210 named destinations out of 1000 (max. 500000)
- 310 words of extra memory for PDF output out of 10000 (max. 10000000)
+ 547 PDF objects out of 1000 (max. 8388607)
+ 471 compressed objects within 5 object streams
+ 214 named destinations out of 1000 (max. 500000)
+ 323 words of extra memory for PDF output out of 10000 (max. 10000000)
 
