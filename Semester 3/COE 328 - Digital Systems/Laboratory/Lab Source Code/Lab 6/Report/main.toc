@@ -29,7 +29,20 @@
 \contentsline {chapter}{\numberline {3}{Logic Circuit Diagram}}{12}{chapter.3}%
 \contentsline {chapter}{\numberline {4}{Problem Sets}}{12}{chapter.4}%
 \contentsline {section}{\numberline {4.1}{General Arithmetic Processor Unit}}{12}{section.4.1}%
-\contentsline {section}{\numberline {4.2}{Modified Arithmetic Logic Unit}}{14}{section.4.2}%
-\contentsline {section}{\numberline {4.3}{Modified Control Unit}}{16}{section.4.3}%
-\contentsline {chapter}{\numberline {5}{Conclusion}}{16}{chapter.5}%
-\contentsline {chapter}{{Bibliography}}{17}{chapter.5}%
+\contentsline {subsection}{\numberline {4.1.1}{Description}}{12}{subsection.4.1.1}%
+\contentsline {subsubsection}{{Inputs}}{13}{subsection.4.1.1}%
+\contentsline {subsubsection}{{Outputs}}{13}{subsection.4.1.1}%
+\contentsline {subsubsection}{{Purpose}}{14}{subsection.4.1.1}%
+\contentsline {subsubsection}{{Timing Diagram}}{14}{subsection.4.1.1}%
+\contentsline {subsubsection}{{Block Diagram}}{14}{figure.4.1}%
+\contentsline {subsection}{\numberline {4.1.2}{VHDL Code}}{14}{subsection.4.1.2}%
+\contentsline {section}{\numberline {4.2}{Modified Arithmetic Logic Unit}}{16}{section.4.2}%
+\contentsline {subsection}{\numberline {4.2.1}{Description}}{16}{subsection.4.2.1}%
+\contentsline {subsubsection}{{Inputs}}{17}{subsection.4.2.1}%
+\contentsline {subsubsection}{{Outputs}}{17}{subsection.4.2.1}%
+\contentsline {subsubsection}{{Purpose}}{17}{subsection.4.2.1}%
+\contentsline {subsubsection}{{Timing Diagram}}{18}{subsection.4.2.1}%
+\contentsline {subsubsection}{{Block Diagram}}{18}{figure.4.3}%
+\contentsline {subsection}{\numberline {4.2.2}{VHDL Code}}{18}{subsection.4.2.2}%
+\contentsline {section}{\numberline {4.3}{Modified Control Unit}}{20}{section.4.3}%
+\contentsline {chapter}{\numberline {5}{Conclusion}}{20}{chapter.5}%
