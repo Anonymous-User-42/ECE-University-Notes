@@ -173,8 +173,8 @@ Note: This repository is a personal intellectual property granted to users to be
 |         **Tutorial 6**         |    75     |
 |          **Midterm**           |   47.78   |
 |         **Final Exam**         |   34.5    |
-| **Final Exam - Supplementary** |           |
-|     **Final Letter Grade**     |    F-S    |
+| **Final Exam - Supplementary** |   45.5    |
+|     **Final Letter Grade**     | F-S => D- |
 
 ## Spring / Summer 2024
 
