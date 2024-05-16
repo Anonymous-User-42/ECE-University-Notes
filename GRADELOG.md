@@ -176,9 +176,84 @@ Note: This repository is a personal intellectual property granted to users to be
 | **Final Exam - Supplementary** |   45.5    |
 |     **Final Letter Grade**     | F-S => D- |
 
-## Spring / Summer 2024
+## Winter 2024
 
-### ?
+### Semester Summary
+
+| **TGPA** | 3.420 |
+| :------: | :---: |
+| **CGPA** | 2.370 |
+
+### Course Grades
+
+#### CARB 101 - Introductory Arabic I
+
+|             **Assesment**             | **Grade** |
+| :-----------------------------------: | :-------: |
+| **Active Participation & Attendance** |   42.31   |
+|      **Homework & Assignments**       |   72.64   |
+|              **Quiz 1**               |   91.11   |
+|              **Quiz 2**               |   87.5    |
+|              **Quiz 3**               |    92     |
+|              **Quiz 4**               |    88     |
+|             **Oral Exam**             |    94     |
+|        **Final Presentation**         |    86     |
+|        **Final Letter Grade**         |    A-     |
+
+#### CMN 432 - Communications in Engineering Professions
+
+|     **Assesment**      | **Grade** |
+| :--------------------: | :-------: |
+|       **ECS 1**        |    100    |
+|       **ECS 2**        |    100    |
+|       **ECS 3**        |    100    |
+|    **Assignment 1**    |   85.71   |
+|    **Assignment 2**    |   72.5    |
+|   **Assignment 3A**    |    78     |
+|   **Assignment 3B**    |     0     |
+|    **Assignment 4**    |    80     |
+|  **Peer Evaluation**   |    100    |
+|       **Quiz 1**       |    80     |
+|       **Quiz 2**       |   64.17   |
+| **Final Letter Grade** |    A-     |
+
+#### ELE 302 - Electric Networks
+
+|     **Assesment**      | **Grade** |
+| :--------------------: | :-------: |
+|       **Lab 1**        |    90     |
+|       **Lab 2**        |    75     |
+|       **Lab 3**        |    80     |
+|       **Lab 4**        |    90     |
+|       **Lab 5**        |    85     |
+|     **Tutorial 1**     |    100    |
+|     **Tutorial 2**     |    65     |
+|     **Tutorial 3**     |    100    |
+|     **Tutorial 4**     |    100    |
+|      **Midterm**       |    70     |
+|     **Final Exam**     |    68     |
+| **Final Letter Grade** |     B     |
+
+#### MTH 314 - DIscrete Mathematics for Engineers
+
+|     **Assesment**      | **Grade** |
+| :--------------------: | :-------: |
+|    **Assignment 1**    |    100    |
+|    **Assignment 2**    |    100    |
+|    **Assignment 3**    |    70     |
+|    **Assignment 4**    |    80     |
+|    **Assignment 5**    |     0     |
+|    **Assignment 6**    |    80     |
+|    **Assignment 7**    |    90     |
+|    **Assignment 8**    |    100    |
+|    **Assignment 9**    |    90     |
+|   **Assignment 10**    |    20     |
+|   **Assignment 11**    |     0     |
+|      **Midterm**       |    66     |
+|     **Final Exam**     |   83.75   |
+| **Final Letter Grade** |    B+     |
+
+## Spring / Summer 2024
 
 ## Courses Summa Grades
 
@@ -197,12 +272,12 @@ Note: This repository is a personal intellectual property granted to users to be
 | **CECN 801** |        C         |
 | **COE 318**  |        ?         |
 | **COE 328**  |        C+        |
-| **ELE 302**  |        ?         |
+| **ELE 302**  |        B         |
 | **MTH 312**  |        B-        |
 | **PCS 224**  |       F-S        |
-| **ARB 101**  |        ?         |
-| **CMN 432**  |        ?         |
+| **CARB 101** |        A-        |
+| **CMN 432**  |        A-        |
 | **COE 428**  |        ?         |
 | **COE 528**  |        ?         |
 | **ELE 404**  |        ?         |
-| **MTH 314**  |        ?         |
+| **MTH 314**  |        B+        |
