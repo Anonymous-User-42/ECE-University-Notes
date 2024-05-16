@@ -3,39 +3,39 @@
  *
  * @author Sayeed Ahamad
  */
-package coe318.lab1;
+// package coe318.lab1;
 
 public class Resistor {
-        double res, vol;
+        double resistance, current;
     public Resistor(double resistance) {
-        res = resistance;
+        this.resistance = resistance;
     }
 
     public double getResistance() {
-        return res;
+        return this.resistance;
     }
 
     public double getVoltage() {
-        return vol;
+        return this.getCurrent() * this.getResistance();
     }
 
     public void setVoltage(double voltage) {
-        if (voltage > -50 && voltage < 50) {
-            vol = voltage;
+        if (voltage >= -50 && voltage <= 50) {
+            this.resistance = voltage / this.getCurrent();
         } else {
             System.out.println("Voltage not greater than -50V or Volatge not less than +50V\n");
         }
     }
 
     public double getCurrent() {
-        return vol / res;
+        return this.current;
     }
 
     public void setCurrent(double current) {
-        if (current > -5 && current < 5) {
-            vol = current * res;
+        if (current >= -5 && current <= 5) {
+            this.current = current;
         } else {
-            System.out.println("Current not greater than -5A or Volatge not less than +5A\n");
+            System.out.println("Current not greater than -5A or Current not less than +5A\n");
         }
     }
 
