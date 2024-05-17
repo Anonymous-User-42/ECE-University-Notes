@@ -1,4 +1,4 @@
-package coe318.lab2;
+// package coe318.lab2;
 
 /**
  * Do <b>NOT</b> modify this class. Its output will be used as part of the

@@ -2,6 +2,19 @@
 
 \section{{C1}}
 
+\begin{table}[H]
+    \centering
+    \begin{tabular}{|c|c|c|c|c|c|c|c|}
+    \hline\hline
+        $i_{D1}$ [mA]  & $V_{CC}$ & $V_{D1}$ & $R_{sh}$ & $V_{D2}$ & $\Delta V$ & $\Delta i_D$ & $r_d$ \\ \hline\hline
+        10 & 10.6 & 0.721 & 1.5 & 0.7195 & -1.5e-3 & -0.4796 & 3.1276 \\ \hline
+        7 & 7.63 & 0.703 & 2.2 & 0.701 & -2e-3 & -0.318 & 6.289 \\ \hline
+        5 & 5.63 & 0.685 & 2.7 & 0.6832 & -1.8e-3 & -0.253 & 7.1146 \\ \hline
+        2 & 2.62 & 0.64 & 6.8 & 0.6389 & -1.1e-3 & -0.094 & 11.7 \\ \hline
+        1 & 1.64 & 0.6095 & 12 & 0.6075 & -2e-3 & -0.0506 & 39.52 \\ \hline\hline
+    \end{tabular}
+\end{table}
+
 \section{{C2}}
 
 	{Finding $n$;}
@@ -22,7 +35,22 @@
 
 \section{{C3}}
 
+	{Error $\% = \left|\frac{\text{Theorectical Value - Measured Value}}{\text{Measured Value}}\right|\cdot 100\%$}
 
+	\begin{table}[H]
+    		\centering
+    		\begin{tabular}{|c|c|c|c|c|c|}
+    		\hline\hline
+        		\textbf{$i_D$} [mA] & \textbf{10} & \textbf{7} & \textbf{5} & \textbf{2} & \textbf{1} \\ \hline\hline
+        		\textbf{$r_d$ (Theoretical)} & 4.9565 & 7.0807 & 9.913 & 24.7825 & 49.565 \\ \hline
+        		\textbf{$r_d$ (Experimental)} & 3.1276 & 6.289 & 7.1146 & 11.7 & 39.52 \\ \hline
+        		\textbf{Error Percentage} & 58.476\% & 12.588\% & 39.333\% & 111.816\% & 25.417\% \\ \hline\hline
+    		\end{tabular}
+	\end{table}
+
+	{Sample Theoretical Value Calculation given that $n \approx 1.9826$ for a $i_D = 10$mA:}
+
+	$$r_d = n\frac{V_T}{i_D} \approx 4.9565$$
 
 \section{{C4}}
 
@@ -32,9 +60,9 @@
 	
 	{At 1 mA, $V_{D1} = 0.6095$ V, Using an n value of 1.9826, derived from \textbf{{C2}}}
 	
-     $$60 \times 1.9826 = 118.956$$ mV
+     $$60 \times 1.9826 = 118.956 \text{mV}$$
      
-     $$0.6095 \text{V} + 0.118956 \text{V} = 0.728456$$ V
+     $$0.6095 \text{V} + 0.118956 \text{V} = 0.728456 \text{V}$$
 
 	{This calculation substantiates the common understanding, yielding a value of 0.728456 volts, closely resembling the lab's recorded $V_{D1}$ value at 10 mA. Thus, at 1 mA, $V_{D1}$ was 0.6095 volts, while at 10 mA, it rose to 0.728456 volts, affirming the expected increase of about 60 nV.}
 

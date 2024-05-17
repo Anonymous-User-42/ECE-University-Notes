@@ -1,4 +1,4 @@
-This is pdfTeX, Version 3.141592653-2.6-1.40.24 (TeX Live 2022/Debian) (preloaded format=pdflatex 2023.6.14)  16 MAY 2024 00:53
+This is pdfTeX, Version 3.141592653-2.6-1.40.24 (TeX Live 2022/Debian) (preloaded format=pdflatex 2023.6.14)  16 MAY 2024 23:02
 entering extended mode
  restricted \write18 enabled.
  %&-line parsing enabled.
@@ -1470,9 +1470,20 @@ l.128 \clearpage
 Chapter 1.
 (./Sections/Introduction.tex)
 Chapter 2.
-(./Sections/Background Research.tex [2
+(./Sections/Background Research.tex
+<Diode1.png, id=67, 127.47626pt x 253.94875pt>
+File: Diode1.png Graphic file (type png)
+<use Diode1.png>
+Package pdftex.def Info: Diode1.png  used on input line 5.
+(pdftex.def)             Requested size: 113.81102pt x 226.73828pt.
+<Diode2.png, id=68, 173.64874pt x 249.93375pt>
+File: Diode2.png Graphic file (type png)
+<use Diode2.png>
+Package pdftex.def Info: Diode2.png  used on input line 11.
+(pdftex.def)             Requested size: 113.81102pt x 163.81267pt.
+ [2
 
-])
+ <./DIode1.png>])
 Chapter 3.
 (./Sections/Experimental Data Mod 3.tex
 Overfull \hbox (41.95709pt too wide) in paragraph at lines 7--18
@@ -1498,16 +1509,17 @@ LaTeX Font Warning: Font shape `OT1/cmr/bx/n' in size <16> not available
 ! Missing number, treated as zero.
 <to be read again> 
                    p
-l.5 \section{{C2}}
-                  
+l.18 \section{{C2}}
+                   
 A number should have been here; I inserted `0'.
 (If you can't figure out why I needed to see a number,
 look up `weird error' in the index to The TeXbook.)
 
+[3 <./Diode2.png>]
 ! Missing } inserted.
 <inserted text> 
                 }
-l.9 ..._D = I_S\left(e^{\frac{V_D}{nV_T} - 1\right
+l.22 ...D = I_S\left(e^{\frac{V_D}{nV_T} - 1\right
                                                   )$$
 I've inserted something that you may have forgotten.
 (See the <inserted text> above.)
@@ -1516,7 +1528,7 @@ really didn't forget anything, try typing `2' now; then
 my insertion and my current dilemma will both disappear.
 
 ! Undefined control sequence.
-l.13 	$$\therfore
+l.26 	$$\therfore
                  \implies i_{D1} =I_S\left(e^\frac{V_{D2}}{nV_T}\right)$$
 The control sequence at the end of the top line
 of your error message was never \def'ed. If you have
@@ -1524,26 +1536,30 @@ misspelled it (e.g., `\hobx'), type `I' and the correct
 spelling (e.g., `I\hbox'). Otherwise just continue,
 and I'll forget about whatever was undefined.
 
-[3]
 ! Missing number, treated as zero.
 <to be read again> 
                    p
-l.23 \section{{C3}}
+l.36 \section{{C3}}
                    
 A number should have been here; I inserted `0'.
 (If you can't figure out why I needed to see a number,
 look up `weird error' in the index to The TeXbook.)
 
+
+Overfull \hbox (7.37625pt too wide) in paragraph at lines 42--49
+ [][] 
+ []
+
 ! Missing number, treated as zero.
 <to be read again> 
                    p
-l.27 \section{{C4}}
+l.55 \section{{C4}}
                    
 A number should have been here; I inserted `0'.
 (If you can't figure out why I needed to see a number,
 look up `weird error' in the index to The TeXbook.)
 
-) [4] (./Works Cited/Bib Mod 1.tex
+[4]) [5] (./Works Cited/Bib Mod 1.tex
 ! Misplaced alignment tab character &.
 l.6 Serway, R. A., &
                      Jewett, J. W. (2018). Physics for Scientists and Engine...
@@ -1554,7 +1570,7 @@ up above has ended a previous alignment prematurely,
 you're probably due for more error messages, and you
 might try typing `S' now just to see what is salvageable.
 
-) [5
+) [6
 
 ] (./main.aux)
 
@@ -1562,13 +1578,13 @@ LaTeX Font Warning: Size substitutions with differences
 (Font)              up to 1.28pt have occurred.
 
 Package rerunfilecheck Info: File `main.out' has not changed.
-(rerunfilecheck)             Checksum: CBEA35F6CE696650C766F7FCEEA26188;771.
+(rerunfilecheck)             Checksum: 04FAE0C1B9ECD24275124D5A1A265E01;824.
  ) 
 Here is how much of TeX's memory you used:
- 37480 strings out of 477933
- 849225 string characters out of 5838201
- 1861330 words of memory out of 5000000
- 56927 multiletter control sequences out of 15000+600000
+ 37501 strings out of 477933
+ 849493 string characters out of 5838201
+ 1864330 words of memory out of 5000000
+ 56942 multiletter control sequences out of 15000+600000
  528893 words of font info for 90 fonts, out of 8000000 for 9000
  81 hyphenation exceptions out of 8191
  84i,10n,89p,1193b,609s stack positions out of 10000i,1000n,20000p,200000b,200000s
@@ -1586,10 +1602,10 @@ msy8.pfb></usr/share/texlive/texmf-dist/fonts/type1/public/amsfonts/cm/cmti12.p
 fb></usr/share/texlive/texmf-dist/fonts/type1/public/amsfonts/cm/cmtt12.pfb></u
 sr/share/texlive/texmf-dist/fonts/type1/public/cbfonts/grmn1200.pfb></usr/share
 /texlive/texmf-dist/fonts/type1/public/amsfonts/symbols/msam10.pfb>
-Output written on main.pdf (7 pages, 170535 bytes).
+Output written on main.pdf (8 pages, 184695 bytes).
 PDF statistics:
- 170 PDF objects out of 1000 (max. 8388607)
- 129 compressed objects within 2 object streams
- 18 named destinations out of 1000 (max. 500000)
- 85 words of extra memory for PDF output out of 10000 (max. 10000000)
+ 179 PDF objects out of 1000 (max. 8388607)
+ 135 compressed objects within 2 object streams
+ 21 named destinations out of 1000 (max. 500000)
+ 95 words of extra memory for PDF output out of 10000 (max. 10000000)
 

@@ -1,4 +1,4 @@
-package coe318.lab2;
+// package coe318.lab2;
 
 /**
  * ComplexNumber models a complex number expressed in rectangular form (real and
