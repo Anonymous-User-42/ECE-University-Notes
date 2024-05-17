@@ -4,7 +4,6 @@
 \contentsline {chapter}{\numberline {3}{Experimental Data}}{3}{chapter.3}%
 \contentsline {chapter}{\numberline {4}{Observations}}{3}{chapter.4}%
 \contentsline {section}{\numberline {4.1}{C1}}{3}{section.4.1}%
-\contentsline {section}{\numberline {4.2}{C2}}{4}{section.4.2}%
-\contentsline {section}{\numberline {4.3}{C3}}{4}{section.4.3}%
-\contentsline {section}{\numberline {4.4}{C4}}{5}{section.4.4}%
-\contentsline {chapter}{{Bibliography}}{6}{section.4.4}%
+\contentsline {section}{\numberline {4.2}{C2}}{5}{section.4.2}%
+\contentsline {section}{\numberline {4.3}{C3}}{5}{section.4.3}%
+\contentsline {section}{\numberline {4.4}{C4}}{6}{section.4.4}%

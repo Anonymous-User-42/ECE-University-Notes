@@ -1,4 +1,4 @@
-This is pdfTeX, Version 3.141592653-2.6-1.40.24 (TeX Live 2022/Debian) (preloaded format=pdflatex 2023.6.14)  16 MAY 2024 23:02
+This is pdfTeX, Version 3.141592653-2.6-1.40.24 (TeX Live 2022/Debian) (preloaded format=pdflatex 2023.6.14)  17 MAY 2024 12:15
 entering extended mode
  restricted \write18 enabled.
  %&-line parsing enabled.
@@ -1305,46 +1305,7 @@ Package: xpatch 2020/03/25 v0.3a Extending etoolbox patching commands
 (/usr/share/texlive/texmf-dist/tex/latex/l3packages/xparse/xparse.sty
 Package: xparse 2023-01-16 L3 Experimental document command parser
 ))
-(./Front matter/Title Page Uni.tex
-
-! LaTeX Error: Missing \begin{document}.
-
-See the LaTeX manual or LaTeX Companion for explanation.
-Type  H <return>  for immediate help.
- ...                                              
-                                                  
-l.4     \begin{center}
-                      
-You're in trouble here.  Try typing  <return>  to proceed.
-If that doesn't work, type  X <return>  to quit.
-
-! Undefined control sequence.
-\set@color ...\@pdfcolorstack push{\current@color 
-                                                  }\aftergroup \reset@color 
-l.63 \end{titlepage}
-                    
-The control sequence at the end of the top line
-of your error message was never \def'ed. If you have
-misspelled it (e.g., `\hobx'), type `I' and the correct
-spelling (e.g., `I\hbox'). Otherwise just continue,
-and I'll forget about whatever was undefined.
-
-! Undefined control sequence.
-\set@color ...\@pdfcolorstack push{\current@color 
-                                                  }\aftergroup \reset@color 
-l.63 \end{titlepage}
-                    
-The control sequence at the end of the top line
-of your error message was never \def'ed. If you have
-misspelled it (e.g., `\hobx'), type `I' and the correct
-spelling (e.g., `I\hbox'). Otherwise just continue,
-and I'll forget about whatever was undefined.
-
-[1
-
-
-\providecommand \oddpage@label [2]{}
-{/var/lib/texmf/fonts/map/pdftex/updmap/pdftex.map}]) (./main.aux)
+(./main.aux)
 \openout1 = `main.aux'.
 
 LaTeX Font Info:    Checking defaults for OML/cmm/m/it on input line 123.
@@ -1368,8 +1329,7 @@ LaTeX Font Info:    ... okay on input line 123.
 LaTeX Font Info:    Checking defaults for LGR/cmr/m/n on input line 123.
 LaTeX Font Info:    Trying to load font information for LGR+cmr on input line 1
 23.
-
-(/usr/share/texlive/texmf-dist/tex/latex/cbfonts-fd/lgrcmr.fd
+ (/usr/share/texlive/texmf-dist/tex/latex/cbfonts-fd/lgrcmr.fd
 File: lgrcmr.fd 2017/07/29 v1.2 Greek European Computer Regular
 )
 LaTeX Font Info:    ... okay on input line 123.
@@ -1433,13 +1393,9 @@ File: umsb.fd 2013/01/14 v3.01 AMS symbols B
 
 LaTeX Warning: No \author given.
 
+[1
 
-pdfTeX warning (ext4): destination with the same identifier (name{page.1}) has 
-been already used, duplicate ignored
-<to be read again> 
-                   \relax 
-l.126 
-       [1]
+{/var/lib/texmf/fonts/map/pdftex/updmap/pdftex.map}]
 
 LaTeX Font Warning: Font shape `OT1/cmr/bx/n' in size <18> not available
 (Font)              size <17.28> substituted on input line 127.
@@ -1471,12 +1427,12 @@ Chapter 1.
 (./Sections/Introduction.tex)
 Chapter 2.
 (./Sections/Background Research.tex
-<Diode1.png, id=67, 127.47626pt x 253.94875pt>
+<Diode1.png, id=59, 127.47626pt x 253.94875pt>
 File: Diode1.png Graphic file (type png)
 <use Diode1.png>
 Package pdftex.def Info: Diode1.png  used on input line 5.
 (pdftex.def)             Requested size: 113.81102pt x 226.73828pt.
-<Diode2.png, id=68, 173.64874pt x 249.93375pt>
+<Diode2.png, id=60, 173.64874pt x 249.93375pt>
 File: Diode2.png Graphic file (type png)
 <use Diode2.png>
 Package pdftex.def Info: Diode2.png  used on input line 11.
@@ -1506,20 +1462,37 @@ look up `weird error' in the index to The TeXbook.)
 LaTeX Font Warning: Font shape `OT1/cmr/bx/n' in size <16> not available
 (Font)              size <17.28> substituted on input line 3.
 
+
+Overfull \hbox (4.84868pt too wide) in paragraph at lines 18--19
+\OT1/cmr/m/n/12 In this lab, we used a 1N4148 silicon diode and Multisim to gen
+erate waveforms
+ []
+
+[3 <./Diode2.png>]
+<vi.png, id=77, 908.39375pt x 483.8075pt>
+File: vi.png Graphic file (type png)
+<use vi.png>
+Package pdftex.def Info: vi.png  used on input line 22.
+(pdftex.def)             Requested size: 398.33858pt x 212.1525pt.
+
+Overfull \hbox (8.33858pt too wide) in paragraph at lines 22--23
+ [][] 
+ []
+
 ! Missing number, treated as zero.
 <to be read again> 
                    p
-l.18 \section{{C2}}
+l.30 \section{{C2}}
                    
 A number should have been here; I inserted `0'.
 (If you can't figure out why I needed to see a number,
 look up `weird error' in the index to The TeXbook.)
 
-[3 <./Diode2.png>]
+[4 <./vi.png>]
 ! Missing } inserted.
 <inserted text> 
                 }
-l.22 ...D = I_S\left(e^{\frac{V_D}{nV_T} - 1\right
+l.34 ...D = I_S\left(e^{\frac{V_D}{nV_T} - 1\right
                                                   )$$
 I've inserted something that you may have forgotten.
 (See the <inserted text> above.)
@@ -1528,7 +1501,7 @@ really didn't forget anything, try typing `2' now; then
 my insertion and my current dilemma will both disappear.
 
 ! Undefined control sequence.
-l.26 	$$\therfore
+l.38 	$$\therfore
                  \implies i_{D1} =I_S\left(e^\frac{V_{D2}}{nV_T}\right)$$
 The control sequence at the end of the top line
 of your error message was never \def'ed. If you have
@@ -1539,53 +1512,40 @@ and I'll forget about whatever was undefined.
 ! Missing number, treated as zero.
 <to be read again> 
                    p
-l.36 \section{{C3}}
+l.48 \section{{C3}}
                    
 A number should have been here; I inserted `0'.
 (If you can't figure out why I needed to see a number,
 look up `weird error' in the index to The TeXbook.)
 
 
-Overfull \hbox (7.37625pt too wide) in paragraph at lines 42--49
+Overfull \hbox (7.37625pt too wide) in paragraph at lines 54--61
  [][] 
  []
 
 ! Missing number, treated as zero.
 <to be read again> 
                    p
-l.55 \section{{C4}}
+l.67 \section{{C4}}
                    
 A number should have been here; I inserted `0'.
 (If you can't figure out why I needed to see a number,
 look up `weird error' in the index to The TeXbook.)
 
-[4]) [5] (./Works Cited/Bib Mod 1.tex
-! Misplaced alignment tab character &.
-l.6 Serway, R. A., &
-                     Jewett, J. W. (2018). Physics for Scientists and Engine...
-I can't figure out why you would want to use a tab mark
-here. If you just want an ampersand, the remedy is
-simple: Just type `I\&' now. But if some right brace
-up above has ended a previous alignment prematurely,
-you're probably due for more error messages, and you
-might try typing `S' now just to see what is salvageable.
-
-) [6
-
-] (./main.aux)
+[5]) [6] (./main.aux)
 
 LaTeX Font Warning: Size substitutions with differences
 (Font)              up to 1.28pt have occurred.
 
 Package rerunfilecheck Info: File `main.out' has not changed.
-(rerunfilecheck)             Checksum: 04FAE0C1B9ECD24275124D5A1A265E01;824.
+(rerunfilecheck)             Checksum: FA93DA5148BD2963F5DEF1B444230B52;719.
  ) 
 Here is how much of TeX's memory you used:
- 37501 strings out of 477933
- 849493 string characters out of 5838201
+ 37478 strings out of 477933
+ 848979 string characters out of 5838201
  1864330 words of memory out of 5000000
- 56942 multiletter control sequences out of 15000+600000
- 528893 words of font info for 90 fonts, out of 8000000 for 9000
+ 56931 multiletter control sequences out of 15000+600000
+ 526714 words of font info for 83 fonts, out of 8000000 for 9000
  81 hyphenation exceptions out of 8191
  84i,10n,89p,1193b,609s stack positions out of 10000i,1000n,20000p,200000b,200000s
 </usr/share/texlive/texmf-dist/fonts/type1/public/amsfonts/cm/cmbx12.pfb></us
@@ -1598,14 +1558,13 @@ ts/type1/public/amsfonts/cm/cmr12.pfb></usr/share/texlive/texmf-dist/fonts/type
 1/public/amsfonts/cm/cmr6.pfb></usr/share/texlive/texmf-dist/fonts/type1/public
 /amsfonts/cm/cmr8.pfb></usr/share/texlive/texmf-dist/fonts/type1/public/amsfont
 s/cm/cmsy10.pfb></usr/share/texlive/texmf-dist/fonts/type1/public/amsfonts/cm/c
-msy8.pfb></usr/share/texlive/texmf-dist/fonts/type1/public/amsfonts/cm/cmti12.p
-fb></usr/share/texlive/texmf-dist/fonts/type1/public/amsfonts/cm/cmtt12.pfb></u
-sr/share/texlive/texmf-dist/fonts/type1/public/cbfonts/grmn1200.pfb></usr/share
-/texlive/texmf-dist/fonts/type1/public/amsfonts/symbols/msam10.pfb>
-Output written on main.pdf (8 pages, 184695 bytes).
+msy8.pfb></usr/share/texlive/texmf-dist/fonts/type1/public/cbfonts/grmn1200.pfb
+></usr/share/texlive/texmf-dist/fonts/type1/public/amsfonts/symbols/msam10.pfb>
+
+Output written on main.pdf (7 pages, 225496 bytes).
 PDF statistics:
- 179 PDF objects out of 1000 (max. 8388607)
- 135 compressed objects within 2 object streams
- 21 named destinations out of 1000 (max. 500000)
- 95 words of extra memory for PDF output out of 10000 (max. 10000000)
+ 159 PDF objects out of 1000 (max. 8388607)
+ 119 compressed objects within 2 object streams
+ 19 named destinations out of 1000 (max. 500000)
+ 92 words of extra memory for PDF output out of 10000 (max. 10000000)
 
