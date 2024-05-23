@@ -1,71 +1,58 @@
 /**
  *
- * @author Your Name
+ * @author Sayeed Ahamad
  */
-package coe318.lab2;
+// package coe318.lab3;
+
+
 public class Counter {
-    //Instance variables here
-    public Counter(int modulus, Counter left) {
-        
+    private int modulus;
+    private Counter leftDigit;
+    private int digit;
+
+    public Counter(int modulus, Counter leftDigit) {
+        this.modulus = modulus;
+        this.leftDigit = leftDigit;
+        this.digit = 0;
     }
 
-
-    /**
-     * @return the modulus
-     */
     public int getModulus() {
-        return 1;
+        return modulus;
     }
 
-    /**
-     * Returns the Counter to the left attached to this
-     * Counter.  Returns null if there is no Counter
-     * to the left.
-     * @return the left
-     */
-    public Counter getLeft() {
-        return null;
+    public Counter getLeftDigit() {
+        return leftDigit;
     }
 
-    /**
-     * @return the digit
-     */
     public int getDigit() {
-        return 1;
+        return digit;
     }
 
-    /**
-     * @param digit the digit to set
-     */
     public void setDigit(int digit) {
+        this.digit = digit;
     }
 
-    /**
-     * Increment this counter.  If it rolls over,
-     * its left Counter is also incremented if it
-     * exists.
-     */
     public void increment() {
-    
+        digit++;
+        if (digit == modulus) {
+            digit = 0;
+            if (leftDigit != null) {
+                leftDigit.increment();
+            }
+        }
     }
 
-    /** Return the count of this Counter combined
-     * with any Counter to its left.
-     *
-     * @return the count
-     */
     public int getCount() {
-        return 1;
+        if (leftDigit == null) {
+            return digit;
+        } else {
+            return leftDigit.getCount() * modulus + digit;
+        }
     }
 
-    /** Returns a String representation of the Counter's
-     * total count (including its left neighbour).
-     * @return the String representation
-     */
     @Override
     public String toString() {
         //DO NOT MODIFY THIS CODE
         return "" + getCount();
     }
-
 }
