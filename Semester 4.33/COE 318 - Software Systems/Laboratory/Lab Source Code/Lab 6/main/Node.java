@@ -1,5 +1,5 @@
+package main;
 /**
- *
  * @author Sayeed Ahamad
  */
 public class Node {

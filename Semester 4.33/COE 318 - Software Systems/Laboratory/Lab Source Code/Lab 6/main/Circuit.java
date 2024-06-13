@@ -1,8 +1,8 @@
+package main;
 import java.util.ArrayList;
 import java.util.List;
 
 /**
- *
  * @author Sayeed Ahamad
  */
 public class Circuit {
