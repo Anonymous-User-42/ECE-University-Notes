@@ -1,4 +1,3 @@
-package main;
 /**
  * @author Sayeed Ahamad
  */
@@ -10,8 +9,9 @@ public class MainCircuit {
     public static void main (String[] args) {
         Node node1 = new Node();
         Node node2 = new Node();
-        Resistor resistor1 = new Resistor(10.0, node1, node2);
-        Resistor resistor2 = new Resistor(20.0, node1, node2);
+        Node node3 = new Node();
+        Resistor resistor1 = new Resistor(100.0, node1, node2);
+        Resistor resistor2 = new Resistor(200.0, node2, node3);
         Circuit circuit = Circuit.getInstance();
 
         // Add resistors to the circuit

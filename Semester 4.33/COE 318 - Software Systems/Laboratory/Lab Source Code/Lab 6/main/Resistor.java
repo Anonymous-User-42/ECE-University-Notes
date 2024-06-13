@@ -1,36 +1,35 @@
-package main;
 /**
  * @author Sayeed Ahamad
  */
 public class Resistor {
-    private static int nextResistorId = 1; // static variable to track the next resistor id
-    private int resistorId;
+    private static int intResistorID = 1; // static variable to track the next resistor ID
+    private int mainResistorID;
     private double resistance;
-    private Node node1;
-    private Node node2;
+    private Node node_i;
+    private Node node_j;
 
-    public Resistor(double resistance, Node node1, Node node2) {
+    public Resistor(double resistance, Node node_i, Node node_j) {
         if (resistance <= 0) {
             throw new IllegalArgumentException("Resistance must be greater than 0");
         }
-        if (node1 == null || node2 == null) {
+        else if (node_i == null || node_j == null) {
             throw new IllegalArgumentException("Nodes cannot be null");
         }
         
-        this.resistorId = nextResistorId;
-        nextResistorId++;
+        this.mainResistorID = intResistorID;
+        intResistorID++;
         this.resistance = resistance;
-        this.node1 = node1;
-        this.node2 = node2;
+        this.node_i = node_i;
+        this.node_j = node_j;
     }
 
     public Node[] getNodes() {
-        Node[] nodes = {node1, node2};
+        Node[] nodes = {node_i, node_j};
         return nodes;
     }
 
     @Override
     public String toString() {
-        return "R" + resistorId + " " + node1 + " " + node2 + " " + resistance;
+        return "R" + mainResistorID + " " + node_i + " " + node_j + " " + resistance;
     }
 }
