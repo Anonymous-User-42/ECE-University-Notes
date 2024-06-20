@@ -1,8 +1,6 @@
-package coe318.lab7;
-
 /**
  *
- * @author Harjeev
+ * @author Sayeed Ahamad
  */
 /**
   * This class is needed so that the VoltageSource and Resistor classes can use it as a parent.
@@ -15,7 +13,11 @@ public abstract class Components {
      /**
      * @return the value of the first node as an integer.
      */
-    public int getNode1(){
+    public int getNode1() {
         return this.a;
     }
+
+	public int getNode2() {
+		return this.b;
+	}
 }

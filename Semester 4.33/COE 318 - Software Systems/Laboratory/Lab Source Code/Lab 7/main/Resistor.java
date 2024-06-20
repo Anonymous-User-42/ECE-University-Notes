@@ -1,9 +1,6 @@
-
-package coe318.lab7;
-
 /**
  *
- * @author Harjeev
+ * @author Sayeed Ahamad
  */
  /**
   * This class is where resistors are checked to have correct values
@@ -20,17 +17,14 @@ public class Resistor extends Components{
      * @param node2
       */
     public Resistor(double resistance, int node1, int node2){
-        if (resistance<0){
-            throw new IllegalArgumentException("Resistance can't be negative");
+        if (resistance <= 0){
+            throw new IllegalArgumentException("Resistance Cannot be equal to or less than Zero");
         }
-        else if (resistance==0){
-            throw new IllegalArgumentException("Resistance can't be zero");
+        else if (node1 < 0){
+            throw new IllegalArgumentException("Node Cannot be equal to or less than Zero");
         }
-        else if (node1<0){
-            throw new IllegalArgumentException("The first node can't be negative");
-        }
-        else if (node2<0){
-            throw new IllegalArgumentException("The second node can't be negative");
+        else if (node2 < 0){
+            throw new IllegalArgumentException("Node Cannot be equal to or less than Zero");
         }
         else{      
             this.a = node1;
@@ -46,8 +40,6 @@ public class Resistor extends Components{
      */
     @Override
     public String toString() {
-     int smallerNode = Math.min(this.a, this.b);
-     int largerNode = Math.max(this.a, this.b);
-        return "R" + this.identity + " " + smallerNode + " " + largerNode + " " + this.value; 
+        return "R" + this.identity + " " + Math.min(this.a, this.b) + " " + Math.max(this.a, this.b) + " " + this.value; 
     }
 }

@@ -1,10 +1,9 @@
-package coe318.lab7;
 import java.util.Scanner;
 import java.util.ArrayList;
 
 /**
  *
- * @author Harjeev Singh Kohli
+ * @author Sayeed Ahamad
  */
 public class UserMain {
     private static Scanner user = new Scanner(System.in);
@@ -40,7 +39,6 @@ public class UserMain {
         System.out.println("Program Start: \n");
                 
         while(true){
-            int max = 0;
             input=user.nextLine(); // Takes the user's input
             int spice = 0;
             if (input.equalsIgnoreCase("end")){ // Checks if the inputs are one of the two special inputs.

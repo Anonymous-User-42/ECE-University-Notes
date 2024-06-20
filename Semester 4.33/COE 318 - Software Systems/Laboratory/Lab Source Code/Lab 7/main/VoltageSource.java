@@ -1,9 +1,6 @@
-
-package coe318.lab7;
-
 /**
  *
- * @author Harjeev
+ * @author Sayeed Ahamad
  */
 /**
   * This class is where voltage sources are checked to have correct values
@@ -21,21 +18,21 @@ public class VoltageSource extends Components {
      * @param node2
       */
     public VoltageSource(double voltage, int node1, int node2){
-        if (voltage==0){
-            throw new IllegalArgumentException("Voltage can't be zero");
+        if (voltage <= 0) {
+            throw new IllegalArgumentException("Voltage Cannot be equal to or less than Zero");
         }
-        else if (node1<0){
-            throw new IllegalArgumentException("The first node can't be negative");
+        else if (node1 <= 0) {
+            throw new IllegalArgumentException("Node Cannot be equal to or less than Zero");
         }
-        else if (node2<0){
-            throw new IllegalArgumentException("The second node can't be negative");
+        else if (node2 <= 0) {
+            throw new IllegalArgumentException("Node Cannot be equal to or less than Zero");
         }
-        else{
+        else {
             this.a = node1;
             this.b = node2;
             this.value = voltage;
             this.identity = numVol;
-            numVol ++;
+            numVol++;
         }
     }
     
@@ -44,10 +41,6 @@ public class VoltageSource extends Components {
      */
     @Override
    public String toString() {
-    int smallerNode = Math.min(this.a, this.b);
-    int largerNode = Math.max(this.a, this.b);
-    // Ensure positive value for polarity
-    double absValue = Math.abs(this.value);
-    return "V" + this.identity + " " + smallerNode + " " + largerNode + " DC " + absValue;
+    return "V" + this.identity + " " + Math.min(this.a, this.b) + " " + Math.max(this.a, this.b) + " DC " + Math.abs(this.value);
 }
 }
