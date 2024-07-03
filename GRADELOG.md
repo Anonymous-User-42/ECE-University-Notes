@@ -255,6 +255,29 @@ Note: This repository is a personal intellectual property granted to users to be
 
 ## Spring / Summer 2024
 
+### Semester Summary
+
+| **TGPA** |     |
+| :------: | :-: |
+| **CGPA** |     |
+
+### Course Grades
+
+#### COE 318 - Software Systems
+
+|     **Assesment**      | **Grade** | **Source Code** | **Quiz** |
+| :--------------------: | :-------: | :-------------: | :------: |
+|       **Lab 1**        |    100    |       80        |    20    |
+|       **Lab 2**        |    100    |       80        |    20    |
+|       **Lab 3**        |    90     |       80        |    10    |
+|       **Lab 4**        |    80     |       80        |    0     |
+|       **Lab 5**        |    70     |       70        |    0     |
+|       **Lab 6**        |    100    |       80        |    20    |
+|       **Lab 7**        |    20     |        0        |    20    |
+|      **Midterm**       |    74     |        -        |    -     |
+|     **Final Exam**     |   77.5    |        -        |    -     |
+| **Final Letter Grade** |    B+     |        -        |    -     |
+
 ## Courses Summa Grades
 
 |  **Course**  | **Letter Grade** |
@@ -270,7 +293,7 @@ Note: This repository is a personal intellectual property granted to users to be
 | **MTH 240**  |        A-        |
 | **PCS 125**  |        D+        |
 | **CECN 801** |        C         |
-| **COE 318**  |        ?         |
+| **COE 318**  |        B+        |
 | **COE 328**  |        C+        |
 | **ELE 302**  |        B         |
 | **MTH 312**  |        B-        |
