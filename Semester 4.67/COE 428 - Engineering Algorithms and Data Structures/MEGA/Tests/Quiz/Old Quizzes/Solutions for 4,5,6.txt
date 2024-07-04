@@ -1,0 +1,36 @@
+State Diagram quiz,
+1.c
+2.a (can be done using state tables too)
+3.b
+4.b 
+5.a 
+6.b
+7.b
+8.a
+9.a
+10.a
+
+
+XML quiz
+1.b
+2.b
+3.c
+4.e
+5.b
+6.c
+7.c
+8.b
+9.c
+10.a
+
+Linked List Quiz
+1.b
+2.e
+3.d
+4.d
+5.a
+6.b
+7.a
+8.c
+9.a
+10.No
