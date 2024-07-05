@@ -1,7 +1,6 @@
 #include <stdio.h>
 #include <stdlib.h>
-int main(int argc, char * argv[])
-{
+int main(int argc, char * argv[]) {
     int i;
     fprintf(stderr, "I was invoked with the command: %s\n", argv[0]);
     if (argc > 1) {
