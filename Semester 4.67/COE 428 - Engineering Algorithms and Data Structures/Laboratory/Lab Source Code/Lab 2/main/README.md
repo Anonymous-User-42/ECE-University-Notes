@@ -12,56 +12,13 @@ Tested the implementation with various numbers of disks to ensure correctness an
 
 Faced no issues. The bundled source code compiles perfectly and correctly moves the disks according to the rules of the Towers of Hanoi problem.
 
-Final compiled executable is [towers_tutorial_1](./towers_tutorial_1).
-
-```c
-#include <stdio.h>
-#include <stdlib.h>
-
-static void showRecursionDepth(void);
-static unsigned int depth = 0;
-static unsigned int moveNumber = 0;
-
-void towers(unsigned int n, unsigned int from, unsigned int dest) {
-    unsigned int spare = 6 - from - dest;
-    showRecursionDepth();
-    fprintf(stderr, "towers(%d, %d, %d)\n", n, from, dest);
-    depth++;
-    if (n != 0) {
-        towers(n-1, from, spare);
-        showRecursionDepth();
-        fprintf(stderr, "Move #%d: From Tower %d to Tower %d\n", ++moveNumber, from, dest);
-        printf("%d %d\n", from, dest);
-        towers(n-1, spare, dest);
-    }
-    depth--;
-}
-
-static void showRecursionDepth() {
-    int i;
-    for(i = 0; i < depth; i++)
-        fprintf(stderr, "..");
-}
-
-int main(int argc, char **argv) {
-    int n = 3;
-    int from = 1;
-    int dest = 2;
-    if (argc > 1) {
-        n = atoi(argv[1]);
-    }
-    towers(n, from, dest);
-    exit(0);
-}
-```
-
 ### Tutorial II
 
 Building on the initial stub of [towersMain.c](./towersMain.c), I modified the source code to handle command line arguments specifying the number of disks to move and the rod numbers.
 
-The program executes such that if no command-line arguments are specified, it defaults to solving the Towers of Hanoi problem for 3 disks; if any command-line arguments are specified, these arguments are converted to integers and used to set up the problem dynamically.
+The program executes such that if no command-line arguments are specified, it defaults to solving the Towers of Hanoi problem for 3 disks; if any command-line arguments are specified (up to 3 arguments, if more are specified, the program prints an error to `stderr`), these arguments are converted to integers and used to set up the problem dynamically.
 
-Final compiled executable is [towers_tutorial_2](./towers_tutorial_2).
+Final compiled executable is [towers](./towers).
 
 ```c
 #include <stdio.h>
@@ -70,27 +27,26 @@ Final compiled executable is [towers_tutorial_2](./towers_tutorial_2).
 
 int main(int argc, char **argv) {
     int n, from, dest;
+    int arguments = argc - 1;
 
-    if (argc == 1) {
+    if (arguments == 0) {
         n = 3;
         from = 1;
         dest = 2;
         towers(n, from, dest);
-    } else if (argc == 2) {
+    } else if (arguments == 1) {
         n = atoi(argv[1]);
         towers(n, 1, 2);
-    } else if (argc == 4) {
+    } else if (arguments == 3) {
         n = atoi(argv[1]);
         from = atoi(argv[2]);
         dest = atoi(argv[3]);
         towers(n, from, dest);
     } else {
-        fprintf(stderr, "Usage:\n");
-        fprintf(stderr, "  %s [number_of_disks]\n", argv[0]);
-        fprintf(stderr, "  %s [number_of_disks] [from_rod] [dest_rod]\n", argv[0]);
+        fprintf(stderr, "Error:\n");
+        fprintf(stderr, "Command    %s  has illegal arguments and/or arguments bounds out of range\n", argv[0]);
         return 1;
     }
-
     return 0;
 }
 ```
@@ -118,20 +74,21 @@ Suppose that `towers(5, 2, 3)` is invoked.
 ```c
 #include <stdio.h>
 
-void towers(int n, int from_rod, int to_rod, int aux_rod) {
+void towers(int n, int from, int dest) {
+    unsigned int spare = 6 - from - dest;
     if (n == 1) {
-        printf("Move disk 1 from rod %d to rod %d\n", from_rod, to_rod);
+        printf("Move disk 1 from rod %d to rod %d\n", from, dest);
         return;
+    } else {
+        towers(n - 1, from, spare);
+        printf("%d %d\n", from, dest);
+        towers(n - 1, spare, dest);
     }
-    towers(n - 1, from_rod, aux_rod, to_rod);
-    printf("Move disk %d from rod %d to rod %d\n", n, from_rod, to_rod);
-    towers(n - 1, aux_rod, to_rod, from_rod);
 }
 
-int main() {
+void main() {
     int n = 5; // Number of disks
-    towers(n, 2, 3, 1); // 2, 3 and 1 are names of rods
-    return 0;
+    towers(n, 2, 3); // 2, 3 are names of rods
 }
 ```
 
@@ -141,26 +98,27 @@ Suppose that `towers(8, 1, 2)` is invoked. How many lines will be printed to std
 
 ### Answer
 
-When `towers(8, 1, 2)` is invoked, 255 lines will be printed to stdout. This is because the number of moves required to solve the Towers of Hanoi problem with `n` disks is \(2^n - 1\), which for `n = 8` results in \(2^8 - 1 = 255\).
+When `towers(8, 1, 2)` is invoked, 255 lines will be printed to stdout. This is because the number of moves required to solve the Towers of Hanoi problem with `n` disks is \(2^n - 1\), which for `n = 8` results in \(2^8 - 1 = 255\) lines.
 
 ### Example Code
 
 ```c
 #include <stdio.h>
 
-void towers(int n, int from_rod, int to_rod, int aux_rod) {
+void towers(int n, int from, int dest) {
+    unsigned int spare = 6 - from - dest;
     if (n == 1) {
-        printf("Move disk 1 from rod %d to rod %d\n", from_rod, to_rod);
+        printf("Move disk 1 from rod %d to rod %d\n", from, dest);
         return;
+    } else {
+        towers(n - 1, from, spare);
+        printf("%d %d\n", from, dest);
+        towers(n - 1, spare, dest);
     }
-    towers(n - 1, from_rod, aux_rod, to_rod);
-    printf("Move disk %d from rod %d to rod %d\n", n, from_rod, to_rod);
-    towers(n - 1, aux_rod, to_rod, from_rod);
 }
 
-int main() {
+void main() {
     int n = 8; // Number of disks
-    towers(n, 1, 2, 3); // 1, 2 and 3 are names of rods
-    return 0;
+    towers(n, 1, 2); // 1, 2 are names of rods
 }
 ```
