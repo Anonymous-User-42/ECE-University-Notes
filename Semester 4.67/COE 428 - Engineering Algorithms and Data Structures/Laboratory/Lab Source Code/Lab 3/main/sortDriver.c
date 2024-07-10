@@ -6,8 +6,7 @@
 #include "mySort.h"
 #include "metrics.h"
 
-int main(int argc, char * argv[])
-{
+int main(int argc, char * argv[]) {
   int a[MAX_SIZE_N_TO_SORT];
   unsigned int array_size, i;
 

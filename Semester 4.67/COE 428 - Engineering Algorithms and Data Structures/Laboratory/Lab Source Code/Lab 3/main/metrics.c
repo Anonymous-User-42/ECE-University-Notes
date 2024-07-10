@@ -23,8 +23,7 @@ static unsigned int numCopies = 0;
  *
  * @param n1 The first number.
  * @param n2 The second number.  */
-int myCompare(int n1, int n2)
-{
+int myCompare(int n1, int n2) {
   numCompares++;
   return (n1 - n2);
 }
@@ -42,8 +41,7 @@ int myCompare(int n1, int n2)
  * @param ip1 A pointer to the first int.
  * @param ip2 A pointer to the second int.
  */
-void mySwap(int * ip1, int * ip2)
-{
+void mySwap(int * ip1, int * ip2) {
   int tmp;
   numSwaps++;
   tmp = *ip1;
@@ -58,8 +56,7 @@ void mySwap(int * ip1, int * ip2)
  * @param ip2 A pointer of where to copy the first int to.
  */
 
-void myCopy(const int * ip1, int * ip2)
-{
+void myCopy(const int * ip1, int * ip2) {
   numCopies++;
   *ip2 = *ip1;
   return;
@@ -68,24 +65,21 @@ void myCopy(const int * ip1, int * ip2)
 /**
  * getNumCompares returns the number of times myCompare was invoked.
  */
-unsigned int getNumCompares()
-{
+unsigned int getNumCompares() {
   return numCompares;
 }
 
 /**
  * getNumCopies returns the number of times myCopy was invoked.
  */
-unsigned int getNumCopies()
-{
+unsigned int getNumCopies() {
   return numCopies;
 }
 
 /**
  * getNumSwaps returns the number of times mySwap was invoked.
  */
-unsigned int getNumSwaps()
-{
+unsigned int getNumSwaps() {
   return numSwaps;
 }
 
