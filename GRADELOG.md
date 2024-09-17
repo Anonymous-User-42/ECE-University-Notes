@@ -257,9 +257,9 @@ Note: This repository is a personal intellectual property granted to users to be
 
 ### Semester Summary
 
-| **TGPA** |     |
-| :------: | :-: |
-| **CGPA** |     |
+| **TGPA** | 3.000 |
+| :------: | :---: |
+| **CGPA** | 2.580 |
 
 ### Course Grades
 
@@ -277,6 +277,35 @@ Note: This repository is a personal intellectual property granted to users to be
 |      **Midterm**       |    74     |        -        |    -     |
 |     **Final Exam**     |   77.5    |        -        |    -     |
 | **Final Letter Grade** |    B+     |        -        |    -     |
+
+#### COE 428 - Data Structures & Algorithms
+
+|     **Assesment**      | **Grade** |
+| :--------------------: | :-------: |
+|       **Lab 1**        |    90     |
+|       **Lab 2**        |    75     |
+|       **Lab 3**        |    85     |
+|       **Lab 4**        |     0     |
+|       **Lab 5**        |    100    |
+|      **Midterm**       |    78     |
+|     **Final Exam**     |     ?     |
+| **Final Letter Grade** |     B     |
+
+#### ELE 404 - Electronic Circuits I
+
+|     **Assesment**      | **Grade** |
+| :--------------------: | :-------: |
+|       **Lab 1**        |    85     |
+|       **Lab 2**        |    100    |
+|       **Lab 3**        |    100    |
+|       **Lab 4**        |    12     |
+|       **Lab 5**        |    82     |
+|       **Lab 6**        |    21     |
+|       **Lab 7**        |    10     |
+|   **Design Project**   |    90     |
+|      **Midterm**       |   66.67   |
+|     **Final Exam**     |   71.67   |
+| **Final Letter Grade** |    B-     |
 
 ## Courses Summa Grades
 
@@ -300,7 +329,7 @@ Note: This repository is a personal intellectual property granted to users to be
 | **PCS 224**  |       F-S        |
 | **CARB 101** |        A-        |
 | **CMN 432**  |        A-        |
-| **COE 428**  |        ?         |
+| **COE 428**  |        B         |
 | **COE 528**  |        ?         |
-| **ELE 404**  |        ?         |
+| **ELE 404**  |        B-        |
 | **MTH 314**  |        B+        |
