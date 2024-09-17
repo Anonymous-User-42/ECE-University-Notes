@@ -1,0 +1,54 @@
+
+
+{{\begin{table}[H]
+\centering
+\align
+\begin{tabular}{|c|c|c|c|c|}
+\hline
+\hline
+\textbf{Specification} & \textbf{Calculated Value} & \textbf{Tested Value} & \(\checkmark\) & \(\%\) \\ \hline
+\hline
+\(I_Q\) & 5.23 mA & 5.123 mA & \(\checkmark\) & 2.09 \% \\ \hline
+\(|A_{vo}|\) = 50 (± 10 \%) & 50.41 & 48.855 & \(\checkmark\) & 3.18 \% \\ \hline
+Max \(V_{out}\) (no-load) & 8 V & 4.775 V\textsubscript{P-P} & \(\times\) & 59.69 \% \\ \hline
+\(A_{v, \text{loaded}}\) (≥ 90\% of \(|A_{vo}|\)) & 47.57 & 44.467 & \(\checkmark\) & 6.98 \% \\ \hline
+Max \(V_{out}\) (loaded) & 4 V & 4.362 V\textsubscript{P-P} & \(\checkmark\) & 8.30 \% \\ \hline
+\(R_{in}\) (≥ 20 k\(\Omega\)) & 31.195 k\(\Omega\) & 32.251 k\(\Omega\) & \(\checkmark\) & 3.27 \% \\ \hline
+Freq. Response & N/A & N/A & \(\checkmark\) & N/A \\ \hline
+\hline
+\end{tabular}
+\caption{Assessment of Design Specifications}
+\label{table:C1}
+\end{table}}}
+
+{All of the required design specifications were successfully met, with minor deviations well within the 10\% margin, except for the no-load voltage swing. While manual calculations initially suggested that achieving the specified no-load voltage swing was feasible, the Multisim simulations revealed a discrepancy. This slight deviation is likely attributable to biasing issues or the selection of the operating point based on the load line analysis.}
+
+{Despite this minor error, it did not adversely affect the overall performance of the circuit. All other critical specifications, including voltage gain, input resistance, and frequency response (as shown in figure \ref{freq-response}), were fully achieved. The minimal percentage errors observed in these measurements can likely be attributed to rounding during manual calculations and assumptions made from the load line graphs.}
+
+{In conclusion, the three-stage (CE-CE-CC) amplifier design proved to be an effective approach for meeting the project’s objectives. The design process, including both the manual calculations and the validation through Multisim simulations, was successful. The slight deviation in the no-load voltage swing does not detract from the overall success of the project, as the amplifier met all the essential performance requirements.}
+
+{}
+
+{}
+
+{}
+
+{}
+
+{}
+
+{}
+
+{}
+
+{}
+
+{}
+
+{}
+
+{}
+
+{}
+
+

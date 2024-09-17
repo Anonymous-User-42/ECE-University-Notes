@@ -1,0 +1,36 @@
+
+\section{Overall Process}
+
+{A three-stage amplifier was selected to achieve the desired voltage gain of 50 while maintaining an input resistance (\(R_{in}\)) of at least 20 k\(\Omega\). The design comprises two common-emitter (CE) stages followed by a common-collector (CC) stage, also known as an emitter follower. To simplify the design process, the square root of 50 was calculated (approximately 7.1) so that the gains of the first and second stages could be made equal to \(-7.1\).}
+
+{By ensuring that both stages have equivalent gains, the overall gain of the amplifier would approximate the target value of 50, while preserving the operating conditions of each stage independently. Given that the CC stage has a gain close to unity, the final stage contributes minimally to the overall gain, thus justifying the approximation of its gain as 1.}
+
+	$$A_v = A_v_1 \cdot A_v_2 \cdot A_v_3 \approx 50 \text{ V/V}$$
+	
+	$$\because A_v_3 \approx 1$$ 
+	
+	$$\because A_v_1 \sim \ A_v_2$$
+	
+	$$\therefore \implies A_v = A_{v_1}^2 = 50 \text{ V/V}$$
+	
+	$$\therefore A_{v_1} \approx 7.1 \text{ V/V}$$
+
+{The design process began with simulations in Multisim, where a DC sweep was used to generate the characteristic graph (Figure 3). A load line was manually constructed, and a low collector current of 400 \(\mu\)A was chosen for both CE stages to adhere to the limited power supply current. The same approach was applied to the CC stage. From the characteristic curves, the quiescent operating point was selected, serving as the foundation for the subsequent manual calculations (see appendix).}
+
+{Manual calculations proceeded in reverse, starting from the CC stage and moving backward to the first CE stage. Since the load resistor (\(R_L\)) was specified as 1 k\(\Omega\), the emitter resistor of the CC stage was selected to ensure negligible change in performance whether \(R_L\) was present or not. The input resistance of the CC stage was then calculated and used in determining the parameters for the second CE stage, continuing the backward design process from stage 3 to stage 1.}
+
+{Biasing resistors for each stage were calculated by assuming one resistor to be large enough to ensure that the divider current significantly exceeds the base current, and then applying Kirchhoff's Current Law (KCL) to solve for the remaining resistor. The base current, voltage, and DC operating point current from the characteristic graphs were employed in this KCL calculation. Given the equivalent gains of stages 1 and 2, the same calculation method was repeated for the first stage using the input resistance of the second stage. Consequently, the final circuit design consisted of two cascading CE stages followed by a CC amplifier.}
+
+\section{Resistors}
+
+{The selection of resistors in the circuit was guided by several factors, depending on their location. The emitter and collector resistors were calculated based on the stage currents and the input resistance of the subsequent stage. For instance, the emitter resistor (\(R_{E5} = 1 \text{ k}\Omega\)) of the CC stage was selected to minimize the loading effect when the load is added or removed. The emitter degeneration resistors were determined based on the required gain for each stage.}
+
+{This was achieved by rearranging the gain equation to solve for the total required emitter resistance, which is the parallel combination of the emitter resistor and the emitter degeneration resistor. Lastly, the biasing resistors were chosen to be as large as possible while ensuring sufficient current flow. If the biasing resistors were too small, the input resistance would decrease significantly, causing a substantial loading impact on the circuit.}
+
+\section{Capacitors}
+
+{The capacitors were initially selected based on operational assumptions and subsequently verified through detailed calculations (refer to the appendix for the full manual calculations). The values of the capacitors varied according to their operational frequency and placement within the circuit.}
+
+{Capacitors \(C_1\), \(C_3\), and \(C_5\) were each set to 10 \(\mu\)F, as they served as coupling capacitors between amplifier stages, where the input resistances were relatively high. This large capacitance ensured that minor resistance changes would not drastically alter the overall circuit characteristics. Conversely, capacitors \(C_2\), \(C_4\), and \(C_6\) were each set to 100 \(\mu\)F, as they were connected to the emitter degeneration resistors.}
+
+{This high capacitance value was necessary to prevent significant resistance changes in the emitter circuit, as small variations in emitter resistance could have a large impact on the gain.}

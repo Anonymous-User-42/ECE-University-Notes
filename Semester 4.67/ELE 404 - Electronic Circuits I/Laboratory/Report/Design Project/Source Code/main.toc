@@ -1,0 +1,32 @@
+\babel@toc {nil}{}\relax 
+\contentsline {chapter}{\numberline {1}{Introduction}}{3}{chapter.1}%
+\contentsline {chapter}{\numberline {2}{Circuit Diagram}}{3}{chapter.2}%
+\contentsline {chapter}{\numberline {3}{Summary of Calculations}}{4}{chapter.3}%
+\contentsline {chapter}{\numberline {4}{Design Justifications}}{5}{chapter.4}%
+\contentsline {section}{\numberline {4.1}Overall Process}{5}{section.4.1}%
+\contentsline {section}{\numberline {4.2}Resistors}{6}{section.4.2}%
+\contentsline {section}{\numberline {4.3}Capacitors}{7}{section.4.3}%
+\contentsline {chapter}{\numberline {5}{Experimental Results}}{8}{chapter.5}%
+\contentsline {chapter}{\numberline {6}{Conclusion}}{10}{chapter.6}%
+\contentsline {chapter}{\numberline {A}{Manual Calculations}}{13}{appendix.A}%
+\contentsline {section}{\numberline {A.1}Known Values}{13}{section.A.1}%
+\contentsline {section}{\numberline {A.2}Common Collector (CC) Stage}{13}{section.A.2}%
+\contentsline {section}{\numberline {A.3}Stages 1 and 2 (Common Emitter)}{14}{section.A.3}%
+\contentsline {section}{\numberline {A.4}Stage 3 (Common Collector)}{15}{section.A.4}%
+\contentsline {section}{\numberline {A.5}KCL at \(V_s\)}{15}{section.A.5}%
+\contentsline {section}{\numberline {A.6}Assumptions}{15}{section.A.6}%
+\contentsline {section}{\numberline {A.7}Stage 2 (CE)}{16}{section.A.7}%
+\contentsline {section}{\numberline {A.8}Voltage Gain and Resistance Calculations}{17}{section.A.8}%
+\contentsline {section}{\numberline {A.9}Finding \(R_{E4}\) for Stage 2}{17}{section.A.9}%
+\contentsline {section}{\numberline {A.10}Biasing Resistors}{18}{section.A.10}%
+\contentsline {section}{\numberline {A.11}Applying KCL at \(V_3\)}{18}{section.A.11}%
+\contentsline {section}{\numberline {A.12}Stage 1 (Another CE)}{18}{section.A.12}%
+\contentsline {section}{\numberline {A.13}Applying KCL, Solving for \(R_2\)}{19}{section.A.13}%
+\contentsline {section}{\numberline {A.14}Final Calculation for \(R_{in}\)}{19}{section.A.14}%
+\contentsline {section}{\numberline {A.15}Capacitor Values and Quiescent Current Calculation}{20}{section.A.15}%
+\contentsline {section}{\numberline {A.16}Frequency Range and Impedance Calculations}{20}{section.A.16}%
+\contentsline {subsection}{\numberline {A.16.1}Worst Case}{20}{subsection.A.16.1}%
+\contentsline {subsection}{\numberline {A.16.2}Best Case}{20}{subsection.A.16.2}%
+\contentsline {subsection}{\numberline {A.16.3}An Average Case (Using 1kHz as a Requirement from the Manual)}{20}{subsection.A.16.3}%
+\contentsline {section}{\numberline {A.17}Final Gains}{21}{section.A.17}%
+\contentsline {section}{\numberline {A.18}Quiescent Current Calculation}{21}{section.A.18}%
